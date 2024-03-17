@@ -1,56 +1,9 @@
-@charset "UTF-8";
-html {
-  font-size: 100%;
-  margin-top: 0;
-}
-
-body {
-  font-family: "Courier New", Courier, monospace;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.564), rgb(255, 0, 0), rgb(0, 0, 0));
-}
-
-a {
-  color: rgb(178, 180, 59); /* Color de texto */
-  text-decoration: none;
-}
-
-/*Header*/
-.encabezado {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem 0;
-  height: 10rem;
-}
-
-li {
-  display: inline-block;
-  color: antiquewhite;
-}
-
-.objetoCentrado1 {
-  display: flex;
-  justify-content: center;
-  margin-top: 0;
-}
-
-.parrafoTitulo1 {
-  align-items: center;
-  color: blanchedalmond;
-  font-family: "Courier New", Courier, monospace;
-  font-size: large;
-}
-
-.textoDiferente1 {
-  font-weight: bold;
-  color: rgba(255, 255, 0, 0.68);
-}
-
 /* Estilos para el pie de página */
 footer {
   font-size: 12px; /* Tamaño de fuente */
   padding: 1%; /* Relleno */
   background-color: rgba(30, 39, 90, 0.226); /* Color de fondo */
+ // border: 1px rgba(0, 255, 255, 0.407) solid;
   color: rgb(178, 180, 59); /* Color de texto */
   margin: 0; /* Margen */
   text-align: center; /* Alineación del texto */
@@ -77,4 +30,4 @@ footer {
   list-style: none; /* Sin viñetas */
 }
 
-/*# sourceMappingURL=estilo.css.map */
+

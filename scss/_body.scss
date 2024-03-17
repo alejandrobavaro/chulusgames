@@ -4,13 +4,12 @@ html {
 }
 
 body {
-    font-family:'Courier New', Courier, monospace;
-    background-image: url(../img/00-fondos/fondodragon1.png);
-    background-color: rgb(0, 0, 0);
-   
+    font-family: 'Courier New', Courier, monospace;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.564), rgb(255, 0, 0),rgb(0, 0, 0));
 }
 
 a {
-    color: rgb(235, 235, 173);
+    color: rgb(178, 180, 59); /* Color de texto */
     text-decoration: none;
 }
