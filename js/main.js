@@ -1,30 +1,29 @@
-let nombreIgresado = prompt ("Ingresar Nombre")
-alert("el nombre ingresado es " + nombreIngresado)
 
-// Definir las preguntas y respuestas
+Definir las preguntas y respuestas
 const preguntas = [
-    {
-        pregunta: "¿Cuál es la capital de Francia?",
-        respuesta: "París"
-    },
     {
         pregunta: "¿Cuánto es 2 + 2?",
         respuesta: "4"
     },
     {
-        pregunta: "¿Quién escribió 'Don Quijote de la Mancha'?",
-        respuesta: "Miguel de Cervantes"
+        pregunta: "¿Cuánto es 5 * 3?",
+        respuesta: "15"
     },
     {
-        pregunta: "¿Cuál es el planeta más grande del sistema solar?",
-        respuesta: "Júpiter"
+        pregunta: "¿Cuánto es 10 - 7?",
+        respuesta: "3"
     },
-    // Agregar más preguntas aquí
     {
-        pregunta: "¿En qué año comenzó la Segunda Guerra Mundial?",
-        respuesta: "1939"
+        pregunta: "¿Cuánto es 8 / 2?",
+        respuesta: "4"
+    },
+    {
+        pregunta: "¿Cuánto es 3 al cuadrado?",
+        respuesta: "9"
     }
+   
 ];
+
 
 // Función para jugar el juego de preguntas y respuestas
 function jugar() {
@@ -50,3 +49,4 @@ function jugar() {
 
 // Iniciar el juego
 jugar();
+
