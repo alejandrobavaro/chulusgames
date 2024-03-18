@@ -6,11 +6,15 @@ html {
 
 body {
   font-family: "Courier New", Courier, monospace;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.564), rgb(255, 0, 0), rgb(0, 0, 0));
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 0, 0, 0.5), rgba(0, 0, 0, 0.691)), url(../img/00-fondos/fondo4tvvieja1a.png);
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el contenedor */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-position: center; /* Centra la imagen */
+  /* Otros estilos que desees aplicar al contenedor */
 }
 
 a {
-  color: rgb(178, 180, 59); /* Color de texto */
+  color: rgba(252, 248, 230, 0.857); /* Color de texto */
   text-decoration: none;
 }
 
@@ -19,19 +23,59 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem 0;
+  padding: 0rem;
+  margin-top: -2em;
+  margin-bottom: 1px;
   height: 10rem;
+  position: relative; /* Añade posición relativa para que los elementos hijos puedan tener posición absoluta */
+}
+
+.encabezado::before {
+  content: "bannerpng1"; /* Crea un pseudo-elemento antes del contenido del encabezado */
+  position: absolute; /* Posición absoluta para que se superponga detrás del contenido */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url(../img/04-img-banners/indexcarruselmedio5-removebg-previe43-removebg-preview.png); /* Ruta de tu imagen */
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el encabezado */
+  background-position: center; /* Centra la imagen */
+  opacity: 0.9; /* Opacidad de la imagen (0.0 - 1.0) */
+}
+
+/* Estilos para el contenido del encabezado */
+.encabezado .tituloPrincipal,
+.encabezado nav {
+  position: relative; /* Añade posición relativa para que puedan tener z-index */
+  z-index: 1; /* Asegura que estén por encima del fondo */
+  color: white; /* Color de texto en el encabezado */
 }
 
 li {
   display: inline-block;
   color: antiquewhite;
-  font-size: x-large;
+  font-size: 18px;
   font-weight: bold;
+}
+
+nav ul li a {
+  color: rgb(254, 228, 96); /* Color por defecto del enlace */
+  text-decoration: none; /* Quita el subrayado predeterminado */
+  transition: color 0.3s; /* Transición suave de color */
+}
+
+nav ul li a:hover {
+  color: rgb(201, 188, 121); /* Color del enlace al pasar el cursor sobre él */
 }
 
 h2 {
   color: rgba(254, 228, 96, 0.74);
+}
+
+.logoGames1 {
+  margin-top: -1.6em; /* Ajusta el margen superior según sea necesario */
+  margin-left: 4.5em;
+  font-size: medium;
 }
 
 .objetoCentrado1 {
@@ -52,35 +96,56 @@ h2 {
   color: rgba(255, 255, 0, 0.68);
 }
 
+.hoverLink1 {
+  color: rgba(254, 228, 96, 0.74); /* Color normal del enlace */
+  text-decoration: none; /* Quita el subrayado predeterminado */
+}
+
+.hoverLink1:hover {
+  color: rgb(255, 213, 0); /* Color del enlace al pasar el cursor sobre él */
+}
+
 /* Estilos para el pie de página */
 footer {
-  font-size: 12px; /* Tamaño de fuente */
-  padding: 1%; /* Relleno */
+  font-size: 12px;
+  /* Tamaño de fuente */
   background-color: rgba(30, 39, 90, 0.226); /* Color de fondo */
-  color: rgb(178, 180, 59); /* Color de texto */
-  margin: 0; /* Margen */
-  text-align: center; /* Alineación del texto */
-  width: 100%; /* Ancho */
+  border: 0.5px solid rgba(255, 255, 0, 0.242);
+  color: rgb(239, 239, 187);
+  /* Color de texto */
+  margin: 1em;
+  /* Margen */
+  text-align: center;
+  /* Alineación del texto */
+  padding-top: 1em;
 }
 
 /* Estilos para los elementos del pie de página */
 .footerElements {
-  display: flex; /* Usa flexbox para el diseño */
-  justify-content: center; /* Centra los elementos horizontalmente */
-  text-align: center; /* Alineación del texto */
+  display: flex;
+  /* Usa flexbox para el diseño */
+  justify-content: center;
+  /* Centra los elementos horizontalmente */
+  text-align: center;
+  /* Alineación del texto */
 }
 
 /* Estilos para los enlaces en el pie de página */
 .linksFooter {
-  display: flex; /* Usa flexbox para el diseño */
-  flex-direction: column; /* Dirección de los elementos */
-  justify-content: center; /* Centra los elementos verticalmente */
-  margin: 0 5rem; /* Margen izquierdo y derecho */
+  display: flex;
+  /* Usa flexbox para el diseño */
+  flex-direction: column;
+  /* Dirección de los elementos */
+  justify-content: center;
+  /* Centra los elementos verticalmente */
+  /* margin: 0 5rem; */
+  /* Margen izquierdo y derecho */
 }
 
 /* Estilos para los elementos de lista en el pie de página */
 .linksFooter div {
-  list-style: none; /* Sin viñetas */
+  list-style: none;
+  /* Sin viñetas */
 }
 
 /*# sourceMappingURL=estilo.css.map */

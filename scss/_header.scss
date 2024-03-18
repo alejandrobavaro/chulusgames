@@ -2,21 +2,65 @@
 
 .encabezado {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
-    padding: 1rem 0;
+    padding: 0rem;
+    margin-top: -2em;
+    margin-bottom: 1px;
     height: 10rem;
-     // border: 1px rgba(0, 255, 255, 0.407) solid;
+    // border: 1px rgba(255, 242, 0, 0.39) solid;
+    position: relative; /* Añade posición relativa para que los elementos hijos puedan tener posición absoluta */
 }
+
+.encabezado::before {
+    content: "bannerpng1"; /* Crea un pseudo-elemento antes del contenido del encabezado */
+    position: absolute; /* Posición absoluta para que se superponga detrás del contenido */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url(../img/04-img-banners/indexcarruselmedio5-removebg-previe43-removebg-preview.png); /* Ruta de tu imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el encabezado */
+    background-position: center; /* Centra la imagen */
+    opacity: 0.9; /* Opacidad de la imagen (0.0 - 1.0) */
+}
+
+/* Estilos para el contenido del encabezado */
+.encabezado .tituloPrincipal,
+.encabezado nav {
+    position: relative; /* Añade posición relativa para que puedan tener z-index */
+    z-index: 1; /* Asegura que estén por encima del fondo */
+    color: white; /* Color de texto en el encabezado */
+}
+
+
 
 
 li {
     display: inline-block;
     color: antiquewhite;
-    font-size: x-large;
+    font-size: 18px;
     font-weight: bold;
 }
+
+nav ul li a {
+    color:rgb(254, 228, 96); /* Color por defecto del enlace */
+    text-decoration: none; /* Quita el subrayado predeterminado */
+    transition: color 0.3s; /* Transición suave de color */
+}
+
+nav ul li a:hover {
+    color:rgb(201, 188, 121); /* Color del enlace al pasar el cursor sobre él */
+}
+
 
 h2 {
     color:rgba(254, 228, 96, 0.74);
 }
+
+
+.logoGames1 {
+    margin-top: -1.6em; /* Ajusta el margen superior según sea necesario */
+    margin-left: 4.5em;
+    font-size: medium;
+    }
