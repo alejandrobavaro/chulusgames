@@ -1,0 +1,85 @@
+.card-body {
+    max-height: 100%;
+}
+
+.card-img-top {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.tarjetaGaleria {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-size: 20px;
+    width: 100%;
+    padding: auto;
+    border-radius: 20px;
+    border-color: rgba(215, 192, 63, 0.713);
+}
+
+
+.card4 {
+    background: transparent;
+ border-radius: 20px;
+    font-size: small;
+    padding: 10px;
+    border: 2px rgba(214, 180, 58, 0.777) solid;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center; /* Opcional */
+    text-align: justify;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: none;
+
+}
+
+.tarjetaGaleria1 {
+    border-radius: 20px;
+
+}
+
+.card3 {
+    text-align: center;
+    
+}
+
+
+.card-title {
+    color: white;
+    text-transform: uppercase;
+    font-size: small;
+    text-align: center;
+}
+
+.card-title2 {
+    text-transform: normal;
+    font-size: small;
+    text-align: center;
+}
+
+.imagenCard {
+    background: transparent;
+    border: none;
+    border-radius: 20px;
+}
+
+.hijoCardAlineacion {
+    display: inline-block;
+    margin: 10px 10px;
+    padding: 10px;
+    margin: auto;
+}
+
+.tarjetaChords1 {
+    width: 100%;
+    height: auto;
+    align-items: center;
+}

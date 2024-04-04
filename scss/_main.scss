@@ -13,7 +13,7 @@
 
 .textoDiferente1 {
     font-weight: bold;
-    color: rgba(255, 255, 0, 0.68);
+    color: rgba(255, 255, 255, 0.785);
 }
 
 
@@ -27,3 +27,32 @@
 .hoverLink1:hover {
     color:rgb(255, 213, 0); /* Color del enlace al pasar el cursor sobre él */
 }
+
+
+
+/*******TITULOS********/
+
+.h1Titulo {
+    color: rgb(249, 230, 189);
+    // background: linear-gradient(rgba(0, 0, 0, 0.12), rgba(255, 159, 4, 0.394));
+    font-size: x-large;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  
+  .h2Titulo {
+    color: rgb(240, 240, 167);
+    text-transform: uppercase;
+    font-size: large;
+    border: none;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .tituloReproductores {
+    text-align: center;
+    color: rgba(255, 166, 0, 0.902);
+  }
+  

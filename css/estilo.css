@@ -6,7 +6,7 @@ html {
 
 body {
   font-family: "Courier New", Courier, monospace;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 0, 0, 0.5), rgba(0, 0, 0, 0.691)), url(../img/00-fondos/fondo4tvvieja1a.png);
+  background: black;
   background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el contenedor */
   background-repeat: no-repeat; /* Evita que la imagen se repita */
   background-position: center; /* Centra la imagen */
@@ -18,91 +18,109 @@ a {
   text-decoration: none;
 }
 
-/*Header*/
-.encabezado {
+.card-body {
+  max-height: 100%;
+}
+
+.card-img-top {
+  max-width: 100%;
+  height: auto;
+}
+
+.tarjetaGaleria {
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-size: 20px;
+  width: 100%;
+  padding: auto;
+  border-radius: 20px;
+  border-color: rgba(215, 192, 63, 0.713);
+}
+
+.card4 {
+  background: transparent;
+  border-radius: 20px;
+  font-size: small;
+  padding: 10px;
+  border: 2px rgba(214, 180, 58, 0.777) solid;
+}
+
+.card {
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding: 0rem;
-  margin-top: -2em;
-  margin-bottom: 1px;
-  height: 10rem;
-  position: relative; /* Añade posición relativa para que los elementos hijos puedan tener posición absoluta */
+  flex-wrap: nowrap;
+  align-items: center; /* Opcional */
+  text-align: justify;
+  background: transparent;
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  border: none;
 }
 
-.encabezado::before {
-  content: "bannerpng1"; /* Crea un pseudo-elemento antes del contenido del encabezado */
-  position: absolute; /* Posición absoluta para que se superponga detrás del contenido */
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-image: url(../img/04-img-banners/indexcarruselmedio5-removebg-previe43-removebg-preview.png); /* Ruta de tu imagen */
-  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el encabezado */
-  background-position: center; /* Centra la imagen */
-  opacity: 0.9; /* Opacidad de la imagen (0.0 - 1.0) */
+.tarjetaGaleria1 {
+  border-radius: 20px;
 }
 
-/* Estilos para el contenido del encabezado */
-.encabezado .tituloPrincipal,
-.encabezado nav {
-  position: relative; /* Añade posición relativa para que puedan tener z-index */
-  z-index: 1; /* Asegura que estén por encima del fondo */
-  color: white; /* Color de texto en el encabezado */
+.card3 {
+  text-align: center;
 }
 
-li {
+.card-title {
+  color: white;
+  text-transform: uppercase;
+  font-size: small;
+  text-align: center;
+}
+
+.card-title2 {
+  text-transform: normal;
+  font-size: small;
+  text-align: center;
+}
+
+.imagenCard {
+  background: transparent;
+  border: none;
+  border-radius: 20px;
+}
+
+.hijoCardAlineacion {
   display: inline-block;
-  color: antiquewhite;
-  font-size: 18px;
-  font-weight: bold;
+  margin: 10px 10px;
+  padding: 10px;
+  margin: auto;
 }
 
-nav ul li a {
-  color: rgb(254, 228, 96); /* Color por defecto del enlace */
-  text-decoration: none; /* Quita el subrayado predeterminado */
-  transition: color 0.3s; /* Transición suave de color */
-}
-
-nav ul li a:hover {
-  color: rgb(201, 188, 121); /* Color del enlace al pasar el cursor sobre él */
-}
-
-h2 {
-  color: rgba(254, 228, 96, 0.74);
-}
-
-.logoGames1 {
-  margin-top: -1.6em; /* Ajusta el margen superior según sea necesario */
-  margin-left: 4.5em;
-  font-size: medium;
-}
-
-.objetoCentrado1 {
-  display: flex;
-  justify-content: center;
-  margin-top: 0;
-}
-
-.parrafoTitulo1 {
+.tarjetaChords1 {
+  width: 100%;
+  height: auto;
   align-items: center;
-  color: blanchedalmond;
-  font-family: "Courier New", Courier, monospace;
-  font-size: large;
 }
 
-.textoDiferente1 {
-  font-weight: bold;
-  color: rgba(255, 255, 0, 0.68);
+/* Estilos para el teléfono de WhatsApp */
+.telefonoWhattsapp {
+  font-size: small; /* Tamaño de fuente */
+  text-align: center; /* Alineación del texto */
+  white-space: nowrap; /* Evita que el texto se envuelva */
 }
 
-.hoverLink1 {
-  color: rgba(254, 228, 96, 0.74); /* Color normal del enlace */
-  text-decoration: none; /* Quita el subrayado predeterminado */
+/**LOGO WHATSAPP**/
+.logoWhats {
+  width: 1em;
 }
 
-.hoverLink1:hover {
-  color: rgb(255, 213, 0); /* Color del enlace al pasar el cursor sobre él */
+/* Estilos para el mapa */
+.mapaEstilo {
+  background-color: transparent; /* Color de fondo */
+  color: rgb(255, 255, 255); /* Color del texto */
+  font-style: normal; /* Estilo de fuente */
+  font-size: 20px; /* Tamaño de fuente */
+  width: "100%"; /* Ancho */
+  height: "600px"; /* Altura */
+  padding: 20px; /* Relleno */
+  border-radius: 20px; /* Radio del borde */
+  border: 5px orangered solid; /* Borde */
 }
 
 /* Estilos para el pie de página */
@@ -146,6 +164,265 @@ footer {
 .linksFooter div {
   list-style: none;
   /* Sin viñetas */
+}
+
+.padreReproductores {
+  border: 3px orangered solid;
+  border-radius: 20px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.gridEstilo1 {
+  color: white;
+  border-radius: 20px;
+  border: 3px orangered solid;
+  font-size: x-large;
+}
+
+.gridChordspadre {
+  display: flex;
+  justify-content: center;
+}
+
+.gridChords {
+  border: 3px orangered solid;
+  border-radius: 20px;
+  color: aqua;
+}
+
+/*Header*/
+.encabezado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem;
+  margin-top: -2em;
+  margin-bottom: 1px;
+  height: 10rem;
+  position: relative; /* Añade posición relativa para que los elementos hijos puedan tener posición absoluta */
+}
+
+.encabezado::before {
+  content: "bannerpng1"; /* Crea un pseudo-elemento antes del contenido del encabezado */
+  position: absolute; /* Posición absoluta para que se superponga detrás del contenido */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url(../img/04-img-banners/indexcarruselmedio5-removebg-previe43-removebg-preview.png); /* Ruta de tu imagen */
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el encabezado */
+  background-position: center; /* Centra la imagen */
+  opacity: 0.9; /* Opacidad de la imagen (0.0 - 1.0) */
+}
+
+/* Estilos para el contenido del encabezado */
+.encabezado .tituloPrincipal,
+.encabezado nav {
+  position: relative; /* Añade posición relativa para que puedan tener z-index */
+  z-index: 1; /* Asegura que estén por encima del fondo */
+  color: white; /* Color de texto en el encabezado */
+}
+
+li {
+  display: inline-block;
+  color: antiquewhite;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+nav ul li a {
+  color: rgba(178, 168, 117, 0.764); /* Color por defecto del enlace */
+  text-decoration: none; /* Quita el subrayado predeterminado */
+  transition: color 0.3s; /* Transición suave de color */
+}
+
+nav ul li a:hover {
+  color: rgb(200, 193, 154); /* Color del enlace al pasar el cursor sobre él */
+}
+
+h2 {
+  color: rgba(254, 228, 96, 0.74);
+}
+
+.logoGames1 {
+  margin-top: -1.1em; /* Ajusta el margen superior según sea necesario */
+  margin-left: 3.5em;
+  font-size: medium;
+}
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+button {
+  background-color: black;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border: 2px rgba(255, 213, 0, 0.71) solid;
+}
+
+#resultado {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.objetoCentrado1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+}
+
+.parrafoTitulo1 {
+  align-items: center;
+  color: blanchedalmond;
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+}
+
+.textoDiferente1 {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.785);
+}
+
+.hoverLink1 {
+  color: rgba(254, 228, 96, 0.74); /* Color normal del enlace */
+  text-decoration: none; /* Quita el subrayado predeterminado */
+}
+
+.hoverLink1:hover {
+  color: rgb(255, 213, 0); /* Color del enlace al pasar el cursor sobre él */
+}
+
+/*******TITULOS********/
+.h1Titulo {
+  color: rgb(249, 230, 189);
+  font-size: x-large;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.h2Titulo {
+  color: rgb(240, 240, 167);
+  text-transform: uppercase;
+  font-size: large;
+  border: none;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.tituloReproductores {
+  text-align: center;
+  color: rgba(255, 166, 0, 0.902);
+}
+
+/*Responsive Footer*/
+@media screen and (max-width: 420px) {
+  .linksFooter div {
+    margin-right: 0.3rem;
+    margin-left: 0.3rem;
+  }
+}
+@media screen and (min-width: 421px) and (max-width: 767px) {
+  .linksFooter div {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .footerElements {
+    flex-direction: column;
+  }
+  .linksFooter {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+  .img2Footer {
+    display: none;
+  }
+  .img1Footer img {
+    max-height: 2rem;
+    margin-bottom: 0.5rem;
+  }
+}
+/*Responsive Titulos*/
+@media (max-width: 768px) {
+  .h1Titulo {
+    font-size: 1.2em;
+  }
+}
+/*Responsive texto telefono*/
+@media (max-width: 992px) {
+  #telefonoWhattsapp {
+    font-size: 1em;
+  }
+}
+@media (max-width: 768px) {
+  #telefonoWhattsapp {
+    font-size: 1.2em;
+  }
+}
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: medium;
+  }
+  h2 {
+    font-size: small;
+  }
+  p {
+    font-size: small;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .navBar {
+    font-size: large;
+  }
+  .navBardrop1 {
+    font-size: large;
+  }
+  .navBardrop2 {
+    font-size: medium;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .botonEnviar {
+    font-size: 14px;
+  }
+  .botonComprar {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .carruselContainer {
+    display: none;
+  }
+}
+/*******BOTON COMPRAR********/
+.botonComprar {
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  background-color: #565656;
+  color: orangered;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  float: right;
+  margin-top: 10px;
+}
+
+.botonComprar:hover {
+  background-color: #7e7c7c;
+  color: #ffffff;
+  border: none;
 }
 
 /*# sourceMappingURL=estilo.css.map */
