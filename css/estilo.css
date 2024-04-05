@@ -193,6 +193,28 @@ footer {
   color: aqua;
 }
 
+/* GRID */
+.gridPadre {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  /* Centra verticalmente el contenido */
+  margin: 0px auto; /* Para centrar el grid horizontalmente */
+  max-width: 1168px; /* Establece un ancho máximo para evitar que el grid se expanda demasiado en pantallas más grandes */
+  margin-top: 0px; /* Ajusta este valor según la distancia deseada */
+}
+
+.item {
+  text-align: center;
+}
+
+.item img {
+  max-width: 15%;
+  height: auto;
+}
+
 /*Header*/
 .encabezado {
   display: flex;
