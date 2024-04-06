@@ -1,5 +1,5 @@
 
-let puntos = 50;
+let puntos = 100;
 
 document.getElementById('jugarBtn').addEventListener('click', function() {
   if (puntos < 50) {

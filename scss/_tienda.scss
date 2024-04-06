@@ -6,16 +6,17 @@
     border: none;
     border-radius: 10px;
     background-color: #565656;
-    color: orangered;
+    color: rgb(255, 213, 0);
     cursor: pointer;
     transition: all 0.3s ease;
-    float: right;
-    margin-top: 10px;
+    float: center;
+    // margin-top: 10px;
+    
 }
 
 .botonComprar:hover {
-    background-color: #7e7c7c;
-    color: #ffffff;
+    background-color: #565656b9;
+    color: #f2ff00;
     border: none
 }
 

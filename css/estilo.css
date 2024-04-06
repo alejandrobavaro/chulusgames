@@ -434,16 +434,15 @@ button {
   border: none;
   border-radius: 10px;
   background-color: #565656;
-  color: orangered;
+  color: rgb(255, 213, 0);
   cursor: pointer;
   transition: all 0.3s ease;
-  float: right;
-  margin-top: 10px;
+  float: center;
 }
 
 .botonComprar:hover {
-  background-color: #7e7c7c;
-  color: #ffffff;
+  background-color: rgba(86, 86, 86, 0.7254901961);
+  color: #f2ff00;
   border: none;
 }
 
