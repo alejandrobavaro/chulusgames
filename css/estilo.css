@@ -8,14 +8,18 @@ body {
   font-family: "Courier New", Courier, monospace;
   background: black;
   background-image: url(../img/00-fondos/fondo4tvvieja1c.jpg);
-  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el contenedor */
-  background-repeat: no-repeat; /* Evita que la imagen se repita */
-  background-position: center; /* Centra la imagen */
+  background-size: cover;
+  /* Ajusta el tamaño de la imagen para cubrir el contenedor */
+  background-repeat: no-repeat;
+  /* Evita que la imagen se repita */
+  background-position: center;
+  /* Centra la imagen */
   /* Otros estilos que desees aplicar al contenedor */
 }
 
 a {
-  color: rgba(252, 248, 230, 0.857); /* Color de texto */
+  color: rgba(252, 248, 230, 0.857);
+  /* Color de texto */
   text-decoration: none;
 }
 
@@ -68,9 +72,9 @@ a {
 }
 
 .card-title {
-  color: rgb(248, 240, 152);
+  color: rgb(141, 140, 131);
   text-transform: uppercase;
-  font-size: small;
+  font-size: x-small;
   text-align: center;
 }
 
@@ -167,6 +171,11 @@ footer {
   /* Sin viñetas */
 }
 
+.footer1 {
+  font-size: xx-small;
+  color: rgb(193, 190, 190);
+}
+
 .padreReproductores {
   border: 3px orangered solid;
   border-radius: 20px;
@@ -237,7 +246,7 @@ footer {
   background-image: url(../img/00-fondos/fondoheader1.png); /* Ruta de tu imagen */
   background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el encabezado */
   background-position: center; /* Centra la imagen */
-  opacity: 0.9; /* Opacidad de la imagen (0.0 - 1.0) */
+  opacity: 1; /* Opacidad de la imagen (0.0 - 1.0) */
 }
 
 /* Estilos para el contenido del encabezado */
@@ -256,13 +265,13 @@ li {
 }
 
 nav ul li a {
-  color: rgba(178, 168, 117, 0.764); /* Color por defecto del enlace */
+  color: rgb(255, 208, 0); /* Color por defecto del enlace */
   text-decoration: none; /* Quita el subrayado predeterminado */
   transition: color 0.3s; /* Transición suave de color */
 }
 
 nav ul li a:hover {
-  color: rgb(200, 193, 154); /* Color del enlace al pasar el cursor sobre él */
+  color: rgb(243, 234, 188); /* Color del enlace al pasar el cursor sobre él */
 }
 
 h2 {
@@ -312,12 +321,12 @@ button {
 }
 
 .hoverLink1 {
-  color: rgba(254, 228, 96, 0.74); /* Color normal del enlace */
+  color: rgb(255, 208, 0); /* Color normal del enlace */
   text-decoration: none; /* Quita el subrayado predeterminado */
 }
 
 .hoverLink1:hover {
-  color: rgb(255, 213, 0); /* Color del enlace al pasar el cursor sobre él */
+  color: rgb(255, 228, 90); /* Color del enlace al pasar el cursor sobre él */
 }
 
 /*******TITULOS********/

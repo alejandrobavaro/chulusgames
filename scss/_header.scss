@@ -22,7 +22,7 @@
     background-image: url(../img/00-fondos/fondoheader1.png); /* Ruta de tu imagen */
     background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el encabezado */
     background-position: center; /* Centra la imagen */
-    opacity: 0.9; /* Opacidad de la imagen (0.0 - 1.0) */
+    opacity: 1.0; /* Opacidad de la imagen (0.0 - 1.0) */
 }
 
 /* Estilos para el contenido del encabezado */
@@ -44,13 +44,13 @@ li {
 }
 
 nav ul li a {
-    color:rgba(178, 168, 117, 0.764); /* Color por defecto del enlace */
+    color:rgb(255, 208, 0); /* Color por defecto del enlace */
     text-decoration: none; /* Quita el subrayado predeterminado */
     transition: color 0.3s; /* Transición suave de color */
 }
 
 nav ul li a:hover {
-    color:rgb(200, 193, 154); /* Color del enlace al pasar el cursor sobre él */
+    color:rgb(243, 234, 188); /* Color del enlace al pasar el cursor sobre él */
 }
 
 

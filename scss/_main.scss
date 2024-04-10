@@ -20,13 +20,13 @@
 
 // CLASE PARA APLICAR HOVER A CUALQUIER LINK //
 .hoverLink1 {
-    color:rgba(254, 228, 96, 0.74); /* Color normal del enlace */
+    color:rgb(255, 208, 0); /* Color normal del enlace */
     text-decoration: none; /* Quita el subrayado predeterminado */
 }
 
 .hoverLink1:hover {
-    color:rgb(255, 213, 0); /* Color del enlace al pasar el cursor sobre él */
-}
+    color:rgb(255, 228, 90); /* Color del enlace al pasar el cursor sobre él */
+   }
 
 
 
