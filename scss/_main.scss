@@ -1,7 +1,15 @@
 .objetoCentrado1 {
     display: flex;
-    justify-content: center;
+    justify-content:center;
     margin-top: 0;
+}
+
+.objetoCentrado2 {
+  display: flex;
+  justify-content:end;
+  margin-top: 20px;
+  padding-right: 50px;
+  color: yellow;
 }
 
 .parrafoTitulo1 {
@@ -34,7 +42,6 @@
 
 .h1Titulo {
     color: rgb(249, 230, 189);
-    // background: linear-gradient(rgba(0, 0, 0, 0.12), rgba(255, 159, 4, 0.394));
     font-size: x-large;
     border: none;
     border-radius: 20px;

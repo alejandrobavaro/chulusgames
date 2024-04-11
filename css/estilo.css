@@ -46,7 +46,6 @@ a {
 .card4 {
   background: transparent;
   border-radius: 20px;
-  font-size: small;
   padding: 10px;
   border: 2px rgba(214, 180, 58, 0.777) solid;
 }
@@ -55,7 +54,8 @@ a {
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;
-  align-items: center; /* Opcional */
+  align-items: center;
+  /* Opcional */
   text-align: justify;
   background: transparent;
   color: rgb(255, 255, 255);
@@ -74,8 +74,9 @@ a {
 .card-title {
   color: rgb(141, 140, 131);
   text-transform: uppercase;
-  font-size: x-small;
+  font-size: small;
   text-align: center;
+  padding: 10px;
 }
 
 .card-title2 {
@@ -95,12 +96,6 @@ a {
   margin: 10px 10px;
   padding: 10px;
   margin: auto;
-}
-
-.tarjetaChords1 {
-  width: 100%;
-  height: auto;
-  align-items: center;
 }
 
 /* Estilos para el teléfono de WhatsApp */
@@ -308,6 +303,14 @@ button {
   margin-top: 0;
 }
 
+.objetoCentrado2 {
+  display: flex;
+  justify-content: end;
+  margin-top: 20px;
+  padding-right: 50px;
+  color: yellow;
+}
+
 .parrafoTitulo1 {
   align-items: center;
   color: blanchedalmond;
@@ -453,6 +456,32 @@ button {
   background-color: rgba(86, 86, 86, 0.7254901961);
   color: #f2ff00;
   border: none;
+}
+
+.precio {
+  color: rgb(255, 174, 0);
+  padding: 0px;
+  border: 2px rgba(214, 183, 71, 0.153) solid;
+  margin: 0px;
+  font-size: large;
+}
+
+/* Estilos para los productos en el carrito */
+.producto-en-carrito {
+  color: yellow;
+  /* Estilos específicos para los productos en el carrito */
+}
+
+/* Estilos para los botones de eliminar */
+.botonEliminar {
+  color: rgb(255, 200, 1);
+  border: 2px red solid;
+  /* Estilos para los botones de eliminar */
+}
+
+.tamañoicono1 {
+  font-size: 30px;
+  color: rgb(255, 157, 0);
 }
 
 /*# sourceMappingURL=estilo.css.map */
