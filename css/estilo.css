@@ -5,16 +5,15 @@ html {
 }
 
 body {
-  font-family: "Courier New", Courier, monospace;
   background: black;
-  background-image: url(../img/00-fondos/fondo4tvvieja1c.jpg);
   background-size: cover;
   /* Ajusta el tamaño de la imagen para cubrir el contenedor */
   background-repeat: no-repeat;
   /* Evita que la imagen se repita */
   background-position: center;
-  /* Centra la imagen */
-  /* Otros estilos que desees aplicar al contenedor */
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
 }
 
 a {
@@ -279,6 +278,110 @@ h2 {
   font-size: medium;
 }
 
+bodyInstruccionesJuego {
+  text-align: center;
+  color: yellow;
+  border: 1px solid yellow;
+}
+
+#instructions {
+  margin-top: 50px;
+}
+
+#instructions h2 {
+  color: #333;
+}
+
+#instructions ol {
+  text-align: left;
+  margin-left: 40px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(23, 86, 118, 0.7490196078);
+  border: 2px solid rgb(204, 255, 0);
+  border-radius: 20px;
+  margin: 20px;
+}
+
+#bingo-container {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.board-container {
+  margin-bottom: 20px;
+}
+
+.board {
+  width: 100%;
+  max-width: 800px;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-gap: 5px;
+}
+
+.board div {
+  border: 1px solid rgb(30, 84, 17);
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+.marked {
+  background-color: #00ff00;
+  /* Color de fondo para números marcados */
+  color: #1a2b09;
+  /* Color del texto para números marcados */
+  font-weight: bold;
+  /* Texto en negrita para números marcados */
+}
+
+.llamado1 {
+  font-size: large;
+  color: rgb(165, 179, 41);
+  border: 2px solid rgb(225, 255, 0);
+  border-radius: 20px;
+  padding: 40px;
+  text-transform: uppercase;
+  margin: 20px;
+}
+
+#llamado {
+  font-size: xx-large;
+  font-weight: bolder;
+  margin: 20px;
+  color: rgb(60, 255, 0);
+  border: 4px solid rgb(238, 255, 0);
+  border-radius: 20px;
+  padding: 20px;
+  text-transform: uppercase;
+  margin: 20px;
+}
+
+.textoLlamarNumero {
+  color: rgb(223, 190, 23);
+}
+
+.botonLlamarNumero {
+  background-color: rgba(23, 148, 35, 0.438);
+  color: rgb(98, 255, 0);
+  border-radius: 20px;
+  padding: 20px;
+  text-transform: uppercase;
+  margin: 20px;
+}
+
+.botonLlamarNumero:hover {
+  background-color: rgba(97, 188, 97, 0.2980392157);
+}
+
 .container {
   text-align: center;
   margin-top: 50px;
@@ -297,6 +400,54 @@ button {
   margin-top: 20px;
 }
 
+/* Estilos para el tablero */
+#game-board {
+  border: 1px solid black;
+  width: 300px;
+  height: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Estilos para las celdas del tablero */
+.cell {
+  width: 30px;
+  height: 30px;
+  border: 1px solid lightgray;
+  box-sizing: border-box;
+  position: absolute;
+}
+
+/* Clases para diferentes colores de las piezas */
+.piece {
+  background-color: red;
+}
+
+/* Agrega estilos para otras piezas según sea necesario */
+/* Estilos para el tablero */
+#game-board {
+  border: 1px solid black;
+  width: 300px;
+  height: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Estilos para las celdas del tablero */
+.cell {
+  width: 30px;
+  height: 30px;
+  border: 1px solid lightgray;
+  box-sizing: border-box;
+  position: absolute;
+}
+
+/* Clases para diferentes colores de las piezas */
+.piece {
+  background-color: red;
+}
+
+/* Agrega estilos para otras piezas según sea necesario */
 .objetoCentrado1 {
   display: flex;
   justify-content: center;

@@ -4,16 +4,17 @@ html {
 }
 
 body {
-    font-family: 'Courier New', Courier, monospace;
     background: black;
-    background-image: url(../img/00-fondos/fondo4tvvieja1c.jpg);
+    // background-image: url(../img/00-fondos/fondo4tvvieja1c.jpg);
     background-size: cover;
     /* Ajusta el tamaño de la imagen para cubrir el contenedor */
     background-repeat: no-repeat;
     /* Evita que la imagen se repita */
     background-position: center;
-    /* Centra la imagen */
-    /* Otros estilos que desees aplicar al contenedor */
+    font-family: Arial, sans-serif;
+
+    text-align: center;
+    margin-top: 50px;
 }
 
 
