@@ -67,7 +67,7 @@ $tetris-orange: #FFA500;
   transition: background-color 0.3s, transform 0.2s;
 
   &:hover {
-    background-color: lighten($tetris-yellow, 10%);
+    background-color: yellow;
     transform: scale(1.05);
   }
 }

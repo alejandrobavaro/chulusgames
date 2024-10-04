@@ -2,7 +2,7 @@
   {
     "id": 1,
     "nombre": "Adivina",
-    "imagen portada": "../img/08-tapas-juegos/id01-adivina-1.png",
+    "imagen portada": "/img/08-tapas-juegos/id01-adivina-1.png",
     "tipo": "Preguntas",
     "categoria": "Ingenio",
     "edad permitida": "3+",
@@ -13,16 +13,16 @@
       "Aprender es mas facil jugando."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id01-adivina-1.png",
-      "public/img/08-tapas-juegos/id01-adivina-2.png",
-      "public/img/08-tapas-juegos/id01-adivina-3.png",
-      "public/img/08-tapas-juegos/id01-adivina-4.png"
+      "/img/08-tapas-juegos/id01-adivina-1.png",
+      "/img/08-tapas-juegos/id01-adivina-2.png",
+      "/img/08-tapas-juegos/id01-adivina-3.png",
+      "/img/08-tapas-juegos/id01-adivina-4.png"
     ]
   },
   {
     "id": 2,
     "nombre": "LaRule",
-    "imagen portada": "public/img/08-tapas-juegos/id32-larule-1.jpg",
+    "imagen portada": "/img/08-tapas-juegos/id32-larule-1.jpg",
     "tipo": "Suerte",
     "categoria": "Suerte",
     "edad permitida": "3+",
@@ -34,16 +34,16 @@
       "No puedo dejar de jugarlo, siempre es un desafío."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id32-larule-1",
-      "public/img/08-tapas-juegos/id32-larule-2",
-      "public/img/08-tapas-juegos/id32-larule-3",
-      "public/img/08-tapas-juegos/id32-larule-4"
+      "/img/08-tapas-juegos/id32-larule-1",
+      "/img/08-tapas-juegos/id32-larule-2",
+      "/img/08-tapas-juegos/id32-larule-3",
+      "/img/08-tapas-juegos/id32-larule-4"
     ]
   },
   {
     "id": 3,
     "nombre": "Conocimiento",
-    "imagen portada": "public/img/08-tapas-juegos/id18-conocimiento-1.png",
+    "imagen portada": "/img/08-tapas-juegos/id18-conocimiento-1.png",
     "tipo": "Preguntas",
     "categoria": "Ingenio",
     "edad permitida": "8+",
@@ -55,16 +55,16 @@
       "Perfecto para jugar en familia."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id18-conocimiento-1",
-      "public/img/08-tapas-juegos/id18-conocimiento-2",
-      "public/img/08-tapas-juegos/id18-conocimiento-3",
-      "public/img/08-tapas-juegos/id18-conocimiento-4"
+      "/img/08-tapas-juegos/id18-conocimiento-1",
+      "/img/08-tapas-juegos/id18-conocimiento-2",
+      "/img/08-tapas-juegos/id18-conocimiento-3",
+      "/img/08-tapas-juegos/id18-conocimiento-4"
     ]
   },
   {
     "id": 4,
     "nombre": "Bingo",
-    "imagen portada": "public/img/08-tapas-juegos/id19-bingo-1.png",
+    "imagen portada": "/img/08-tapas-juegos/id19-bingo-1.png",
     "tipo": "Mesa",
     "categoria": "Suerte",
     "edad permitida": "3+",
@@ -76,16 +76,16 @@
       "Perfecto para eventos familiares."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id19-bingo-1",
-      "public/img/08-tapas-juegos/id19-bingo-2",
-      "public/img/08-tapas-juegos/id19-bingo-3",
-      "public/img/08-tapas-juegos/id19-bingo-4"
+      "/img/08-tapas-juegos/id19-bingo-1",
+      "/img/08-tapas-juegos/id19-bingo-2",
+      "/img/08-tapas-juegos/id19-bingo-3",
+      "/img/08-tapas-juegos/id19-bingo-4"
     ]
   },
   {
     "id": 5,
     "nombre": "Tetris",
-    "imagen portada": "./img/08-tapas-juegos/id02-tetris-1.jpg",
+    "imagen portada": "/img/08-tapas-juegos/id02-tetris-1.jpg",
     "tipo": "Puzzle",
     "categoria": "Ingenio",
     "edad permitida": "3+",
@@ -97,10 +97,10 @@
       "No puedo dejar de jugarlo, siempre es un desafío."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id02-tetris-1.png",
-      "public/img/08-tapas-juegos/id02-tetris-2.png",
-      "public/img/08-tapas-juegos/id02-tetris-3.png",
-      "public/img/08-tapas-juegos/id02-tetris-4.png"
+      "/img/08-tapas-juegos/id02-tetris-1.png",
+      "/img/08-tapas-juegos/id02-tetris-2.png",
+      "/img/08-tapas-juegos/id02-tetris-3.png",
+      "/img/08-tapas-juegos/id02-tetris-4.png"
     ]
   },
   {
@@ -118,10 +118,10 @@
       "Los gráficos son simples pero encantadores."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id06-donkey-kong-1.png",
-      "public/img/08-tapas-juegos/id06-donkey-kong-2.png",
-      "public/img/08-tapas-juegos/id06-donkey-kong-3.png",
-      "public/img/08-tapas-juegos/id06-donkey-kong-4.png"
+      "/img/08-tapas-juegos/id06-donkey-kong-1.png",
+      "/img/08-tapas-juegos/id06-donkey-kong-2.png",
+      "/img/08-tapas-juegos/id06-donkey-kong-3.png",
+      "/img/08-tapas-juegos/id06-donkey-kong-4.png"
     ]
   },
   {
@@ -139,10 +139,10 @@
       "Un gran juego para jugar con amigos."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id07-pong-1.png",
-      "public/img/08-tapas-juegos/id07-pong-2.png",
-      "public/img/08-tapas-juegos/id07-pong-3.png",
-      "public/img/08-tapas-juegos/id07-pong-4.png"
+      "/img/08-tapas-juegos/id07-pong-1.png",
+      "/img/08-tapas-juegos/id07-pong-2.png",
+      "/img/08-tapas-juegos/id07-pong-3.png",
+      "/img/08-tapas-juegos/id07-pong-4.png"
     ]
   },
   {
@@ -160,10 +160,10 @@
       "Me encanta la sensación de disparar asteroides."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id08-asteroids-1.png",
-      "public/img/08-tapas-juegos/id08-asteroids-2.png",
-      "public/img/08-tapas-juegos/id08-asteroids-3.png",
-      "public/img/08-tapas-juegos/id08-asteroids-4.png"
+      "/img/08-tapas-juegos/id08-asteroids-1.png",
+      "/img/08-tapas-juegos/id08-asteroids-2.png",
+      "/img/08-tapas-juegos/id08-asteroids-3.png",
+      "/img/08-tapas-juegos/id08-asteroids-4.png"
     ]
   },
   {
@@ -181,10 +181,10 @@
       "Perfecto para jugar con amigos."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id09-blackjack-1.png",
-      "public/img/08-tapas-juegos/id09-blackjack-2.png",
-      "public/img/08-tapas-juegos/id09-blackjack-3.png",
-      "public/img/08-tapas-juegos/id09-blackjack-4.png"
+      "/img/08-tapas-juegos/id09-blackjack-1.png",
+      "/img/08-tapas-juegos/id09-blackjack-2.png",
+      "/img/08-tapas-juegos/id09-blackjack-3.png",
+      "/img/08-tapas-juegos/id09-blackjack-4.png"
     ]
   },
   {
@@ -202,10 +202,10 @@
       "Los gráficos son nostálgicos y encantadores."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id10-frogger-1.png",
-      "public/img/08-tapas-juegos/id10-frogger-2.png",
-      "public/img/08-tapas-juegos/id10-frogger-3.png",
-      "public/img/08-tapas-juegos/id10-frogger-4.png"
+      "/img/08-tapas-juegos/id10-frogger-1.png",
+      "/img/08-tapas-juegos/id10-frogger-2.png",
+      "/img/08-tapas-juegos/id10-frogger-3.png",
+      "/img/08-tapas-juegos/id10-frogger-4.png"
     ]
   },
   {
@@ -223,16 +223,16 @@
       "Me encanta intentar atrapar a todos los patos."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id11-duckhunt-1.png",
-      "public/img/08-tapas-juegos/id11-duckhunt-2.png",
-      "public/img/08-tapas-juegos/id11-duckhunt-3.png",
-      "public/img/08-tapas-juegos/id11-duckhunt-4.png"
+      "/img/08-tapas-juegos/id11-duckhunt-1.png",
+      "/img/08-tapas-juegos/id11-duckhunt-2.png",
+      "/img/08-tapas-juegos/id11-duckhunt-3.png",
+      "/img/08-tapas-juegos/id11-duckhunt-4.png"
     ]
   },
   {
     "id": 12,
     "nombre": "Galaga",
-    "imagen portada": "public/img/08-tapas-juegos/id12-galaga-1.png",
+    "imagen portada": "/img/08-tapas-juegos/id12-galaga-1.png",
     "tipo": "Disparos",
     "categoria": "Retro",
     "edad permitida": "3+",
@@ -244,16 +244,16 @@
       "Cada partida es un desafío emocionante."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id12-galaga-1.png",
-      "public/img/08-tapas-juegos/id12-galaga-2.png",
-      "public/img/08-tapas-juegos/id12-galaga-3.png",
-      "public/img/08-tapas-juegos/id12-galaga-4.png"
+      "/img/08-tapas-juegos/id12-galaga-1.png",
+      "/img/08-tapas-juegos/id12-galaga-2.png",
+      "/img/08-tapas-juegos/id12-galaga-3.png",
+      "/img/08-tapas-juegos/id12-galaga-4.png"
     ]
   },
   {
     "id": 13,
     "nombre": "Street Fighter II",
-    "imagen portada": "public/img/08-tapas-juegos/id13-streetfighter-1",
+    "imagen portada": "/img/08-tapas-juegos/id13-streetfighter-1",
     "tipo": "Lucha",
     "categoria": "Acción",
     "edad permitida": "12+",
@@ -265,16 +265,16 @@
       "Me encanta competir con amigos."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id13-streetfighter-1",
-      "public/img/08-tapas-juegos/id13-streetfighter-2",
-      "public/img/08-tapas-juegos/id13-streetfighter-3",
-      "public/img/08-tapas-juegos/id13-streetfighter-4"
+      "/img/08-tapas-juegos/id13-streetfighter-1",
+      "/img/08-tapas-juegos/id13-streetfighter-2",
+      "/img/08-tapas-juegos/id13-streetfighter-3",
+      "/img/08-tapas-juegos/id13-streetfighter-4"
     ]
   },
   {
     "id": 14,
     "nombre": "The Legend of Zelda",
-    "imagen portada": "public/img/08-tapas-juegos/id14-zelda-1",
+    "imagen portada": "/img/08-tapas-juegos/id14-zelda-1",
     "tipo": "Aventura",
     "categoria": "RPG",
     "edad permitida": "7+",
@@ -286,16 +286,16 @@
       "Me encanta explorar el mundo de Hyrule."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id14-zelda-1",
-      "public/img/08-tapas-juegos/id14-zelda-2",
-      "public/img/08-tapas-juegos/id14-zelda-3",
-      "public/img/08-tapas-juegos/id14-zelda-4"
+      "/img/08-tapas-juegos/id14-zelda-1",
+      "/img/08-tapas-juegos/id14-zelda-2",
+      "/img/08-tapas-juegos/id14-zelda-3",
+      "/img/08-tapas-juegos/id14-zelda-4"
     ]
   },
   {
     "id": 15,
     "nombre": "Clue",
-    "imagen portada": "public/img/08-tapas-juegos/id15-clue-1",
+    "imagen portada": "/img/08-tapas-juegos/id15-clue-1",
     "tipo": "Mesa",
     "categoria": "Estrategia",
     "edad permitida": "8+",
@@ -307,16 +307,16 @@
       "Perfecto para jugar en familia."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id15-clue-1",
-      "public/img/08-tapas-juegos/id15-clue-2",
-      "public/img/08-tapas-juegos/id15-clue-3",
-      "public/img/08-tapas-juegos/id15-clue-4"
+      "/img/08-tapas-juegos/id15-clue-1",
+      "/img/08-tapas-juegos/id15-clue-2",
+      "/img/08-tapas-juegos/id15-clue-3",
+      "/img/08-tapas-juegos/id15-clue-4"
     ]
   },
   {
     "id": 16,
     "nombre": "Scrabble",
-    "imagen portada": "public/img/08-tapas-juegos/id16-scrabble-1",
+    "imagen portada": "/img/08-tapas-juegos/id16-scrabble-1",
     "tipo": "Mesa",
     "categoria": "Palabras",
     "edad permitida": "10+",
@@ -328,16 +328,16 @@
       "Siempre es divertido jugar con amigos."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id16-scrabble-1",
-      "public/img/08-tapas-juegos/id16-scrabble-2",
-      "public/img/08-tapas-juegos/id16-scrabble-3",
-      "public/img/08-tapas-juegos/id16-scrabble-4"
+      "/img/08-tapas-juegos/id16-scrabble-1",
+      "/img/08-tapas-juegos/id16-scrabble-2",
+      "/img/08-tapas-juegos/id16-scrabble-3",
+      "/img/08-tapas-juegos/id16-scrabble-4"
     ]
   },
   {
     "id": 17,
     "nombre": "Poker",
-    "imagen portada": "public/img/08-tapas-juegos/id17-poker-1",
+    "imagen portada": "/img/08-tapas-juegos/id17-poker-1",
     "tipo": "Casino",
     "categoria": "Cartas",
     "edad permitida": "18+",
@@ -349,10 +349,10 @@
       "Me encanta jugar con amigos."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id17-poker-1",
-      "public/img/08-tapas-juegos/id17-poker-2",
-      "public/img/08-tapas-juegos/id17-poker-3",
-      "public/img/08-tapas-juegos/id17-poker-4"
+      "/img/08-tapas-juegos/id17-poker-1",
+      "/img/08-tapas-juegos/id17-poker-2",
+      "/img/08-tapas-juegos/id17-poker-3",
+      "/img/08-tapas-juegos/id17-poker-4"
     ]
   },
   {
@@ -370,10 +370,10 @@
       "Los gráficos son retro, pero la diversión es atemporal."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id03-spaceinvaders-1.png",
-      "public/img/08-tapas-juegos/id03-spaceinvaders-2.png",
-      "public/img/08-tapas-juegos/id03-spaceinvaders-3.png",
-      "public/img/08-tapas-juegos/id03-spaceinvaders-4.png"
+      "/img/08-tapas-juegos/id03-spaceinvaders-1.png",
+      "/img/08-tapas-juegos/id03-spaceinvaders-2.png",
+      "/img/08-tapas-juegos/id03-spaceinvaders-3.png",
+      "/img/08-tapas-juegos/id03-spaceinvaders-4.png"
     ]
   },
   {
@@ -391,16 +391,16 @@
       "Un juego que siempre trae nostalgia."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id04-mortal-kombat-1.png",
-      "public/img/08-tapas-juegos/id04-mortal-kombat-2.png",
-      "public/img/08-tapas-juegos/id04-mortal-kombat-3.png",
-      "public/img/08-tapas-juegos/id04-mortal-kombat-4.png"
+      "/img/08-tapas-juegos/id04-mortal-kombat-1.png",
+      "/img/08-tapas-juegos/id04-mortal-kombat-2.png",
+      "/img/08-tapas-juegos/id04-mortal-kombat-3.png",
+      "/img/08-tapas-juegos/id04-mortal-kombat-4.png"
     ]
   },
   {
     "id": 20,
     "nombre": "Pictionary",
-    "imagen portada": "public/img/08-tapas-juegos/id20-pictionary-1",
+    "imagen portada": "/img/08-tapas-juegos/id20-pictionary-1",
     "tipo": "Mesa",
     "categoria": "Dibujo",
     "edad permitida": "8+",
@@ -412,16 +412,16 @@
       "Siempre hay risas y diversión."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id20-pictionary-1",
-      "public/img/08-tapas-juegos/id20-pictionary-2",
-      "public/img/08-tapas-juegos/id20-pictionary-3",
-      "public/img/08-tapas-juegos/id20-pictionary-4"
+      "/img/08-tapas-juegos/id20-pictionary-1",
+      "/img/08-tapas-juegos/id20-pictionary-2",
+      "/img/08-tapas-juegos/id20-pictionary-3",
+      "/img/08-tapas-juegos/id20-pictionary-4"
     ]
   },
   {
     "id": 21,
     "nombre": "Minecraft",
-    "imagen portada": "public/img/08-tapas-juegos/id21-minecraft-1",
+    "imagen portada": "/img/08-tapas-juegos/id21-minecraft-1",
     "tipo": "Construcción",
     "categoria": "Aventura",
     "edad permitida": "7+",
@@ -433,16 +433,16 @@
       "Perfecto para dejar volar tu imaginación."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id21-minecraft-1",
-      "public/img/08-tapas-juegos/id21-minecraft-2",
-      "public/img/08-tapas-juegos/id21-minecraft-3",
-      "public/img/08-tapas-juegos/id21-minecraft-4"
+      "/img/08-tapas-juegos/id21-minecraft-1",
+      "/img/08-tapas-juegos/id21-minecraft-2",
+      "/img/08-tapas-juegos/id21-minecraft-3",
+      "/img/08-tapas-juegos/id21-minecraft-4"
     ]
   },
   {
     "id": 22,
     "nombre": "Fortnite",
-    "imagen portada": "public/img/08-tapas-juegos/id22-fortnite-1",
+    "imagen portada": "/img/08-tapas-juegos/id22-fortnite-1",
     "tipo": "Acción",
     "categoria": "Battle Royale",
     "edad permitida": "12+",
@@ -454,16 +454,16 @@
       "Es muy divertido jugar con amigos."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id22-fortnite-1",
-      "public/img/08-tapas-juegos/id22-fortnite-2",
-      "public/img/08-tapas-juegos/id22-fortnite-3",
-      "public/img/08-tapas-juegos/id22-fortnite-4"
+      "/img/08-tapas-juegos/id22-fortnite-1",
+      "/img/08-tapas-juegos/id22-fortnite-2",
+      "/img/08-tapas-juegos/id22-fortnite-3",
+      "/img/08-tapas-juegos/id22-fortnite-4"
     ]
   },
   {
     "id": 23,
     "nombre": "Call of Duty",
-    "imagen portada": "public/img/08-tapas-juegos/id23-cod-1",
+    "imagen portada": "/img/08-tapas-juegos/id23-cod-1",
     "tipo": "Acción",
     "categoria": "Disparos",
     "edad permitida": "18+",
@@ -475,16 +475,16 @@
       "Me encanta jugar en modo multijugador."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id23-cod-1",
-      "public/img/08-tapas-juegos/id23-cod-2",
-      "public/img/08-tapas-juegos/id23-cod-3",
-      "public/img/08-tapas-juegos/id23-cod-4"
+      "/img/08-tapas-juegos/id23-cod-1",
+      "/img/08-tapas-juegos/id23-cod-2",
+      "/img/08-tapas-juegos/id23-cod-3",
+      "/img/08-tapas-juegos/id23-cod-4"
     ]
   },
   {
     "id": 24,
     "nombre": "FIFA",
-    "imagen portada": "public/img/08-tapas-juegos/id24-fifa-1",
+    "imagen portada": "/img/08-tapas-juegos/id24-fifa-1",
     "tipo": "Deportes",
     "categoria": "Fútbol",
     "edad permitida": "3+",
@@ -496,16 +496,16 @@
       "Me encanta jugar partidos con amigos."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id24-fifa-1",
-      "public/img/08-tapas-juegos/id24-fifa-2",
-      "public/img/08-tapas-juegos/id24-fifa-3",
-      "public/img/08-tapas-juegos/id24-fifa-4"
+      "/img/08-tapas-juegos/id24-fifa-1",
+      "/img/08-tapas-juegos/id24-fifa-2",
+      "/img/08-tapas-juegos/id24-fifa-3",
+      "/img/08-tapas-juegos/id24-fifa-4"
     ]
   },
   {
     "id": 25,
     "nombre": "NBA 2K",
-    "imagen portada": "public/img/08-tapas-juegos/id25-nba2k-1",
+    "imagen portada": "/img/08-tapas-juegos/id25-nba2k-1",
     "tipo": "Deportes",
     "categoria": "Baloncesto",
     "edad permitida": "3+",
@@ -517,16 +517,16 @@
       "Me encanta jugar en línea."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id25-nba2k-1",
-      "public/img/08-tapas-juegos/id25-nba2k-2",
-      "public/img/08-tapas-juegos/id25-nba2k-3",
-      "public/img/08-tapas-juegos/id25-nba2k-4"
+      "/img/08-tapas-juegos/id25-nba2k-1",
+      "/img/08-tapas-juegos/id25-nba2k-2",
+      "/img/08-tapas-juegos/id25-nba2k-3",
+      "/img/08-tapas-juegos/id25-nba2k-4"
     ]
   },
   {
     "id": 26,
     "nombre": "World of Warcraft",
-    "imagen portada": "public/img/08-tapas-juegos/id26-wow-1",
+    "imagen portada": "/img/08-tapas-juegos/id26-wow-1",
     "tipo": "RPG",
     "categoria": "Aventura",
     "edad permitida": "12+",
@@ -538,16 +538,16 @@
       "Es genial jugar con amigos en grupo."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id26-wow-1",
-      "public/img/08-tapas-juegos/id26-wow-2",
-      "public/img/08-tapas-juegos/id26-wow-3",
-      "public/img/08-tapas-juegos/id26-wow-4"
+      "/img/08-tapas-juegos/id26-wow-1",
+      "/img/08-tapas-juegos/id26-wow-2",
+      "/img/08-tapas-juegos/id26-wow-3",
+      "/img/08-tapas-juegos/id26-wow-4"
     ]
   },
   {
     "id": 27,
     "nombre": "Candy Crush Saga",
-    "imagen portada": "public/img/08-tapas-juegos/id27-candycrush-1",
+    "imagen portada": "/img/08-tapas-juegos/id27-candycrush-1",
     "tipo": "Puzzle",
     "categoria": "Casual",
     "edad permitida": "3+",
@@ -559,16 +559,16 @@
       "Perfecto para pasar el tiempo."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id27-candycrush-1",
-      "public/img/08-tapas-juegos/id27-candycrush-2",
-      "public/img/08-tapas-juegos/id27-candycrush-3",
-      "public/img/08-tapas-juegos/id27-candycrush-4"
+      "/img/08-tapas-juegos/id27-candycrush-1",
+      "/img/08-tapas-juegos/id27-candycrush-2",
+      "/img/08-tapas-juegos/id27-candycrush-3",
+      "/img/08-tapas-juegos/id27-candycrush-4"
     ]
   },
   {
     "id": 28,
     "nombre": "Among Us",
-    "imagen portada": "public/img/08-tapas-juegos/id28-amongus-1",
+    "imagen portada": "/img/08-tapas-juegos/id28-amongus-1",
     "tipo": "Estrategia",
     "categoria": "Multijugador",
     "edad permitida": "7+",
@@ -580,16 +580,16 @@
       "Perfecto para jugar con amigos."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id28-amongus-1",
-      "public/img/08-tapas-juegos/id28-amongus-2",
-      "public/img/08-tapas-juegos/id28-amongus-3",
-      "public/img/08-tapas-juegos/id28-amongus-4"
+      "/img/08-tapas-juegos/id28-amongus-1",
+      "/img/08-tapas-juegos/id28-amongus-2",
+      "/img/08-tapas-juegos/id28-amongus-3",
+      "/img/08-tapas-juegos/id28-amongus-4"
     ]
   },
   {
     "id": 29,
     "nombre": "Hearthstone",
-    "imagen portada": "public/img/08-tapas-juegos/id29-hearthstone-1",
+    "imagen portada": "/img/08-tapas-juegos/id29-hearthstone-1",
     "tipo": "Cartas",
     "categoria": "Estrategia",
     "edad permitida": "10+",
@@ -601,16 +601,16 @@
       "Me encanta jugar contra otros jugadores."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id29-hearthstone-1",
-      "public/img/08-tapas-juegos/id29-hearthstone-2",
-      "public/img/08-tapas-juegos/id29-hearthstone-3",
-      "public/img/08-tapas-juegos/id29-hearthstone-4"
+      "/img/08-tapas-juegos/id29-hearthstone-1",
+      "/img/08-tapas-juegos/id29-hearthstone-2",
+      "/img/08-tapas-juegos/id29-hearthstone-3",
+      "/img/08-tapas-juegos/id29-hearthstone-4"
     ]
   },
   {
     "id": 30,
     "nombre": "Super Mario Bros.",
-    "imagen portada": "public/img/08-tapas-juegos/id30-supermario-1",
+    "imagen portada": "/img/08-tapas-juegos/id30-supermario-1",
     "tipo": "Plataformas",
     "categoria": "Retro",
     "edad permitida": "3+",
@@ -622,16 +622,16 @@
       "Siempre es un placer volver a jugarlo."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id30-supermario-1",
-      "public/img/08-tapas-juegos/id30-supermario-2",
-      "public/img/08-tapas-juegos/id30-supermario-3",
-      "public/img/08-tapas-juegos/id30-supermario-4"
+      "/img/08-tapas-juegos/id30-supermario-1",
+      "/img/08-tapas-juegos/id30-supermario-2",
+      "/img/08-tapas-juegos/id30-supermario-3",
+      "/img/08-tapas-juegos/id30-supermario-4"
     ]
   },
   {
     "id": 31,
     "nombre": "Pac-Man",
-    "imagen portada": "public/img/08-tapas-juegos/id31-pacman-1",
+    "imagen portada": "/img/08-tapas-juegos/id31-pacman-1",
     "tipo": "Arcade",
     "categoria": "Aventura",
     "edad permitida": "3+",
@@ -643,10 +643,10 @@
       "Los laberintos son desafiantes y divertidos."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id31-pacman-1",
-      "public/img/08-tapas-juegos/id31-pacman-2",
-      "public/img/08-tapas-juegos/id31-pacman-3",
-      "public/img/08-tapas-juegos/id31-pacman-4"
+      "/img/08-tapas-juegos/id31-pacman-1",
+      "/img/08-tapas-juegos/id31-pacman-2",
+      "/img/08-tapas-juegos/id31-pacman-3",
+      "/img/08-tapas-juegos/id31-pacman-4"
     ]
   },
   {
@@ -664,16 +664,16 @@
       "La música es pegajosa y memorable."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id05-sonic-1.png",
-      "public/img/08-tapas-juegos/id05-sonic-2.png",
-      "public/img/08-tapas-juegos/id05-sonic-3.png",
-      "public/img/08-tapas-juegos/id05-sonic-4.png"
+      "/img/08-tapas-juegos/id05-sonic-1.png",
+      "/img/08-tapas-juegos/id05-sonic-2.png",
+      "/img/08-tapas-juegos/id05-sonic-3.png",
+      "/img/08-tapas-juegos/id05-sonic-4.png"
     ]
   },
   {
     "id": 33,
     "nombre": "Space Invaders",
-    "imagen portada": "public/img/08-tapas-juegos/id33-spaceinvaders-1",
+    "imagen portada": "/img/08-tapas-juegos/id33-spaceinvaders-1",
     "tipo": "Arcade",
     "categoria": "Disparos",
     "edad permitida": "3+",
@@ -685,16 +685,16 @@
       "Los gráficos son retro, pero la diversión es atemporal."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id33-spaceinvaders-1",
-      "public/img/08-tapas-juegos/id33-spaceinvaders-2",
-      "public/img/08-tapas-juegos/id33-spaceinvaders-3",
-      "public/img/08-tapas-juegos/id33-spaceinvaders-4"
+      "/img/08-tapas-juegos/id33-spaceinvaders-1",
+      "/img/08-tapas-juegos/id33-spaceinvaders-2",
+      "/img/08-tapas-juegos/id33-spaceinvaders-3",
+      "/img/08-tapas-juegos/id33-spaceinvaders-4"
     ]
   },
   {
     "id": 34,
     "nombre": "Mortal Kombat",
-    "imagen portada": "public/img/08-tapas-juegos/id34-mortalkombat-1",
+    "imagen portada": "/img/08-tapas-juegos/id34-mortalkombat-1",
     "tipo": "Lucha",
     "categoria": "Acción",
     "edad permitida": "18+",
@@ -706,16 +706,16 @@
       "Un juego que siempre trae nostalgia."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id34-mortalkombat-1",
-      "public/img/08-tapas-juegos/id34-mortalkombat-2",
-      "public/img/08-tapas-juegos/id34-mortalkombat-3",
-      "public/img/08-tapas-juegos/id34-mortalkombat-4"
+      "/img/08-tapas-juegos/id34-mortalkombat-1",
+      "/img/08-tapas-juegos/id34-mortalkombat-2",
+      "/img/08-tapas-juegos/id34-mortalkombat-3",
+      "/img/08-tapas-juegos/id34-mortalkombat-4"
     ]
   },
   {
     "id": 35,
     "nombre": "Sonic the Hedgehog",
-    "imagen portada": "public/img/08-tapas-juegos/id35-sonic-1",
+    "imagen portada": "/img/08-tapas-juegos/id35-sonic-1",
     "tipo": "Plataformas",
     "categoria": "Aventura",
     "edad permitida": "3+",
@@ -727,16 +727,16 @@
       "La música es pegajosa y memorable."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id35-sonic-1",
-      "public/img/08-tapas-juegos/id35-sonic-2",
-      "public/img/08-tapas-juegos/id35-sonic-3",
-      "public/img/08-tapas-juegos/id35-sonic-4"
+      "/img/08-tapas-juegos/id35-sonic-1",
+      "/img/08-tapas-juegos/id35-sonic-2",
+      "/img/08-tapas-juegos/id35-sonic-3",
+      "/img/08-tapas-juegos/id35-sonic-4"
     ]
   },
   {
     "id": 36,
     "nombre": "Donkey Kong",
-    "imagen portada": "public/img/08-tapas-juegos/id36-donkeykong-1",
+    "imagen portada": "/img/08-tapas-juegos/id36-donkeykong-1",
     "tipo": "Arcade",
     "categoria": "Aventura",
     "edad permitida": "3+",
@@ -748,16 +748,16 @@
       "Los gráficos son simples pero encantadores."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id36-donkeykong-1",
-      "public/img/08-tapas-juegos/id36-donkeykong-2",
-      "public/img/08-tapas-juegos/id36-donkeykong-3",
-      "public/img/08-tapas-juegos/id36-donkeykong-4"
+      "/img/08-tapas-juegos/id36-donkeykong-1",
+      "/img/08-tapas-juegos/id36-donkeykong-2",
+      "/img/08-tapas-juegos/id36-donkeykong-3",
+      "/img/08-tapas-juegos/id36-donkeykong-4"
     ]
   },
   {
     "id": 37,
     "nombre": "Pong",
-    "imagen portada": "public/img/08-tapas-juegos/id37-pong-1",
+    "imagen portada": "/img/08-tapas-juegos/id37-pong-1",
     "tipo": "Arcade",
     "categoria": "Deportes",
     "edad permitida": "3+",
@@ -769,16 +769,16 @@
       "Un gran juego para jugar con amigos."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id37-pong-1",
-      "public/img/08-tapas-juegos/id37-pong-2",
-      "public/img/08-tapas-juegos/id37-pong-3",
-      "public/img/08-tapas-juegos/id37-pong-4"
+      "/img/08-tapas-juegos/id37-pong-1",
+      "/img/08-tapas-juegos/id37-pong-2",
+      "/img/08-tapas-juegos/id37-pong-3",
+      "/img/08-tapas-juegos/id37-pong-4"
     ]
   },
   {
     "id": 38,
     "nombre": "Asteroids",
-    "imagen portada": "public/img/08-tapas-juegos/id38-asteroids-1",
+    "imagen portada": "/img/08-tapas-juegos/id38-asteroids-1",
     "tipo": "Arcade",
     "categoria": "Disparos",
     "edad permitida": "3+",
@@ -790,16 +790,16 @@
       "Me encanta la sensación de disparar asteroides."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id38-asteroids-1",
-      "public/img/08-tapas-juegos/id38-asteroids-2",
-      "public/img/08-tapas-juegos/id38-asteroids-3",
-      "public/img/08-tapas-juegos/id38-asteroids-4"
+      "/img/08-tapas-juegos/id38-asteroids-1",
+      "/img/08-tapas-juegos/id38-asteroids-2",
+      "/img/08-tapas-juegos/id38-asteroids-3",
+      "/img/08-tapas-juegos/id38-asteroids-4"
     ]
   },
   {
     "id": 39,
     "nombre": "Blackjack",
-    "imagen portada": "public/img/08-tapas-juegos/id39-blackjack-1",
+    "imagen portada": "/img/08-tapas-juegos/id39-blackjack-1",
     "tipo": "Casino",
     "categoria": "Cartas",
     "edad permitida": "18+",
@@ -811,16 +811,16 @@
       "Perfecto para jugar con amigos."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id39-blackjack-1",
-      "public/img/08-tapas-juegos/id39-blackjack-2",
-      "public/img/08-tapas-juegos/id39-blackjack-3",
-      "public/img/08-tapas-juegos/id39-blackjack-4"
+      "/img/08-tapas-juegos/id39-blackjack-1",
+      "/img/08-tapas-juegos/id39-blackjack-2",
+      "/img/08-tapas-juegos/id39-blackjack-3",
+      "/img/08-tapas-juegos/id39-blackjack-4"
     ]
   },
   {
     "id": 40,
     "nombre": "Frogger",
-    "imagen portada": "public/img/08-tapas-juegos/id40-frogger-1",
+    "imagen portada": "/img/08-tapas-juegos/id40-frogger-1",
     "tipo": "Arcade",
     "categoria": "Aventura",
     "edad permitida": "3+",
@@ -832,16 +832,16 @@
       "Los niveles son siempre entretenidos."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id40-frogger-1",
-      "public/img/08-tapas-juegos/id40-frogger-2",
-      "public/img/08-tapas-juegos/id40-frogger-3",
-      "public/img/08-tapas-juegos/id40-frogger-4"
+      "/img/08-tapas-juegos/id40-frogger-1",
+      "/img/08-tapas-juegos/id40-frogger-2",
+      "/img/08-tapas-juegos/id40-frogger-3",
+      "/img/08-tapas-juegos/id40-frogger-4"
     ]
   },
   {
     "id": 41,
     "nombre": "Galaga",
-    "imagen portada": "public/img/08-tapas-juegos/id41-galaga-1",
+    "imagen portada": "/img/08-tapas-juegos/id41-galaga-1",
     "tipo": "Arcade",
     "categoria": "Disparos",
     "edad permitida": "3+",
@@ -853,16 +853,16 @@
       "Es increíble cómo siempre puedo mejorar mi puntuación."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id41-galaga-1",
-      "public/img/08-tapas-juegos/id41-galaga-2",
-      "public/img/08-tapas-juegos/id41-galaga-3",
-      "public/img/08-tapas-juegos/id41-galaga-4"
+      "/img/08-tapas-juegos/id41-galaga-1",
+      "/img/08-tapas-juegos/id41-galaga-2",
+      "/img/08-tapas-juegos/id41-galaga-3",
+      "/img/08-tapas-juegos/id41-galaga-4"
     ]
   },
   {
     "id": 42,
     "nombre": "Bubble Bobble",
-    "imagen portada": "public/img/08-tapas-juegos/id42-bubblebobble-1",
+    "imagen portada": "/img/08-tapas-juegos/id42-bubblebobble-1",
     "tipo": "Plataformas",
     "categoria": "Aventura",
     "edad permitida": "3+",
@@ -874,16 +874,16 @@
       "Las burbujas son divertidas y adictivas."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id42-bubblebobble-1",
-      "public/img/08-tapas-juegos/id42-bubblebobble-2",
-      "public/img/08-tapas-juegos/id42-bubblebobble-3",
-      "public/img/08-tapas-juegos/id42-bubblebobble-4"
+      "/img/08-tapas-juegos/id42-bubblebobble-1",
+      "/img/08-tapas-juegos/id42-bubblebobble-2",
+      "/img/08-tapas-juegos/id42-bubblebobble-3",
+      "/img/08-tapas-juegos/id42-bubblebobble-4"
     ]
   },
   {
     "id": 43,
     "nombre": "Defender",
-    "imagen portada": "public/img/08-tapas-juegos/id43-defender-1",
+    "imagen portada": "/img/08-tapas-juegos/id43-defender-1",
     "tipo": "Arcade",
     "categoria": "Disparos",
     "edad permitida": "3+",
@@ -895,16 +895,16 @@
       "La dificultad aumenta rápidamente, ¡es genial!"
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id43-defender-1",
-      "public/img/08-tapas-juegos/id43-defender-2",
-      "public/img/08-tapas-juegos/id43-defender-3",
-      "public/img/08-tapas-juegos/id43-defender-4"
+      "/img/08-tapas-juegos/id43-defender-1",
+      "/img/08-tapas-juegos/id43-defender-2",
+      "/img/08-tapas-juegos/id43-defender-3",
+      "/img/08-tapas-juegos/id43-defender-4"
     ]
   },
   {
     "id": 44,
     "nombre": "Dig Dug",
-    "imagen portada": "public/img/08-tapas-juegos/id44-digdug-1",
+    "imagen portada": "/img/08-tapas-juegos/id44-digdug-1",
     "tipo": "Arcade",
     "categoria": "Aventura",
     "edad permitida": "3+",
@@ -916,16 +916,16 @@
       "Siempre puedo encontrar nuevas estrategias para ganar."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id44-digdug-1",
-      "public/img/08-tapas-juegos/id44-digdug-2",
-      "public/img/08-tapas-juegos/id44-digdug-3",
-      "public/img/08-tapas-juegos/id44-digdug-4"
+      "/img/08-tapas-juegos/id44-digdug-1",
+      "/img/08-tapas-juegos/id44-digdug-2",
+      "/img/08-tapas-juegos/id44-digdug-3",
+      "/img/08-tapas-juegos/id44-digdug-4"
     ]
   },
   {
     "id": 45,
     "nombre": "Ms. Pac-Man",
-    "imagen portada": "public/img/08-tapas-juegos/id45-mspacman-1",
+    "imagen portada": "/img/08-tapas-juegos/id45-mspacman-1",
     "tipo": "Arcade",
     "categoria": "Aventura",
     "edad permitida": "3+",
@@ -937,16 +937,16 @@
       "Siempre es divertido intentar superar mis puntuaciones."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id45-mspacman-1",
-      "public/img/08-tapas-juegos/id45-mspacman-2",
-      "public/img/08-tapas-juegos/id45-mspacman-3",
-      "public/img/08-tapas-juegos/id45-mspacman-4"
+      "/img/08-tapas-juegos/id45-mspacman-1",
+      "/img/08-tapas-juegos/id45-mspacman-2",
+      "/img/08-tapas-juegos/id45-mspacman-3",
+      "/img/08-tapas-juegos/id45-mspacman-4"
     ]
   },
   {
     "id": 46,
     "nombre": "Centipede",
-    "imagen portada": "public/img/08-tapas-juegos/id46-centipede-1",
+    "imagen portada": "/img/08-tapas-juegos/id46-centipede-1",
     "tipo": "Arcade",
     "categoria": "Disparos",
     "edad permitida": "3+",
@@ -958,16 +958,16 @@
       "Me encanta la variedad de enemigos."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id46-centipede-1",
-      "public/img/08-tapas-juegos/id46-centipede-2",
-      "public/img/08-tapas-juegos/id46-centipede-3",
-      "public/img/08-tapas-juegos/id46-centipede-4"
+      "/img/08-tapas-juegos/id46-centipede-1",
+      "/img/08-tapas-juegos/id46-centipede-2",
+      "/img/08-tapas-juegos/id46-centipede-3",
+      "/img/08-tapas-juegos/id46-centipede-4"
     ]
   },
   {
     "id": 47,
     "nombre": "Q*bert",
-    "imagen portada": "public/img/08-tapas-juegos/id47-qbert-1",
+    "imagen portada": "/img/08-tapas-juegos/id47-qbert-1",
     "tipo": "Arcade",
     "categoria": "Plataformas",
     "edad permitida": "3+",
@@ -979,16 +979,16 @@
       "Siempre es un placer jugar a Q*bert."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id47-qbert-1",
-      "public/img/08-tapas-juegos/id47-qbert-2",
-      "public/img/08-tapas-juegos/id47-qbert-3",
-      "public/img/08-tapas-juegos/id47-qbert-4"
+      "/img/08-tapas-juegos/id47-qbert-1",
+      "/img/08-tapas-juegos/id47-qbert-2",
+      "/img/08-tapas-juegos/id47-qbert-3",
+      "/img/08-tapas-juegos/id47-qbert-4"
     ]
   },
   {
     "id": 48,
     "nombre": "Track & Field",
-    "imagen portada": "public/img/08-tapas-juegos/id48-trackfield-1",
+    "imagen portada": "/img/08-tapas-juegos/id48-trackfield-1",
     "tipo": "Arcade",
     "categoria": "Deportes",
     "edad permitida": "3+",
@@ -1000,16 +1000,16 @@
       "Siempre me gusta tratar de batir mis récords."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id48-trackfield-1",
-      "public/img/08-tapas-juegos/id48-trackfield-2",
-      "public/img/08-tapas-juegos/id48-trackfield-3",
-      "public/img/08-tapas-juegos/id48-trackfield-4"
+      "/img/08-tapas-juegos/id48-trackfield-1",
+      "/img/08-tapas-juegos/id48-trackfield-2",
+      "/img/08-tapas-juegos/id48-trackfield-3",
+      "/img/08-tapas-juegos/id48-trackfield-4"
     ]
   },
   {
     "id": 49,
     "nombre": "Pitfall!",
-    "imagen portada": "public/img/08-tapas-juegos/id49-pitfall-1",
+    "imagen portada": "/img/08-tapas-juegos/id49-pitfall-1",
     "tipo": "Arcade",
     "categoria": "Aventura",
     "edad permitida": "3+",
@@ -1021,16 +1021,16 @@
       "Los niveles son desafiantes y muy entretenidos."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id49-pitfall-1",
-      "public/img/08-tapas-juegos/id49-pitfall-2",
-      "public/img/08-tapas-juegos/id49-pitfall-3",
-      "public/img/08-tapas-juegos/id49-pitfall-4"
+      "/img/08-tapas-juegos/id49-pitfall-1",
+      "/img/08-tapas-juegos/id49-pitfall-2",
+      "/img/08-tapas-juegos/id49-pitfall-3",
+      "/img/08-tapas-juegos/id49-pitfall-4"
     ]
   },
   {
     "id": 50,
     "nombre": "River Raid",
-    "imagen portada": "public/img/08-tapas-juegos/id50-riverraid-1",
+    "imagen portada": "/img/08-tapas-juegos/id50-riverraid-1",
     "tipo": "Arcade",
     "categoria": "Disparos",
     "edad permitida": "3+",
@@ -1042,16 +1042,16 @@
       "Siempre me divierte tratar de superar mi puntuación."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id50-riverraid-1",
-      "public/img/08-tapas-juegos/id50-riverraid-2",
-      "public/img/08-tapas-juegos/id50-riverraid-3",
-      "public/img/08-tapas-juegos/id50-riverraid-4"
+      "/img/08-tapas-juegos/id50-riverraid-1",
+      "/img/08-tapas-juegos/id50-riverraid-2",
+      "/img/08-tapas-juegos/id50-riverraid-3",
+      "/img/08-tapas-juegos/id50-riverraid-4"
     ]
   },
   {
     "id": 51,
     "nombre": "Pac-Man",
-    "imagen portada": "public/img/08-tapas-juegos/id51-pacman-1",
+    "imagen portada": "/img/08-tapas-juegos/id51-pacman-1",
     "tipo": "Arcade",
     "categoria": "Aventura",
     "edad permitida": "3+",
@@ -1063,16 +1063,16 @@
       "Los fantasmas son un desafío interesante."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id51-pacman-1",
-      "public/img/08-tapas-juegos/id51-pacman-2",
-      "public/img/08-tapas-juegos/id51-pacman-3",
-      "public/img/08-tapas-juegos/id51-pacman-4"
+      "/img/08-tapas-juegos/id51-pacman-1",
+      "/img/08-tapas-juegos/id51-pacman-2",
+      "/img/08-tapas-juegos/id51-pacman-3",
+      "/img/08-tapas-juegos/id51-pacman-4"
     ]
   },
   {
     "id": 52,
     "nombre": "Space Invaders",
-    "imagen portada": "public/img/08-tapas-juegos/id52-spaceinvaders-1",
+    "imagen portada": "/img/08-tapas-juegos/id52-spaceinvaders-1",
     "tipo": "Arcade",
     "categoria": "Disparos",
     "edad permitida": "3+",
@@ -1084,16 +1084,16 @@
       "Un clásico que sienta las bases para muchos juegos."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id52-spaceinvaders-1",
-      "public/img/08-tapas-juegos/id52-spaceinvaders-2",
-      "public/img/08-tapas-juegos/id52-spaceinvaders-3",
-      "public/img/08-tapas-juegos/id52-spaceinvaders-4"
+      "/img/08-tapas-juegos/id52-spaceinvaders-1",
+      "/img/08-tapas-juegos/id52-spaceinvaders-2",
+      "/img/08-tapas-juegos/id52-spaceinvaders-3",
+      "/img/08-tapas-juegos/id52-spaceinvaders-4"
     ]
   },
   {
     "id": 53,
     "nombre": "Asteroids",
-    "imagen portada": "public/img/08-tapas-juegos/id53-asteroids-1",
+    "imagen portada": "/img/08-tapas-juegos/id53-asteroids-1",
     "tipo": "Arcade",
     "categoria": "Disparos",
     "edad permitida": "3+",
@@ -1105,16 +1105,16 @@
       "Siempre me gusta ver cuántos asteroides puedo destruir."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id53-asteroids-1",
-      "public/img/08-tapas-juegos/id53-asteroids-2",
-      "public/img/08-tapas-juegos/id53-asteroids-3",
-      "public/img/08-tapas-juegos/id53-asteroids-4"
+      "/img/08-tapas-juegos/id53-asteroids-1",
+      "/img/08-tapas-juegos/id53-asteroids-2",
+      "/img/08-tapas-juegos/id53-asteroids-3",
+      "/img/08-tapas-juegos/id53-asteroids-4"
     ]
   },
   {
     "id": 54,
     "nombre": "Donkey Kong",
-    "imagen portada": "public/img/08-tapas-juegos/id54-donkeykong-1",
+    "imagen portada": "/img/08-tapas-juegos/id54-donkeykong-1",
     "tipo": "Arcade",
     "categoria": "Plataformas",
     "edad permitida": "3+",
@@ -1126,16 +1126,16 @@
       "Siempre es un reto rescatar a la princesa."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id54-donkeykong-1",
-      "public/img/08-tapas-juegos/id54-donkeykong-2",
-      "public/img/08-tapas-juegos/id54-donkeykong-3",
-      "public/img/08-tapas-juegos/id54-donkeykong-4"
+      "/img/08-tapas-juegos/id54-donkeykong-1",
+      "/img/08-tapas-juegos/id54-donkeykong-2",
+      "/img/08-tapas-juegos/id54-donkeykong-3",
+      "/img/08-tapas-juegos/id54-donkeykong-4"
     ]
   },
   {
     "id": 55,
     "nombre": "Frogger",
-    "imagen portada": "public/img/08-tapas-juegos/id55-frogger-1",
+    "imagen portada": "/img/08-tapas-juegos/id55-frogger-1",
     "tipo": "Arcade",
     "categoria": "Aventura",
     "edad permitida": "3+",
@@ -1147,16 +1147,16 @@
       "Los niveles son siempre entretenidos."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id55-frogger-1",
-      "public/img/08-tapas-juegos/id55-frogger-2",
-      "public/img/08-tapas-juegos/id55-frogger-3",
-      "public/img/08-tapas-juegos/id55-frogger-4"
+      "/img/08-tapas-juegos/id55-frogger-1",
+      "/img/08-tapas-juegos/id55-frogger-2",
+      "/img/08-tapas-juegos/id55-frogger-3",
+      "/img/08-tapas-juegos/id55-frogger-4"
     ]
   },
   {
     "id": 56,
     "nombre": "Kung-Fu Master",
-    "imagen portada": "public/img/08-tapas-juegos/id56-kungfumaster-1",
+    "imagen portada": "/img/08-tapas-juegos/id56-kungfumaster-1",
     "tipo": "Arcade",
     "categoria": "Lucha",
     "edad permitida": "3+",
@@ -1168,16 +1168,16 @@
       "Es divertido jugar con amigos."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id56-kungfumaster-1",
-      "public/img/08-tapas-juegos/id56-kungfumaster-2",
-      "public/img/08-tapas-juegos/id56-kungfumaster-3",
-      "public/img/08-tapas-juegos/id56-kungfumaster-4"
+      "/img/08-tapas-juegos/id56-kungfumaster-1",
+      "/img/08-tapas-juegos/id56-kungfumaster-2",
+      "/img/08-tapas-juegos/id56-kungfumaster-3",
+      "/img/08-tapas-juegos/id56-kungfumaster-4"
     ]
   },
   {
     "id": 57,
     "nombre": "Metal Slug",
-    "imagen portada": "public/img/08-tapas-juegos/id57-metal_slug-1",
+    "imagen portada": "/img/08-tapas-juegos/id57-metal_slug-1",
     "tipo": "Arcade",
     "categoria": "Disparos",
     "edad permitida": "3+",
@@ -1189,16 +1189,16 @@
       "Es un juego de acción sin igual."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id57-metal_slug-1",
-      "public/img/08-tapas-juegos/id57-metal_slug-2",
-      "public/img/08-tapas-juegos/id57-metal_slug-3",
-      "public/img/08-tapas-juegos/id57-metal_slug-4"
+      "/img/08-tapas-juegos/id57-metal_slug-1",
+      "/img/08-tapas-juegos/id57-metal_slug-2",
+      "/img/08-tapas-juegos/id57-metal_slug-3",
+      "/img/08-tapas-juegos/id57-metal_slug-4"
     ]
   },
   {
     "id": 58,
     "nombre": "Teenage Mutant Ninja Turtles",
-    "imagen portada": "public/img/08-tapas-juegos/id58-tmnt-1",
+    "imagen portada": "/img/08-tapas-juegos/id58-tmnt-1",
     "tipo": "Arcade",
     "categoria": "Lucha",
     "edad permitida": "3+",
@@ -1210,16 +1210,16 @@
       "La jugabilidad es clásica y emocionante."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id58-tmnt-1",
-      "public/img/08-tapas-juegos/id58-tmnt-2",
-      "public/img/08-tapas-juegos/id58-tmnt-3",
-      "public/img/08-tapas-juegos/id58-tmnt-4"
+      "/img/08-tapas-juegos/id58-tmnt-1",
+      "/img/08-tapas-juegos/id58-tmnt-2",
+      "/img/08-tapas-juegos/id58-tmnt-3",
+      "/img/08-tapas-juegos/id58-tmnt-4"
     ]
   },
   {
     "id": 59,
     "nombre": "Double Dragon",
-    "imagen portada": "public/img/08-tapas-juegos/id59-doubledragon-1",
+    "imagen portada": "/img/08-tapas-juegos/id59-doubledragon-1",
     "tipo": "Arcade",
     "categoria": "Lucha",
     "edad permitida": "3+",
@@ -1231,16 +1231,16 @@
       "Los niveles son desafiantes y entretenidos."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id59-doubledragon-1",
-      "public/img/08-tapas-juegos/id59-doubledragon-2",
-      "public/img/08-tapas-juegos/id59-doubledragon-3",
-      "public/img/08-tapas-juegos/id59-doubledragon-4"
+      "/img/08-tapas-juegos/id59-doubledragon-1",
+      "/img/08-tapas-juegos/id59-doubledragon-2",
+      "/img/08-tapas-juegos/id59-doubledragon-3",
+      "/img/08-tapas-juegos/id59-doubledragon-4"
     ]
   },
   {
     "id": 60,
     "nombre": "Bubble Bobble",
-    "imagen portada": "public/img/08-tapas-juegos/id60-bubblebobble-1",
+    "imagen portada": "/img/08-tapas-juegos/id60-bubblebobble-1",
     "tipo": "Arcade",
     "categoria": "Aventura",
     "edad permitida": "3+",
@@ -1252,16 +1252,16 @@
       "Es genial jugar en cooperativo."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id60-bubblebobble-1",
-      "public/img/08-tapas-juegos/id60-bubblebobble-2",
-      "public/img/08-tapas-juegos/id60-bubblebobble-3",
-      "public/img/08-tapas-juegos/id60-bubblebobble-4"
+      "/img/08-tapas-juegos/id60-bubblebobble-1",
+      "/img/08-tapas-juegos/id60-bubblebobble-2",
+      "/img/08-tapas-juegos/id60-bubblebobble-3",
+      "/img/08-tapas-juegos/id60-bubblebobble-4"
     ]
   },
   {
     "id": 61,
     "nombre": "Galaga",
-    "imagen portada": "public/img/08-tapas-juegos/id61-galaga-1",
+    "imagen portada": "/img/08-tapas-juegos/id61-galaga-1",
     "tipo": "Arcade",
     "categoria": "Disparos",
     "edad permitida": "3+",
@@ -1273,16 +1273,16 @@
       "Es un juego que nunca envejece."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id61-galaga-1",
-      "public/img/08-tapas-juegos/id61-galaga-2",
-      "public/img/08-tapas-juegos/id61-galaga-3",
-      "public/img/08-tapas-juegos/id61-galaga-4"
+      "/img/08-tapas-juegos/id61-galaga-1",
+      "/img/08-tapas-juegos/id61-galaga-2",
+      "/img/08-tapas-juegos/id61-galaga-3",
+      "/img/08-tapas-juegos/id61-galaga-4"
     ]
   },
   {
     "id": 62,
     "nombre": "Pong",
-    "imagen portada": "public/img/08-tapas-juegos/id62-pong-1",
+    "imagen portada": "/img/08-tapas-juegos/id62-pong-1",
     "tipo": "Arcade",
     "categoria": "Deportes",
     "edad permitida": "3+",
@@ -1294,16 +1294,16 @@
       "Un clásico que jamás pasará de moda."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id62-pong-1",
-      "public/img/08-tapas-juegos/id62-pong-2",
-      "public/img/08-tapas-juegos/id62-pong-3",
-      "public/img/08-tapas-juegos/id62-pong-4"
+      "/img/08-tapas-juegos/id62-pong-1",
+      "/img/08-tapas-juegos/id62-pong-2",
+      "/img/08-tapas-juegos/id62-pong-3",
+      "/img/08-tapas-juegos/id62-pong-4"
     ]
   },
   {
     "id": 63,
     "nombre": "Q*bert",
-    "imagen portada": "public/img/08-tapas-juegos/id63-qbert-1",
+    "imagen portada": "/img/08-tapas-juegos/id63-qbert-1",
     "tipo": "Arcade",
     "categoria": "Aventura",
     "edad permitida": "3+",
@@ -1315,16 +1315,16 @@
       "Es divertido ver cómo Q*bert salta entre los cubos."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id63-qbert-1",
-      "public/img/08-tapas-juegos/id63-qbert-2",
-      "public/img/08-tapas-juegos/id63-qbert-3",
-      "public/img/08-tapas-juegos/id63-qbert-4"
+      "/img/08-tapas-juegos/id63-qbert-1",
+      "/img/08-tapas-juegos/id63-qbert-2",
+      "/img/08-tapas-juegos/id63-qbert-3",
+      "/img/08-tapas-juegos/id63-qbert-4"
     ]
   },
   {
     "id": 64,
     "nombre": "Dig Dug",
-    "imagen portada": "public/img/08-tapas-juegos/id64-digdug-1",
+    "imagen portada": "/img/08-tapas-juegos/id64-digdug-1",
     "tipo": "Arcade",
     "categoria": "Aventura",
     "edad permitida": "3+",
@@ -1336,16 +1336,16 @@
       "Es un clásico que siempre disfruto."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id64-digdug-1",
-      "public/img/08-tapas-juegos/id64-digdug-2",
-      "public/img/08-tapas-juegos/id64-digdug-3",
-      "public/img/08-tapas-juegos/id64-digdug-4"
+      "/img/08-tapas-juegos/id64-digdug-1",
+      "/img/08-tapas-juegos/id64-digdug-2",
+      "/img/08-tapas-juegos/id64-digdug-3",
+      "/img/08-tapas-juegos/id64-digdug-4"
     ]
   },
   {
     "id": 65,
     "nombre": "Tetris",
-    "imagen portada": "public/img/08-tapas-juegos/id65-tetris-1",
+    "imagen portada": "/img/08-tapas-juegos/id65-tetris-1",
     "tipo": "Arcade",
     "categoria": "Puzzle",
     "edad permitida": "3+",
@@ -1357,16 +1357,16 @@
       "Los gráficos son sencillos, pero el juego es increíble."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id65-tetris-1",
-      "public/img/08-tapas-juegos/id65-tetris-2",
-      "public/img/08-tapas-juegos/id65-tetris-3",
-      "public/img/08-tapas-juegos/id65-tetris-4"
+      "/img/08-tapas-juegos/id65-tetris-1",
+      "/img/08-tapas-juegos/id65-tetris-2",
+      "/img/08-tapas-juegos/id65-tetris-3",
+      "/img/08-tapas-juegos/id65-tetris-4"
     ]
   },
   {
     "id": 66,
     "nombre": "Street Fighter II",
-    "imagen portada": "public/img/08-tapas-juegos/id66-streetfighter2-1",
+    "imagen portada": "/img/08-tapas-juegos/id66-streetfighter2-1",
     "tipo": "Arcade",
     "categoria": "Lucha",
     "edad permitida": "12+",
@@ -1378,16 +1378,16 @@
       "Siempre es divertido competir con amigos."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id66-streetfighter2-1",
-      "public/img/08-tapas-juegos/id66-streetfighter2-2",
-      "public/img/08-tapas-juegos/id66-streetfighter2-3",
-      "public/img/08-tapas-juegos/id66-streetfighter2-4"
+      "/img/08-tapas-juegos/id66-streetfighter2-1",
+      "/img/08-tapas-juegos/id66-streetfighter2-2",
+      "/img/08-tapas-juegos/id66-streetfighter2-3",
+      "/img/08-tapas-juegos/id66-streetfighter2-4"
     ]
   },
   {
     "id": 67,
     "nombre": "Mortal Kombat",
-    "imagen portada": "public/img/08-tapas-juegos/id67-mortalkombat-1",
+    "imagen portada": "/img/08-tapas-juegos/id67-mortalkombat-1",
     "tipo": "Arcade",
     "categoria": "Lucha",
     "edad permitida": "18+",
@@ -1399,16 +1399,16 @@
       "Siempre sorprende con sus personajes únicos."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id67-mortalkombat-1",
-      "public/img/08-tapas-juegos/id67-mortalkombat-2",
-      "public/img/08-tapas-juegos/id67-mortalkombat-3",
-      "public/img/08-tapas-juegos/id67-mortalkombat-4"
+      "/img/08-tapas-juegos/id67-mortalkombat-1",
+      "/img/08-tapas-juegos/id67-mortalkombat-2",
+      "/img/08-tapas-juegos/id67-mortalkombat-3",
+      "/img/08-tapas-juegos/id67-mortalkombat-4"
     ]
   },
   {
     "id": 68,
     "nombre": "NBA Jam",
-    "imagen portada": "public/img/08-tapas-juegos/id68-nbajam-1",
+    "imagen portada": "/img/08-tapas-juegos/id68-nbajam-1",
     "tipo": "Arcade",
     "categoria": "Deportes",
     "edad permitida": "3+",
@@ -1420,16 +1420,16 @@
       "Es genial jugar con amigos en competiciones."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id68-nbajam-1",
-      "public/img/08-tapas-juegos/id68-nbajam-2",
-      "public/img/08-tapas-juegos/id68-nbajam-3",
-      "public/img/08-tapas-juegos/id68-nbajam-4"
+      "/img/08-tapas-juegos/id68-nbajam-1",
+      "/img/08-tapas-juegos/id68-nbajam-2",
+      "/img/08-tapas-juegos/id68-nbajam-3",
+      "/img/08-tapas-juegos/id68-nbajam-4"
     ]
   },
   {
     "id": 69,
     "nombre": "FIFA International Soccer",
-    "imagen portada": "public/img/08-tapas-juegos/id69-fifa-1",
+    "imagen portada": "/img/08-tapas-juegos/id69-fifa-1",
     "tipo": "Deportes",
     "categoria": "Fútbol",
     "edad permitida": "3+",
@@ -1441,16 +1441,16 @@
       "Es muy entretenido jugar partidos con amigos."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id69-fifa-1",
-      "public/img/08-tapas-juegos/id69-fifa-2",
-      "public/img/08-tapas-juegos/id69-fifa-3",
-      "public/img/08-tapas-juegos/id69-fifa-4"
+      "/img/08-tapas-juegos/id69-fifa-1",
+      "/img/08-tapas-juegos/id69-fifa-2",
+      "/img/08-tapas-juegos/id69-fifa-3",
+      "/img/08-tapas-juegos/id69-fifa-4"
     ]
   },
   {
     "id": 70,
     "nombre": "Tony Hawk's Pro Skater",
-    "imagen portada": "public/img/08-tapas-juegos/id70-tonyhawk-1",
+    "imagen portada": "/img/08-tapas-juegos/id70-tonyhawk-1",
     "tipo": "Deportes",
     "categoria": "Skate",
     "edad permitida": "3+",
@@ -1462,16 +1462,16 @@
       "Siempre hay un reto nuevo en cada nivel."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id70-tonyhawk-1",
-      "public/img/08-tapas-juegos/id70-tonyhawk-2",
-      "public/img/08-tapas-juegos/id70-tonyhawk-3",
-      "public/img/08-tapas-juegos/id70-tonyhawk-4"
+      "/img/08-tapas-juegos/id70-tonyhawk-1",
+      "/img/08-tapas-juegos/id70-tonyhawk-2",
+      "/img/08-tapas-juegos/id70-tonyhawk-3",
+      "/img/08-tapas-juegos/id70-tonyhawk-4"
     ]
   },
   {
     "id": 71,
     "nombre": "Track and Field",
-    "imagen portada": "public/img/08-tapas-juegos/id71-trackandfield-1",
+    "imagen portada": "/img/08-tapas-juegos/id71-trackandfield-1",
     "tipo": "Arcade",
     "categoria": "Deportes",
     "edad permitida": "3+",
@@ -1483,16 +1483,16 @@
       "La jugabilidad es simple y directa."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id71-trackandfield-1",
-      "public/img/08-tapas-juegos/id71-trackandfield-2",
-      "public/img/08-tapas-juegos/id71-trackandfield-3",
-      "public/img/08-tapas-juegos/id71-trackandfield-4"
+      "/img/08-tapas-juegos/id71-trackandfield-1",
+      "/img/08-tapas-juegos/id71-trackandfield-2",
+      "/img/08-tapas-juegos/id71-trackandfield-3",
+      "/img/08-tapas-juegos/id71-trackandfield-4"
     ]
   },
   {
     "id": 72,
     "nombre": "Battlefield 1942",
-    "imagen portada": "public/img/08-tapas-juegos/id72-battlefield1942-1",
+    "imagen portada": "/img/08-tapas-juegos/id72-battlefield1942-1",
     "tipo": "Videojuego",
     "categoria": "Guerra",
     "edad permitida": "18+",
@@ -1504,16 +1504,16 @@
       "La variedad de vehículos es impresionante."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id72-battlefield1942-1",
-      "public/img/08-tapas-juegos/id72-battlefield1942-2",
-      "public/img/08-tapas-juegos/id72-battlefield1942-3",
-      "public/img/08-tapas-juegos/id72-battlefield1942-4"
+      "/img/08-tapas-juegos/id72-battlefield1942-1",
+      "/img/08-tapas-juegos/id72-battlefield1942-2",
+      "/img/08-tapas-juegos/id72-battlefield1942-3",
+      "/img/08-tapas-juegos/id72-battlefield1942-4"
     ]
   },
   {
     "id": 73,
     "nombre": "Call of Duty",
-    "imagen portada": "public/img/08-tapas-juegos/id73-callofduty-1",
+    "imagen portada": "/img/08-tapas-juegos/id73-callofduty-1",
     "tipo": "Videojuego",
     "categoria": "Guerra",
     "edad permitida": "18+",
@@ -1525,16 +1525,16 @@
       "El modo multijugador es adictivo."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id73-callofduty-1",
-      "public/img/08-tapas-juegos/id73-callofduty-2",
-      "public/img/08-tapas-juegos/id73-callofduty-3",
-      "public/img/08-tapas-juegos/id73-callofduty-4"
+      "/img/08-tapas-juegos/id73-callofduty-1",
+      "/img/08-tapas-juegos/id73-callofduty-2",
+      "/img/08-tapas-juegos/id73-callofduty-3",
+      "/img/08-tapas-juegos/id73-callofduty-4"
     ]
   },
   {
     "id": 74,
     "nombre": "Counter-Strike",
-    "imagen portada": "public/img/08-tapas-juegos/id74-counterstrike-1",
+    "imagen portada": "/img/08-tapas-juegos/id74-counterstrike-1",
     "tipo": "Videojuego",
     "categoria": "Guerra",
     "edad permitida": "18+",
@@ -1546,16 +1546,16 @@
       "Siempre hay acción y emoción en cada partida."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id74-counterstrike-1",
-      "public/img/08-tapas-juegos/id74-counterstrike-2",
-      "public/img/08-tapas-juegos/id74-counterstrike-3",
-      "public/img/08-tapas-juegos/id74-counterstrike-4"
+      "/img/08-tapas-juegos/id74-counterstrike-1",
+      "/img/08-tapas-juegos/id74-counterstrike-2",
+      "/img/08-tapas-juegos/id74-counterstrike-3",
+      "/img/08-tapas-juegos/id74-counterstrike-4"
     ]
   },
   {
     "id": 75,
     "nombre": "Doom",
-    "imagen portada": "public/img/08-tapas-juegos/id75-doom-1",
+    "imagen portada": "/img/08-tapas-juegos/id75-doom-1",
     "tipo": "Videojuego",
     "categoria": "Guerra",
     "edad permitida": "18+",
@@ -1567,16 +1567,16 @@
       "Es un juego que nunca pasa de moda."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id75-doom-1",
-      "public/img/08-tapas-juegos/id75-doom-2",
-      "public/img/08-tapas-juegos/id75-doom-3",
-      "public/img/08-tapas-juegos/id75-doom-4"
+      "/img/08-tapas-juegos/id75-doom-1",
+      "/img/08-tapas-juegos/id75-doom-2",
+      "/img/08-tapas-juegos/id75-doom-3",
+      "/img/08-tapas-juegos/id75-doom-4"
     ]
   },
   {
     "id": 76,
     "nombre": "Age of Empires II",
-    "imagen portada": "public/img/08-tapas-juegos/id76-ageofempires2-1",
+    "imagen portada": "/img/08-tapas-juegos/id76-ageofempires2-1",
     "tipo": "Videojuego",
     "categoria": "Estrategia",
     "edad permitida": "12+",
@@ -1588,16 +1588,16 @@
       "Siempre hay algo nuevo por descubrir."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id76-ageofempires2-1",
-      "public/img/08-tapas-juegos/id76-ageofempires2-2",
-      "public/img/08-tapas-juegos/id76-ageofempires2-3",
-      "public/img/08-tapas-juegos/id76-ageofempires2-4"
+      "/img/08-tapas-juegos/id76-ageofempires2-1",
+      "/img/08-tapas-juegos/id76-ageofempires2-2",
+      "/img/08-tapas-juegos/id76-ageofempires2-3",
+      "/img/08-tapas-juegos/id76-ageofempires2-4"
     ]
   },
   {
     "id": 77,
     "nombre": "Civilization VI",
-    "imagen portada": "public/img/08-tapas-juegos/id77-civilizationvi-1",
+    "imagen portada": "/img/08-tapas-juegos/id77-civilizationvi-1",
     "tipo": "Videojuego",
     "categoria": "Estrategia",
     "edad permitida": "12+",
@@ -1609,16 +1609,16 @@
       "La gestión de recursos es un desafío."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id77-civilizationvi-1",
-      "public/img/08-tapas-juegos/id77-civilizationvi-2",
-      "public/img/08-tapas-juegos/id77-civilizationvi-3",
-      "public/img/08-tapas-juegos/id77-civilizationvi-4"
+      "/img/08-tapas-juegos/id77-civilizationvi-1",
+      "/img/08-tapas-juegos/id77-civilizationvi-2",
+      "/img/08-tapas-juegos/id77-civilizationvi-3",
+      "/img/08-tapas-juegos/id77-civilizationvi-4"
     ]
   },
   {
     "id": 78,
     "nombre": "Portal",
-    "imagen portada": "public/img/08-tapas-juegos/id78-portal-1",
+    "imagen portada": "/img/08-tapas-juegos/id78-portal-1",
     "tipo": "Videojuego",
     "categoria": "Puzzle",
     "edad permitida": "10+",
@@ -1630,16 +1630,16 @@
       "Es un desafío para la mente."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id78-portal-1",
-      "public/img/08-tapas-juegos/id78-portal-2",
-      "public/img/08-tapas-juegos/id78-portal-3",
-      "public/img/08-tapas-juegos/id78-portal-4"
+      "/img/08-tapas-juegos/id78-portal-1",
+      "/img/08-tapas-juegos/id78-portal-2",
+      "/img/08-tapas-juegos/id78-portal-3",
+      "/img/08-tapas-juegos/id78-portal-4"
     ]
   },
   {
     "id": 79,
     "nombre": "Tetris",
-    "imagen portada": "public/img/08-tapas-juegos/id79-tetris-1",
+    "imagen portada": "/img/08-tapas-juegos/id79-tetris-1",
     "tipo": "Arcade",
     "categoria": "Puzzle",
     "edad permitida": "3+",
@@ -1651,16 +1651,16 @@
       "Un juego adictivo que nunca pasa de moda."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id79-tetris-1",
-      "public/img/08-tapas-juegos/id79-tetris-2",
-      "public/img/08-tapas-juegos/id79-tetris-3",
-      "public/img/08-tapas-juegos/id79-tetris-4"
+      "/img/08-tapas-juegos/id79-tetris-1",
+      "/img/08-tapas-juegos/id79-tetris-2",
+      "/img/08-tapas-juegos/id79-tetris-3",
+      "/img/08-tapas-juegos/id79-tetris-4"
     ]
   },
   {
     "id": 80,
     "nombre": "Angry Birds",
-    "imagen portada": "public/img/08-tapas-juegos/id80-angrybirds-1",
+    "imagen portada": "/img/08-tapas-juegos/id80-angrybirds-1",
     "tipo": "Arcade",
     "categoria": "Puzzle",
     "edad permitida": "3+",
@@ -1672,16 +1672,16 @@
       "Ideal para jugar en cualquier momento."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id80-angrybirds-1",
-      "public/img/08-tapas-juegos/id80-angrybirds-2",
-      "public/img/08-tapas-juegos/id80-angrybirds-3",
-      "public/img/08-tapas-juegos/id80-angrybirds-4"
+      "/img/08-tapas-juegos/id80-angrybirds-1",
+      "/img/08-tapas-juegos/id80-angrybirds-2",
+      "/img/08-tapas-juegos/id80-angrybirds-3",
+      "/img/08-tapas-juegos/id80-angrybirds-4"
     ]
   },
   {
     "id": 81,
     "nombre": "Pac-Man",
-    "imagen portada": "public/img/08-tapas-juegos/id81-pacman-1",
+    "imagen portada": "/img/08-tapas-juegos/id81-pacman-1",
     "tipo": "Arcade",
     "categoria": "Aventura",
     "edad permitida": "3+",
@@ -1693,16 +1693,16 @@
       "Siempre es divertido intentar superar tu puntuación."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id81-pacman-1",
-      "public/img/08-tapas-juegos/id81-pacman-2",
-      "public/img/08-tapas-juegos/id81-pacman-3",
-      "public/img/08-tapas-juegos/id81-pacman-4"
+      "/img/08-tapas-juegos/id81-pacman-1",
+      "/img/08-tapas-juegos/id81-pacman-2",
+      "/img/08-tapas-juegos/id81-pacman-3",
+      "/img/08-tapas-juegos/id81-pacman-4"
     ]
   },
   {
     "id": 82,
     "nombre": "Sonic the Hedgehog",
-    "imagen portada": "public/img/08-tapas-juegos/id82-sonic-1",
+    "imagen portada": "/img/08-tapas-juegos/id82-sonic-1",
     "tipo": "Arcade",
     "categoria": "Aventura",
     "edad permitida": "3+",
@@ -1714,16 +1714,16 @@
       "Los niveles son variados y emocionantes."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id82-sonic-1",
-      "public/img/08-tapas-juegos/id82-sonic-2",
-      "public/img/08-tapas-juegos/id82-sonic-3",
-      "public/img/08-tapas-juegos/id82-sonic-4"
+      "/img/08-tapas-juegos/id82-sonic-1",
+      "/img/08-tapas-juegos/id82-sonic-2",
+      "/img/08-tapas-juegos/id82-sonic-3",
+      "/img/08-tapas-juegos/id82-sonic-4"
     ]
   },
   {
     "id": 83,
     "nombre": "Duck Hunt",
-    "imagen portada": "public/img/08-tapas-juegos/id83-duckhunt-1",
+    "imagen portada": "/img/08-tapas-juegos/id83-duckhunt-1",
     "tipo": "Arcade",
     "categoria": "Tiro",
     "edad permitida": "3+",
@@ -1735,16 +1735,16 @@
       "Ideal para jugar con amigos."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id83-duckhunt-1",
-      "public/img/08-tapas-juegos/id83-duckhunt-2",
-      "public/img/08-tapas-juegos/id83-duckhunt-3",
-      "public/img/08-tapas-juegos/id83-duckhunt-4"
+      "/img/08-tapas-juegos/id83-duckhunt-1",
+      "/img/08-tapas-juegos/id83-duckhunt-2",
+      "/img/08-tapas-juegos/id83-duckhunt-3",
+      "/img/08-tapas-juegos/id83-duckhunt-4"
     ]
   },
   {
     "id": 84,
     "nombre": "Galaga",
-    "imagen portada": "public/img/08-tapas-juegos/id84-galaga-1",
+    "imagen portada": "/img/08-tapas-juegos/id84-galaga-1",
     "tipo": "Arcade",
     "categoria": "Tiro",
     "edad permitida": "3+",
@@ -1756,16 +1756,16 @@
       "Los gráficos son simples pero encantadores."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id84-galaga-1",
-      "public/img/08-tapas-juegos/id84-galaga-2",
-      "public/img/08-tapas-juegos/id84-galaga-3",
-      "public/img/08-tapas-juegos/id84-galaga-4"
+      "/img/08-tapas-juegos/id84-galaga-1",
+      "/img/08-tapas-juegos/id84-galaga-2",
+      "/img/08-tapas-juegos/id84-galaga-3",
+      "/img/08-tapas-juegos/id84-galaga-4"
     ]
   },
   {
     "id": 85,
     "nombre": "Street Racer",
-    "imagen portada": "public/img/08-tapas-juegos/id85-streetracer-1",
+    "imagen portada": "/img/08-tapas-juegos/id85-streetracer-1",
     "tipo": "Arcade",
     "categoria": "Carreras",
     "edad permitida": "3+",
@@ -1777,16 +1777,16 @@
       "Ideal para jugar en competiciones con amigos."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id85-streetracer-1",
-      "public/img/08-tapas-juegos/id85-streetracer-2",
-      "public/img/08-tapas-juegos/id85-streetracer-3",
-      "public/img/08-tapas-juegos/id85-streetracer-4"
+      "/img/08-tapas-juegos/id85-streetracer-1",
+      "/img/08-tapas-juegos/id85-streetracer-2",
+      "/img/08-tapas-juegos/id85-streetracer-3",
+      "/img/08-tapas-juegos/id85-streetracer-4"
     ]
   },
   {
     "id": 86,
     "nombre": "Mario Kart",
-    "imagen portada": "public/img/08-tapas-juegos/id86-mariokart-1",
+    "imagen portada": "/img/08-tapas-juegos/id86-mariokart-1",
     "tipo": "Videojuego",
     "categoria": "Carreras",
     "edad permitida": "3+",
@@ -1798,16 +1798,16 @@
       "Ideal para jugar con amigos y familiares."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id86-mariokart-1",
-      "public/img/08-tapas-juegos/id86-mariokart-2",
-      "public/img/08-tapas-juegos/id86-mariokart-3",
-      "public/img/08-tapas-juegos/id86-mariokart-4"
+      "/img/08-tapas-juegos/id86-mariokart-1",
+      "/img/08-tapas-juegos/id86-mariokart-2",
+      "/img/08-tapas-juegos/id86-mariokart-3",
+      "/img/08-tapas-juegos/id86-mariokart-4"
     ]
   },
   {
     "id": 87,
     "nombre": "FIFA 21",
-    "imagen portada": "public/img/08-tapas-juegos/id87-fifa21-1",
+    "imagen portada": "/img/08-tapas-juegos/id87-fifa21-1",
     "tipo": "Videojuego",
     "categoria": "Deportes",
     "edad permitida": "3+",
@@ -1819,16 +1819,16 @@
       "Puedes jugar con tus amigos en línea."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id87-fifa21-1",
-      "public/img/08-tapas-juegos/id87-fifa21-2",
-      "public/img/08-tapas-juegos/id87-fifa21-3",
-      "public/img/08-tapas-juegos/id87-fifa21-4"
+      "/img/08-tapas-juegos/id87-fifa21-1",
+      "/img/08-tapas-juegos/id87-fifa21-2",
+      "/img/08-tapas-juegos/id87-fifa21-3",
+      "/img/08-tapas-juegos/id87-fifa21-4"
     ]
   },
   {
     "id": 88,
     "nombre": "NBA 2K21",
-    "imagen portada": "public/img/08-tapas-juegos/id88-nba2k21-1",
+    "imagen portada": "/img/08-tapas-juegos/id88-nba2k21-1",
     "tipo": "Videojuego",
     "categoria": "Deportes",
     "edad permitida": "3+",
@@ -1840,16 +1840,16 @@
       "Puedes crear tu propio jugador y equipo."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id88-nba2k21-1",
-      "public/img/08-tapas-juegos/id88-nba2k21-2",
-      "public/img/08-tapas-juegos/id88-nba2k21-3",
-      "public/img/08-tapas-juegos/id88-nba2k21-4"
+      "/img/08-tapas-juegos/id88-nba2k21-1",
+      "/img/08-tapas-juegos/id88-nba2k21-2",
+      "/img/08-tapas-juegos/id88-nba2k21-3",
+      "/img/08-tapas-juegos/id88-nba2k21-4"
     ]
   },
   {
     "id": 89,
     "nombre": "Madden NFL 21",
-    "imagen portada": "public/img/08-tapas-juegos/id89-madden21-1",
+    "imagen portada": "/img/08-tapas-juegos/id89-madden21-1",
     "tipo": "Videojuego",
     "categoria": "Deportes",
     "edad permitida": "3+",
@@ -1861,16 +1861,16 @@
       "Ideal para jugar en equipo."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id89-madden21-1",
-      "public/img/08-tapas-juegos/id89-madden21-2",
-      "public/img/08-tapas-juegos/id89-madden21-3",
-      "public/img/08-tapas-juegos/id89-madden21-4"
+      "/img/08-tapas-juegos/id89-madden21-1",
+      "/img/08-tapas-juegos/id89-madden21-2",
+      "/img/08-tapas-juegos/id89-madden21-3",
+      "/img/08-tapas-juegos/id89-madden21-4"
     ]
   },
   {
     "id": 90,
     "nombre": "Rocket League",
-    "imagen portada": "public/img/08-tapas-juegos/id90-rocketleague-1",
+    "imagen portada": "/img/08-tapas-juegos/id90-rocketleague-1",
     "tipo": "Videojuego",
     "categoria": "Deportes",
     "edad permitida": "3+",
@@ -1882,16 +1882,16 @@
       "Ideal para jugar con amigos."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id90-rocketleague-1",
-      "public/img/08-tapas-juegos/id90-rocketleague-2",
-      "public/img/08-tapas-juegos/id90-rocketleague-3",
-      "public/img/08-tapas-juegos/id90-rocketleague-4"
+      "/img/08-tapas-juegos/id90-rocketleague-1",
+      "/img/08-tapas-juegos/id90-rocketleague-2",
+      "/img/08-tapas-juegos/id90-rocketleague-3",
+      "/img/08-tapas-juegos/id90-rocketleague-4"
     ]
   },
   {
     "id": 91,
     "nombre": "WWE 2K Battlegrounds",
-    "imagen portada": "public/img/08-tapas-juegos/id91-wwe2k-1",
+    "imagen portada": "/img/08-tapas-juegos/id91-wwe2k-1",
     "tipo": "Videojuego",
     "categoria": "Lucha",
     "edad permitida": "12+",
@@ -1903,16 +1903,16 @@
       "Ideal para jugar con amigos."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id91-wwe2k-1",
-      "public/img/08-tapas-juegos/id91-wwe2k-2",
-      "public/img/08-tapas-juegos/id91-wwe2k-3",
-      "public/img/08-tapas-juegos/id91-wwe2k-4"
+      "/img/08-tapas-juegos/id91-wwe2k-1",
+      "/img/08-tapas-juegos/id91-wwe2k-2",
+      "/img/08-tapas-juegos/id91-wwe2k-3",
+      "/img/08-tapas-juegos/id91-wwe2k-4"
     ]
   },
   {
     "id": 92,
     "nombre": "Overcooked! 2",
-    "imagen portada": "public/img/08-tapas-juegos/id92-overcooked2-1",
+    "imagen portada": "/img/08-tapas-juegos/id92-overcooked2-1",
     "tipo": "Videojuego",
     "categoria": "Cooperativo",
     "edad permitida": "3+",
@@ -1924,16 +1924,16 @@
       "La coordinación es clave."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id92-overcooked2-1",
-      "public/img/08-tapas-juegos/id92-overcooked2-2",
-      "public/img/08-tapas-juegos/id92-overcooked2-3",
-      "public/img/08-tapas-juegos/id92-overcooked2-4"
+      "/img/08-tapas-juegos/id92-overcooked2-1",
+      "/img/08-tapas-juegos/id92-overcooked2-2",
+      "/img/08-tapas-juegos/id92-overcooked2-3",
+      "/img/08-tapas-juegos/id92-overcooked2-4"
     ]
   },
   {
     "id": 93,
     "nombre": "Fall Guys: Ultimate Knockout",
-    "imagen portada": "public/img/08-tapas-juegos/id93-fallguys-1",
+    "imagen portada": "/img/08-tapas-juegos/id93-fallguys-1",
     "tipo": "Videojuego",
     "categoria": "Multijugador",
     "edad permitida": "3+",
@@ -1945,16 +1945,16 @@
       "Ideal para jugar con amigos."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id93-fallguys-1",
-      "public/img/08-tapas-juegos/id93-fallguys-2",
-      "public/img/08-tapas-juegos/id93-fallguys-3",
-      "public/img/08-tapas-juegos/id93-fallguys-4"
+      "/img/08-tapas-juegos/id93-fallguys-1",
+      "/img/08-tapas-juegos/id93-fallguys-2",
+      "/img/08-tapas-juegos/id93-fallguys-3",
+      "/img/08-tapas-juegos/id93-fallguys-4"
     ]
   },
   {
     "id": 94,
     "nombre": "Apex Legends",
-    "imagen portada": "public/img/08-tapas-juegos/id94-apexlegends-1",
+    "imagen portada": "/img/08-tapas-juegos/id94-apexlegends-1",
     "tipo": "Videojuego",
     "categoria": "Battle Royale",
     "edad permitida": "16+",
@@ -1966,16 +1966,16 @@
       "Los personajes son muy únicos."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id94-apexlegends-1",
-      "public/img/08-tapas-juegos/id94-apexlegends-2",
-      "public/img/08-tapas-juegos/id94-apexlegends-3",
-      "public/img/08-tapas-juegos/id94-apexlegends-4"
+      "/img/08-tapas-juegos/id94-apexlegends-1",
+      "/img/08-tapas-juegos/id94-apexlegends-2",
+      "/img/08-tapas-juegos/id94-apexlegends-3",
+      "/img/08-tapas-juegos/id94-apexlegends-4"
     ]
   },
   {
     "id": 95,
     "nombre": "Counter-Strike: Global Offensive",
-    "imagen portada": "public/img/08-tapas-juegos/id95-csgo-1",
+    "imagen portada": "/img/08-tapas-juegos/id95-csgo-1",
     "tipo": "Videojuego",
     "categoria": "Shooter",
     "edad permitida": "16+",
@@ -1987,16 +1987,16 @@
       "Ideal para jugar con amigos."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id95-csgo-1",
-      "public/img/08-tapas-juegos/id95-csgo-2",
-      "public/img/08-tapas-juegos/id95-csgo-3",
-      "public/img/08-tapas-juegos/id95-csgo-4"
+      "/img/08-tapas-juegos/id95-csgo-1",
+      "/img/08-tapas-juegos/id95-csgo-2",
+      "/img/08-tapas-juegos/id95-csgo-3",
+      "/img/08-tapas-juegos/id95-csgo-4"
     ]
   },
   {
     "id": 96,
     "nombre": "League of Legends",
-    "imagen portada": "public/img/08-tapas-juegos/id96-lol-1",
+    "imagen portada": "/img/08-tapas-juegos/id96-lol-1",
     "tipo": "Videojuego",
     "categoria": "MOBA",
     "edad permitida": "12+",
@@ -2008,16 +2008,16 @@
       "Ideal para jugar en equipo."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id96-lol-1",
-      "public/img/08-tapas-juegos/id96-lol-2",
-      "public/img/08-tapas-juegos/id96-lol-3",
-      "public/img/08-tapas-juegos/id96-lol-4"
+      "/img/08-tapas-juegos/id96-lol-1",
+      "/img/08-tapas-juegos/id96-lol-2",
+      "/img/08-tapas-juegos/id96-lol-3",
+      "/img/08-tapas-juegos/id96-lol-4"
     ]
   },
   {
     "id": 97,
     "nombre": "Dota 2",
-    "imagen portada": "public/img/08-tapas-juegos/id97-dota2-1",
+    "imagen portada": "/img/08-tapas-juegos/id97-dota2-1",
     "tipo": "Videojuego",
     "categoria": "MOBA",
     "edad permitida": "12+",
@@ -2029,16 +2029,16 @@
       "Ideal para jugar con amigos."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id97-dota2-1",
-      "public/img/08-tapas-juegos/id97-dota2-2",
-      "public/img/08-tapas-juegos/id97-dota2-3",
-      "public/img/08-tapas-juegos/id97-dota2-4"
+      "/img/08-tapas-juegos/id97-dota2-1",
+      "/img/08-tapas-juegos/id97-dota2-2",
+      "/img/08-tapas-juegos/id97-dota2-3",
+      "/img/08-tapas-juegos/id97-dota2-4"
     ]
   },
   {
     "id": 98,
     "nombre": "Valorant",
-    "imagen portada": "public/img/08-tapas-juegos/id98-valorant-1",
+    "imagen portada": "/img/08-tapas-juegos/id98-valorant-1",
     "tipo": "Videojuego",
     "categoria": "Shooter",
     "edad permitida": "16+",
@@ -2050,16 +2050,16 @@
       "Los personajes son muy variados."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id98-valorant-1",
-      "public/img/08-tapas-juegos/id98-valorant-2",
-      "public/img/08-tapas-juegos/id98-valorant-3",
-      "public/img/08-tapas-juegos/id98-valorant-4"
+      "/img/08-tapas-juegos/id98-valorant-1",
+      "/img/08-tapas-juegos/id98-valorant-2",
+      "/img/08-tapas-juegos/id98-valorant-3",
+      "/img/08-tapas-juegos/id98-valorant-4"
     ]
   },
   {
     "id": 99,
     "nombre": "Minecraft",
-    "imagen portada": "public/img/08-tapas-juegos/id99-minecraft-1",
+    "imagen portada": "/img/08-tapas-juegos/id99-minecraft-1",
     "tipo": "Videojuego",
     "categoria": "Aventura",
     "edad permitida": "7+",
@@ -2071,16 +2071,16 @@
       "La exploración es muy divertida."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id99-minecraft-1",
-      "public/img/08-tapas-juegos/id99-minecraft-2",
-      "public/img/08-tapas-juegos/id99-minecraft-3",
-      "public/img/08-tapas-juegos/id99-minecraft-4"
+      "/img/08-tapas-juegos/id99-minecraft-1",
+      "/img/08-tapas-juegos/id99-minecraft-2",
+      "/img/08-tapas-juegos/id99-minecraft-3",
+      "/img/08-tapas-juegos/id99-minecraft-4"
     ]
   },
   {
     "id": 100,
     "nombre": "Roblox",
-    "imagen portada": "public/img/08-tapas-juegos/id100-roblox-1",
+    "imagen portada": "/img/08-tapas-juegos/id100-roblox-1",
     "tipo": "Videojuego",
     "categoria": "Aventura",
     "edad permitida": "7+",
@@ -2092,10 +2092,10 @@
       "La comunidad es muy activa."
     ],
     "imagenes del juego": [
-      "public/img/08-tapas-juegos/id100-roblox-1",
-      "public/img/08-tapas-juegos/id100-roblox-2",
-      "public/img/08-tapas-juegos/id100-roblox-3",
-      "public/img/08-tapas-juegos/id100-roblox-4"
+      "/img/08-tapas-juegos/id100-roblox-1",
+      "/img/08-tapas-juegos/id100-roblox-2",
+      "/img/08-tapas-juegos/id100-roblox-3",
+      "/img/08-tapas-juegos/id100-roblox-4"
     ]
   }
 ]
