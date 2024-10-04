@@ -1,0 +1,140 @@
+//---------contenedor principal--------------------//
+
+.mainContent {
+  width: 100%;
+  background: rgba(70, 24, 4, 0.425); // Fondo más oscuro y moderno
+  padding: 20px;
+  border-radius: 50px; // Bordes más suaves
+  box-shadow: 0 4px 80px rgba(255, 217, 0, 0.8); // Más sombra
+  margin-top: 40px; // Espacio superior más amplio
+  color: #fff; // Color de texto predeterminado blanco
+}
+
+//---------contenedor principal de los elementos--------------------//
+
+.mainContentContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px; // Reducción del espacio para que los elementos se sientan más compactos
+  width: 100%;
+  max-width: 1200px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+//---------items del grid--------------------//
+
+.gridItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.08); // Fondo más tenue para los items
+  border: 1px solid rgba(0, 247, 255, 0.4); // Borde cian tenue
+  border-radius: 10px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 247, 255, 0.4); // Sombra más visible al hacer hover
+    border-color: #00ffcc; // Borde verde cian en hover
+  }
+}
+
+//---------textos---------// 
+
+.parrafoTitulo1 {
+  color: #00ff99; // Verde cian
+  font-family: 'Press Start 2P', cursive; // Estilo retro
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+//---------TITULOS------------------//
+
+.h1Titulo {
+  color: #f9e6bd;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.8);
+  margin-bottom: 30px; // Más espacio inferior
+}
+
+.h2Titulo {
+  color: #f0f0a7;
+  font-size: 1.25rem;
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase; // Para darle un estilo más moderno
+}
+
+//----------LINKS-----------------//
+
+.hoverLink1 {
+  color: #ffcf00; // Dorado vibrante
+  text-decoration: none;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+
+  &:hover {
+    color: #ffe45a;
+    text-shadow: 0 0 15px rgba(255, 228, 90, 0.8); // Efecto de resplandor más suave
+  }
+}
+
+//--------botones--------//
+
+.botonEnviar, .botonComprar {
+  background-color: #00f7ff;
+  border: none;
+  border-radius: 8px;
+  color: #000;
+  padding: 12px 24px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    background-color: #00c4d4;
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 255, 255, 0.3); // Sombra más sutil y fluida
+    animation: pulse 1s infinite;
+  }
+}
+
+//---------Animación de Parpadeo---------//
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+}
+
+//---------Media Queries---------//
+
+@media (max-width: 768px) {
+  .h1Titulo {
+    font-size: 1.75rem;
+  }
+
+  .parrafoTitulo1 {
+    font-size: 1.25rem;
+  }
+
+  .gridItem {
+    padding: 15px; // Ajuste de padding para móviles
+  }
+}
+
+
+.banner-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover; // Ajusta la imagen para que siempre se vea bien
+  border-radius: 20px; // Bordes redondeados
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); // Sombra suave para las imágenes
+}

@@ -1,0 +1,97 @@
+$primary-color: #ffee00;
+$secondary-color: #fffb00;
+$dark-bg: #1a1a1a;
+$light-text: #ffffff;
+$accent-color: #ff5e00;
+$hover-color: #ffcc33;
+$header-height: 100px;
+
+.header {
+  background-color: transparent;
+  padding: 0;
+  margin-top: 0 ;
+  padding-top: 0; // Elimina cualquier padding que empuje el contenido hacia abajo
+  top: 0; // Se asegura que el header esté en la parte superior
+  width: 100%;
+  border-radius: 30%;
+  border-bottom: 5px dotted rgba($primary-color, 0.5);
+  
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+
+    .logoHeader {
+      max-width: 250px;
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+
+  }
+
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: x-large;
+    text-transform: uppercase;
+
+    .nav-link {
+      color: $light-text;
+
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+
+  .navbar-icons {
+    display: flex;
+    align-items: center;
+
+    .auth-icon {
+      color: $light-text;
+      font-size: large;
+      margin-left: 15px;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: $accent-color;
+      }
+    }
+  }
+
+  .dark-mode-toggle {
+    margin-left: 20px;
+  }
+
+  .menu-icon {
+    font-size: x-large;
+    color: $light-text;
+  }
+
+  .auth-welcome-container {
+    display: flex;
+    align-items: center;
+    color: $light-text;
+    font-size: large;
+
+    span {
+      margin-right: 10px;
+    }
+  }
+}
