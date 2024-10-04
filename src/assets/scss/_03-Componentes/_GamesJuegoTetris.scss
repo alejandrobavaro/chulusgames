@@ -1,0 +1,94 @@
+$tetris-black: #000000;
+$tetris-cyan: #00FFFF;
+$tetris-magenta: #FF00FF;
+$tetris-yellow: #FFFF00;
+$tetris-green: #00FF00;
+$tetris-blue: #0000FF;
+$tetris-red: #FF0000;
+$tetris-orange: #FFA500;
+
+.tetris-container {
+  display: flex; /* Flexbox para alinear el tablero y los controles */
+  flex-direction: column; /* Alinear los elementos en una columna */
+  align-items: center; /* Centrar elementos horizontalmente */
+  justify-content: center; /* Centrar elementos verticalmente */
+  text-align: center;
+  color: $tetris-yellow;
+  font-family: 'Press Start 2P', cursive;
+  position: relative;
+  background-color: $tetris-black;
+  padding: 20px;
+  border: 5px solid $tetris-yellow;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255, 255, 0, 0.5);
+}
+
+#game-board {
+  position: relative;
+  width: 300px;
+  height: 600px;
+  margin: 20px;
+  border: 3px solid $tetris-yellow;
+  background: $tetris-black;
+  display: grid;
+  grid-template-rows: repeat(20, 30px);
+  grid-template-columns: repeat(10, 30px);
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #333;
+  background-color: transparent;
+  transition: background-color 0.2s ease;
+}
+
+.piece {
+  background-color: $tetris-green;
+  box-shadow: 0 0 10px $tetris-green;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column; /* Mantener los controles en columnas */
+  align-items: center; /* Centrar botones */
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.control-button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: $tetris-yellow;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+
+  &:hover {
+    background-color: yellow;
+    transform: scale(1.05);
+  }
+}
+
+.instructions {
+  margin-top: 20px;
+  color: white;
+}
+
+.game-over {
+  color: red;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.instructions {
+  margin-left: 20px;
+  text-align: left;
+  color: $tetris-yellow;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5); // Fondo semi-transparente
+  border: 3px solid $tetris-yellow;
+  border-radius: 5px;
+}

@@ -1,0 +1,53 @@
+/*******BOTON COMPRAR********/
+
+.botonComprar {
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: #565656;
+    color: rgb(255, 213, 0);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    float: center;
+    // margin-top: 10px;
+
+}
+
+.botonComprar:hover {
+    background-color: #565656b9;
+    color: #f2ff00;
+    border: none
+}
+
+// -----------------------------------------//
+
+.precio {
+    color: rgb(255, 174, 0);
+    padding: 0px;
+    border: 2px rgba(214, 183, 71, 0.153) solid;
+    margin: 0px;
+    font-size: large;
+   }
+
+   //-----------------------------------------//
+
+  
+  /* Estilos para los productos en el carrito */
+  .producto-en-carrito {
+    color: yellow;
+    /* Estilos específicos para los productos en el carrito */
+  }
+  
+  /* Estilos para los botones de eliminar */
+  .botonEliminar {
+    color: rgb(255, 200, 1);
+    border: 2px red solid;
+    /* Estilos para los botones de eliminar */
+  }
+  
+   //---------------carrito-----------------------//
+  .tamañoicono1 {
+    font-size: 30px;
+    color: rgb(255, 157, 0);
+    }

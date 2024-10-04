@@ -1,0 +1,125 @@
+// Estilos modernos para el juego de Bingo
+
+.bingo-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+background-image: url(../../../../img/08-tapas-juegos/20240401_183221.jpg);
+  color: #fcd200; // Color del texto
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 0px 60px rgba(255, 251, 0, 0.63); // Sombra más pronunciada
+}
+
+.bingo-title {
+  font-size: xx-large; // Ajustar tamaño de fuente
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-align: center; // Centrar el título
+  color: #ffffff;
+}
+
+.bingo-number-called {
+  font-size: xx-large;
+  margin: 20px 0;
+  padding: 30px;
+  border: 2px solid #f39c12;
+  border-radius: 50%;
+  font-weight: bolder;
+  background-color: #ffd000a4;
+  color: #000000;
+  transition: background-color 0.3s ease;
+}
+
+.bingo-game-container {
+    background-color: rgba(34, 4, 4, 0.801);
+  width: 100%;
+  box-shadow: 0 0px 60px rgba(255, 251, 0, 0.63);
+  max-width: auto;
+  padding: 30px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bingo-header {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin-bottom: 15px; // Margen entre el encabezado y el cartón
+}
+
+.bingo-carton-title {
+  font-size: large; // Título más pequeño
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fcd200; // Color amarillo
+  text-align: left; // Alinear a la izquierda
+}
+
+.bingo-board {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr); // Aumentar a 6 columnas
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.bingo-board div {
+  background-color: rgba(92, 56, 9, 0.233); // Fondo del número más opaco
+  border: 2px solid #16a085; // Borde más fuerte
+  border-radius: 10px;
+  padding: 15px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+    font-weight: bold;
+  align-items: center;
+  font-size: 1.8em; // Aumentar tamaño del texto
+  color: #ffffff; // Color del texto blanco
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: rgba(102, 96, 39, 0.8); // Color al pasar el mouse
+  }
+
+  &.marked {
+    // Clase para marcar números
+    color: rgba(255, 255, 255, 0.7); // Cambiar color del texto
+    text-decoration: line-through; // Tachar el texto
+    font-weight: bolder;
+    background-color: rgba(255, 0, 0, 0.6); // Cambiar el fondo para marcar
+  }
+}
+
+.bingo-marked-number {
+  background-color: #c2e73c; // Color para marcado
+  color: #fff;
+  font-weight: bolder;
+}
+
+.bingo-unmarked-number {
+  background-color: #ffd000; // Color para no marcado
+  color: #fff;
+  font-weight: bolder;
+}
+
+.bingo-call-number-button {
+   background-color: #ff0000c9;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  padding: 10px 25px; 
+  font-size: medium; 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+ margin-bottom: 20px;
+
+  &:hover {
+    background-color: #570606; // Color de hover
+  }
+}
