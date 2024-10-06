@@ -43,7 +43,7 @@ const Header = ({ isDarkMode, toggleDarkMode }) => {
     <header className="header encabezado">
       <Navbar expand="lg" className="navbar">
         <Container>
-        <Navbar.Brand as={Link} to="/" className="logo-container">
+          <Navbar.Brand as={Link} to="/" className="logo-container">
             <img
               src="../../img/02-logos/logochulusgames1.png"
               alt="Logo"
@@ -60,27 +60,50 @@ const Header = ({ isDarkMode, toggleDarkMode }) => {
             className={`navbar-collapse ${isMobileMenuOpen ? "show" : ""}`}
           >
             <Nav className="ml-auto navbar-nav">
-              <Nav.Link as={Link} to="/" onClick={() => setIsMobileMenuOpen(false)}>
+              <Nav.Link
+                as={Link}
+                to="/"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
                 INICIO
               </Nav.Link>
-              <Nav.Link as={Link} to="/game-listado" onClick={() => setIsMobileMenuOpen(false)}>
+              <Nav.Link
+                as={Link}
+                to="/game-listado"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
                 GAMES
               </Nav.Link>
 
-              <Nav.Link as={Link} to="/tienda" onClick={() => setIsMobileMenuOpen(false)}>
+              <Nav.Link
+                as={Link}
+                to="/tienda"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
                 CASINO
               </Nav.Link>
 
-              <Nav.Link as={Link} to="/tienda" onClick={() => setIsMobileMenuOpen(false)}>
+              <Nav.Link
+                as={Link}
+                to="/tienda"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
                 APUESTAS
               </Nav.Link>
 
-
-              <Nav.Link as={Link} to="/tienda" onClick={() => setIsMobileMenuOpen(false)}>
+              <Nav.Link
+                as={Link}
+                to="/tienda"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
                 TIENDA
               </Nav.Link>
-             
-              <Nav.Link as={Link} to="/contacto" onClick={() => setIsMobileMenuOpen(false)}>
+
+              <Nav.Link
+                as={Link}
+                to="/contacto"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
                 CONTACTO
               </Nav.Link>
             </Nav>
@@ -92,24 +115,37 @@ const Header = ({ isDarkMode, toggleDarkMode }) => {
                   toggleDarkMode={toggleDarkMode}
                 />
               </Nav.Item>
-
               <Nav.Item className="auth-buttons-container">
-                {state.isAuthenticated ? (
-                  <div className="auth-welcome-container">
-                    <span>Hola, {state.user.email.split("@")[0]}</span>
-                    <Link to="/logout" onClick={() => dispatch({ type: "LOGOUT" })}>
-                      <BsBoxArrowRight className="auth-icon" />
-                    </Link>
-                  </div>
-                ) : (
-                  <>
-                    <Link to="/login">
-                      <BsFillPersonPlusFill className="auth-icon" />
-                    </Link>
-                    <Link to="/register">Regístrate</Link>
-                  </>
-                )}
-              </Nav.Item>
+  {state.isAuthenticated ? (
+    <div className="auth-welcome-container">
+      <div className="auth-welcome">
+        <span>Hola,</span>{""}
+        <span>{state.user.email.split("@")[0]}</span>
+      </div>
+      <Link
+        className="nav-linkHeader auth-link logout-link"
+        to="/logout"
+        onClick={() => {
+          dispatch({ type: "LOGOUT" });
+          setIsMobileMenuOpen(false);
+        }}
+      >
+        <BsBoxArrowRight className="auth-icon" />
+      </Link>
+    </div>
+  ) : (
+    <>
+      <Link className="nav-linkHeader auth-link" to="/login">
+        <BsFillPersonPlusFill className="auth-icon" />
+      </Link>
+      <hr className="auth-divider" />
+      <Link className="nav-linkHeader auth-link" to="/register">
+        Regístrate
+      </Link>
+    </>
+  )}
+</Nav.Item>
+
             </Nav>
           </Navbar.Collapse>
         </Container>

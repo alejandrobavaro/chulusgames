@@ -24,7 +24,7 @@ import ContactoFormularioSlider from "./componentes/ContactoFormularioSlider";
 //-----------DATA------------//
 import GamesListado from "./componentes/GamesListado";
 //-----------LOGIN-LOGOUT-REGISTRO-----------------//
-import { AuthProvider, useAuth } from "./componentes/SesionAuthContext";
+import { AuthProvider } from "./componentes/SesionAuthContext";
 import SesionRegister from "./componentes/SesionRegistrate";
 import SesionLogout from "./componentes/SesionLogout";
 import SesionLogin from "./componentes/SesionLogin";
@@ -38,11 +38,6 @@ import GamesJuegoConocimiento from "./componentes/GamesJuegoConocimiento";
 import GamesJuegoLaRule from "./componentes/GamesJuegoLaRule";
 import GamesJuegoTetris from "./componentes/GamesJuegoTetris";
 //---------------------------------------------------------//
-
-const ProtectedRoute = ({ element, ...rest }) => {
-  const { state } = useAuth();
-  return state.isAuthenticated ? element : <Navigate to="/login" />;
-};
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(true);
@@ -66,56 +61,30 @@ function App() {
               <Route path="/login" element={<SesionLogin />} />
               <Route path="/register" element={<SesionRegister />} />
               <Route path="/logout" element={<SesionLogout />} />
-              <Route
-                path="/"
-                element={<ProtectedRoute element={<MainContent />} />}
-              />
+              <Route path="/" element={<MainContent />} />
+
+              {/* Rutas accesibles sin autenticación */}
               <Route
                 path="/contacto"
                 element={
-                  <ProtectedRoute
-                    element={
-                      <>
-                        <ContactoLogoRedes />
-                        <ContactoFormularioSlider />
-                      </>
-                    }
-                  />
+                  <>
+                    <ContactoLogoRedes />
+                    <ContactoFormularioSlider />
+                  </>
                 }
               />
-              <Route
-                path="/game-listado"
-                element={<ProtectedRoute element={<GamesListado />} />}
-              />
-              <Route
-                path="/ayuda"
-                element={<ProtectedRoute element={<ConsultasAyuda />} />}
-              />
+              <Route path="/game-listado" element={<GamesListado />} />
+              <Route path="/ayuda" element={<ConsultasAyuda />} />
 
               {/* Nuevas rutas para los juegos */}
-              <Route
-                path="/juego/adivina"
-                element={<ProtectedRoute element={<GamesJuegoAdivina />} />}
-              />
-              <Route
-                path="/juego/bingo"
-                element={<ProtectedRoute element={<GamesJuegoBingo />} />}
-              />
+              <Route path="/juego/adivina" element={<GamesJuegoAdivina />} />
+              <Route path="/juego/bingo" element={<GamesJuegoBingo />} />
               <Route
                 path="/juego/conocimiento"
-                element={
-                  <ProtectedRoute element={<GamesJuegoConocimiento />} />
-                }
+                element={<GamesJuegoConocimiento />}
               />
-              <Route
-                path="/juego/larule"
-                element={<ProtectedRoute element={<GamesJuegoLaRule />} />}
-              />
-              <Route
-                path="/juego/tetris"
-                element={<ProtectedRoute element={<GamesJuegoTetris />} />}
-              />
-
+              <Route path="/juego/larule" element={<GamesJuegoLaRule />} />
+              <Route path="/juego/tetris" element={<GamesJuegoTetris />} />
             </Routes>
           </div>
         </div>
