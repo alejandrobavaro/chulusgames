@@ -1,27 +1,24 @@
-$primary-color: #ffee00;
-$secondary-color: #fffb00;
-$dark-bg: #1a1a1a;
-$light-text: #ffffff;
-$accent-color: #ff5e00;
-$hover-color: #ffcc33;
-$header-height: 100px;
+/* Asegúrate de que no haya margen o padding en el body y html */
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; // Para manejar correctamente los bordes y paddings
+}
 
+/* Estilos del header */
 .header {
   background-color: transparent;
   padding: 0;
-  margin-top: 0 ;
-  padding-top: 0; // Elimina cualquier padding que empuje el contenido hacia abajo
-  top: 0; // Se asegura que el header esté en la parte superior
+  margin: 0;
   width: 100%;
-  border-radius: 30%;
-  border-bottom: 5px dotted rgba($primary-color, 0.5);
+  // border-bottom: 5px dotted rgba(255, 238, 0, 0.5); // Mantener color sin variables
+  box-sizing: border-box; // Asegura que los bordes se manejen correctamente
   
 
   .logo-container {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    
 
     .logoHeader {
       max-width: 250px;
@@ -37,8 +34,7 @@ $header-height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10px;
-
+    padding: 0 10px; // Ajusta el padding interno de la barra de navegación
   }
 
   .navbar-nav {
@@ -49,12 +45,12 @@ $header-height: 100px;
     text-transform: uppercase;
 
     .nav-link {
-      color: $light-text;
-
+      
+      color: #ffffff; // Texto blanco
       transition: color 0.3s ease;
 
       &:hover {
-        color: $primary-color;
+        color: #ffee00; // Color primario sin variables
       }
     }
   }
@@ -64,34 +60,28 @@ $header-height: 100px;
     align-items: center;
 
     .auth-icon {
-      color: $light-text;
-      font-size: large;
-      margin-left: 15px;
-      transition: color 0.3s ease;
+      color: #ffffff; // Blanco
+      font-size: s;
+        transition: color 0.3s ease;
 
       &:hover {
-        color: $accent-color;
+        color: #ff5e00; // Color de acento
       }
     }
   }
 
-  .dark-mode-toggle {
-    margin-left: 20px;
-  }
 
   .menu-icon {
     font-size: x-large;
-    color: $light-text;
+    color: #ffffff; // Blanco
   }
 
   .auth-welcome-container {
     display: flex;
     align-items: center;
-    color: $light-text;
+    color: #ffffff; // Blanco
     font-size: large;
 
-    span {
-      margin-right: 10px;
     }
   }
-}
+

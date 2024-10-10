@@ -7,10 +7,10 @@
   width: 100%;
   max-width: 1200px; // Limitar el ancho del componente padre
   margin: 0 auto; // Centrar el componente padre
-  background-color: rgba(83, 14, 14, 0.281);
+  background: rgba(20, 24, 45, 0.9);
   padding: 30px;
   border-radius: 20px;
-  box-shadow: 0 0px 60px rgba(255, 251, 0, 0.63);
+  box-shadow: 0 6px 40px rgba(0, 247, 255, 0.3);
 
   .data-container {
     display: grid;

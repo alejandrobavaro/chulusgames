@@ -28,16 +28,15 @@ import { AuthProvider } from "./componentes/SesionAuthContext";
 import SesionRegister from "./componentes/SesionRegistrate";
 import SesionLogout from "./componentes/SesionLogout";
 import SesionLogin from "./componentes/SesionLogin";
-//-----------OTROS--------------//
-import ConsultasAyuda from "./componentes/ConsultasAyuda";
 
 //-------------------GAMES------------------//
 import GamesJuegoAdivina from "./componentes/GamesJuegoAdivina";
 import GamesJuegoBingo from "./componentes/GamesJuegoBingo";
 import GamesJuegoConocimiento from "./componentes/GamesJuegoConocimiento";
-import GamesJuegoLaRule from "./componentes/GamesJuegoLaRule";
 import GamesJuegoTetris from "./componentes/GamesJuegoTetris";
 //---------------------------------------------------------//
+import ApuestasCredito from "./componentes/ApuestasCredito"; // ApuestasCredito importado correctamente
+import CasinoJuego1 from "./componentes/CasinoJuego1";
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(true);
@@ -54,7 +53,7 @@ function App() {
     <AuthProvider>
       <Router>
         <Header isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
-        <hr className="border border-0 opacity-20" />
+
         <div className="main-content">
           <div className="content centered">
             <Routes>
@@ -74,7 +73,9 @@ function App() {
                 }
               />
               <Route path="/game-listado" element={<GamesListado />} />
-              <Route path="/ayuda" element={<ConsultasAyuda />} />
+
+              <Route path="/apuestas" element={<ApuestasCredito />} />
+              <Route path="/casino" element={<CasinoJuego1 />} />
 
               {/* Nuevas rutas para los juegos */}
               <Route path="/juego/adivina" element={<GamesJuegoAdivina />} />
@@ -83,7 +84,6 @@ function App() {
                 path="/juego/conocimiento"
                 element={<GamesJuegoConocimiento />}
               />
-              <Route path="/juego/larule" element={<GamesJuegoLaRule />} />
               <Route path="/juego/tetris" element={<GamesJuegoTetris />} />
             </Routes>
           </div>

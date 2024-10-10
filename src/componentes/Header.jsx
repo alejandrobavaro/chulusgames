@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useAuth } from "./SesionAuthContext";
-import AppModoClaroOscuro from "./AppModoClaroOscuro";
+// import AppModoClaroOscuro from "./AppModoClaroOscuro";
 import { BsFillPersonPlusFill, BsBoxArrowRight, BsList } from "react-icons/bs";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import "../assets/scss/_03-Componentes/_Header.scss";
@@ -77,7 +77,7 @@ const Header = ({ isDarkMode, toggleDarkMode }) => {
 
               <Nav.Link
                 as={Link}
-                to="/tienda"
+                to="/casino"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 CASINO
@@ -85,7 +85,7 @@ const Header = ({ isDarkMode, toggleDarkMode }) => {
 
               <Nav.Link
                 as={Link}
-                to="/tienda"
+                to="/apuestas"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 APUESTAS
@@ -108,45 +108,44 @@ const Header = ({ isDarkMode, toggleDarkMode }) => {
               </Nav.Link>
             </Nav>
 
-            <Nav className="navbar-icons">
+{/*             
               <Nav.Item className="dark-mode-toggle">
                 <AppModoClaroOscuro
                   isDarkMode={isDarkMode}
                   toggleDarkMode={toggleDarkMode}
                 />
-              </Nav.Item>
-              <Nav.Item className="auth-buttons-container">
-  {state.isAuthenticated ? (
-    <div className="auth-welcome-container">
-      <div className="auth-welcome">
-        <span>Hola,</span>{""}
-        <span>{state.user.email.split("@")[0]}</span>
-      </div>
-      <Link
-        className="nav-linkHeader auth-link logout-link"
-        to="/logout"
-        onClick={() => {
-          dispatch({ type: "LOGOUT" });
-          setIsMobileMenuOpen(false);
-        }}
-      >
-        <BsBoxArrowRight className="auth-icon" />
-      </Link>
-    </div>
-  ) : (
-    <>
-      <Link className="nav-linkHeader auth-link" to="/login">
-        <BsFillPersonPlusFill className="auth-icon" />
-      </Link>
-      <hr className="auth-divider" />
-      <Link className="nav-linkHeader auth-link" to="/register">
-        Regístrate
-      </Link>
-    </>
-  )}
-</Nav.Item>
+              </Nav.Item> */}
 
-            </Nav>
+              <Nav.Item className="auth-buttons-container">
+                {state.isAuthenticated ? (
+                  <div className="auth-welcome-container">
+                    <div className="auth-welcome">
+                      <span>Hola,</span>
+                      <span>{state.user.email.split("@")[0]}</span>
+                    </div>
+                    <Link
+                      className="nav-linkHeader auth-link logout-link"
+                      to="/logout"
+                      onClick={() => {
+                        dispatch({ type: "LOGOUT" });
+                        setIsMobileMenuOpen(false);
+                      }}
+                    >
+                      <BsBoxArrowRight className="auth-icon" />
+                    </Link>
+                  </div>
+                ) : (
+                  <>
+                    <Link className="nav-linkHeader auth-link" to="/login">
+                      <BsFillPersonPlusFill className="auth-icon" />
+                    </Link>
+                              <Link className="nav-linkHeader auth-link" to="/register">
+                
+                    </Link>
+                  </>
+                )}
+              </Nav.Item>
+          
           </Navbar.Collapse>
         </Container>
       </Navbar>

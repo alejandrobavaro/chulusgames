@@ -40,11 +40,11 @@ const GamesJuegoLaRule = () => {
   };
 
   return (
-    <div className="la-rule-container">
+    <div className="games-la-rule-container">
       <h2>Juego La Rule</h2>
-      <p>Puntos: <span className="puntos">{puntos}</span></p>
-      <button onClick={jugar} className="jugar-btn">Jugar</button>
-      <p className="resultado">{resultado}</p>
+      <p>Puntos: <span className="games-puntos">{puntos}</span></p>
+      <button onClick={jugar} className="games-jugar-btn">Jugar</button>
+      <p className="games-resultado">{resultado}</p>
     </div>
   );
 };
