@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../assets/scss/_03-Componentes/_ApuestasCredito.scss';
-import imagenInstrucciones from '../assets/images/instrucciones_apostar.png'; // Asegúrate de tener la imagen en esta ruta
+// Asegúrate de que la imagen esté en la carpeta correcta y que la ruta sea correcta.
+import imagenInstrucciones from '../../../vite-project/public/img/05-img-costados-larga/Designer (26).jpeg'; 
 
 const ApuestasCredito = () => {
   const [creditos, setCreditos] = useState(0);
