@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Swal from "sweetalert2"; // Modal para victoria/derrota
+
 import "../assets/scss/_03-Componentes/_GamesJuegoAdivina.scss";
 
 const GamesJuegoAdivina = () => {

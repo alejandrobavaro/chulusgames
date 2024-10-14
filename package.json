@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --outDir=build",
+    "build": "vite build --outDir dist",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
@@ -31,7 +31,6 @@
     "react-slick": "^0.30.2",
     "slick-carousel": "^1.8.1",
     "sweetalert": "^2.1.2",
-    "sweetalert2": "^11.14.3",
     "toastify-js": "^1.12.0"
   },
   "devDependencies": {

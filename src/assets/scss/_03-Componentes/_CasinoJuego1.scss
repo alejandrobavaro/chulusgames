@@ -1,0 +1,76 @@
+// _CasinoJuego1.scss
+
+.gridPadrePublicidad1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: transparent;
+    width: 100%;
+    
+    .publicidad-grid-contenedor {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      width: 100%;
+      max-width: 1200px;
+  
+      @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+      }
+  
+      .publicidad-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+  
+        .fila-publicidad {
+          display: flex;
+          justify-content: space-between;
+          gap: 20px;
+          width: 100%;
+  
+          @media (max-width: 768px) {
+            flex-direction: column;
+            gap: 15px;
+          }
+  
+          .publicidad-container {
+            background-color: transparent;
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            width: 100%;
+            max-width: 550px;
+  
+            .slide-item {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              overflow: hidden;
+  
+              .imagen-publicidad {
+                width: 100%;
+                height: auto;
+                max-height: 300px;
+                object-fit: cover;
+                transition: transform 0.3s ease;
+  
+                &:hover {
+                  transform: scale(1.05);
+                }
+              }
+  
+              .objetoCentrado1 {
+                display: block;
+                margin: 0 auto;
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

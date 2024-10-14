@@ -52,7 +52,7 @@ function MainContent() {
                   Fecha de lanzamiento: Octubre 2024 | Plataforma: PC y Consolas
                 </p>
               </div>
-              <img src="./img/04-img-noticias/noticia1.jpg" alt="Noticia 1" />
+              <img src="../../../vite-project/public/img/05-img-costados-larga/1.jpeg" alt="Noticia 1" />
             </div>
 
             <div className="gridItem newsItem">
@@ -65,7 +65,7 @@ function MainContent() {
                   Contenido nuevo: mapas, personajes y modos de juego. ¡No te lo pierdas!
                 </p>
               </div>
-              <img src="./img/04-img-noticias/noticia2.jpg" alt="Noticia 2" />
+              <img src="/img/05-img-costados-larga/2.jpg" alt="Noticia 2" />
             </div>
 
             <div className="gridItem newsItem">
@@ -78,7 +78,7 @@ function MainContent() {
                   Sigue la cobertura en vivo y apoya a tus equipos favoritos.
                 </p>
               </div>
-              <img src="./img/04-img-noticias/noticia3.jpg" alt="Noticia 3" />
+              <img src="/img/05-img-costados-larga/3.jpg" alt="Noticia 3" />
             </div>
           </div>
         </section>
@@ -88,17 +88,17 @@ function MainContent() {
           <h2 className="h2Titulo">Publicidad</h2>
           <div className="adRow">
             <div className="gridItem adItem">
-              <img src="./img/04-img-anuncios/ad1.jpg" alt="Anuncio 1" />
+              <img src="/img/05-img-costados-larga/4.jpg" alt="Anuncio 1" />
               <p className="adDescription">¡Consigue descuentos en juegos! Hasta un 50% de descuento en los títulos más vendidos del año. Aprovecha la oferta ahora.</p>
             </div>
 
             <div className="gridItem adItem">
-              <img src="./img/04-img-anuncios/ad2.jpg" alt="Anuncio 2" />
+              <img src="/img/05-img-costados-larga/5.jpg" alt="Anuncio 2" />
               <p className="adDescription">Prueba nuestra nueva plataforma de juegos con gráficos impresionantes y una experiencia única en su clase.</p>
             </div>
 
             <div className="gridItem adItem">
-              <img src="./img/04-img-anuncios/ad3.jpg" alt="Anuncio 3" />
+              <img src="/img/05-img-costados-larga/6.jpg" alt="Anuncio 3" />
               <p className="adDescription">Ofertas especiales para nuevos jugadores. ¡Regístrate hoy y obtén recompensas exclusivas!</p>
             </div>
           </div>
@@ -115,17 +115,17 @@ function MainContent() {
                   Los mejores equipos del mundo compiten por el gran premio en este evento de eSports. ¡No te lo pierdas!
                 </p>
               </div>
-              <img src="./img/04-img-torneos/tournament1.jpg" alt="Torneo 1" />
+              <img src="/img/05-img-costados-larga/7.jpg" alt="Torneo 1" />
             </div>
 
             <div className="gridItem tournamentItem">
               <div className="tournamentText">
-                <h3 className="tournamentTitle">Perfil del Jugador: Alex "Storm"</h3>
+                <h3 className="tournamentTitle">Perfil del Jugador: Alex Storm</h3>
                 <p className="tournamentDescription">
-                  Alex, conocido como "Storm", ha dominado los torneos de FPS este año. Conoce su historia y cómo se ha convertido en una leyenda del gaming.
+                  Alex, conocido como Storm, ha dominado los torneos de FPS este año. Conoce su historia y cómo se ha convertido en una leyenda del gaming.
                 </p>
               </div>
-              <img src="./img/04-img-jugadores/player1.jpg" alt="Jugador 1" />
+              <img src="/img/05-img-costados-larga/8.jpg" alt="Jugador 1" />
             </div>
 
             <div className="gridItem tournamentItem">
@@ -135,7 +135,7 @@ function MainContent() {
                   Los jugadores más estratégicos del mundo competirán por el título. ¡Prepárate para una batalla épica de cerebros!
                 </p>
               </div>
-              <img src="./img/04-img-torneos/tournament2.jpg" alt="Torneo 2" />
+              <img src="/img/05-img-costados-larga/9.jpg" alt="Torneo 2" />
             </div>
           </div>
         </section>
@@ -145,7 +145,7 @@ function MainContent() {
           <h2 className="h2Titulo">Juegos de Casino y Apuestas Deportivas</h2>
           <div className="casinoRow">
             <div className="gridItem casinoItem">
-              <img src="./img/04-img-casino/casino1.jpg" alt="Casino 1" />
+              <img src="/img/05-img-costados-larga/10.jpg" alt="Casino 1" />
               <div className="casinoText">
                 <h3 className="casinoTitle">Nuevas tragamonedas online</h3>
                 <p className="casinoDescription">
@@ -155,7 +155,7 @@ function MainContent() {
             </div>
 
             <div className="gridItem casinoItem">
-              <img src="./img/04-img-casino/casino2.jpg" alt="Casino 2" />
+              <img src="/img/05-img-costados-larga/11.jpg" alt="Casino 2" />
               <div className="casinoText">
                 <h3 className="casinoTitle">Apuestas en vivo para la final de fútbol</h3>
                 <p className="casinoDescription">

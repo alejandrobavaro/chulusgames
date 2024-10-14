@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Swal from "sweetalert2"; 
 import "../assets/scss/_03-Componentes/_GamesJuegoBingo.scss";
 
 const GamesJuegoBingo = () => {
