@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../assets/scss/_03-Componentes/_ApuestasCredito.scss';
 // Asegúrate de que la imagen esté en la carpeta correcta y que la ruta sea correcta.
-import imagenInstrucciones from '/img/05-img-costados-larga/0.jpeg'; 
+import imagenInstrucciones from '/img/05-img-costados-larga/28.jpeg'; 
 
 const ApuestasCredito = () => {
   const [creditos, setCreditos] = useState(0);

@@ -1,0 +1,83 @@
+.casino-grid-container {
+  padding: 10px;
+  background-color: transparent;
+  text-align: center;
+  box-shadow: 0 4px 80px rgba(175, 18, 18, 0.849);
+  border-radius: 20px;
+
+  .casino-title {
+    font-size: x-large;
+    color: #ffc400;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+  }
+
+  .casino-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); // Forzar 3 columnas
+    gap: 0px; // Aumentar el espacio entre tarjetas
+    justify-items: center;
+    padding: 0 10px; // Añadir un poco de padding lateral para evitar que las tarjetas se salgan
+  }
+  
+  .casino-card {
+    background-color: #cf000041;
+    border-radius: 10px;
+    box-shadow: 0 4px 80px rgba(255, 60, 0, 0.459);
+    padding: 10px;
+    transition: transform 0.3s ease;
+    text-align: center;
+    width: 80%; // Asegura que todas las tarjetas tengan el mismo tamaño
+    max-width: 350px; // Limitar el ancho máximo de las tarjetas
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+
+    .casino-game-img {
+      width: 100%; // Hacer que la imagen principal ocupe el 100% de la tarjeta
+      height: auto;
+      border-radius: 8px;
+      max-height: 100px; // Ajustar la altura máxima para que no se desborde
+      object-fit: cover; // Asegura que la imagen mantenga su proporción y no se deforme
+    }
+
+    .carousel-container {
+      margin: 0px 0;
+      max-width: 100%; 
+      
+      .carousel-image {
+        width: 100%; // Ajusta el tamaño de las imágenes del carrusel
+        height: auto;
+        border-radius: 15px;
+              object-fit: cover; // Asegura que la imagen mantenga su proporción y no se deforme
+      }
+    }
+
+    .game-info {
+      font-size: small;
+      margin: 0px 0;
+      color: #facbcb; // O el color que prefieras
+    }
+  
+    .comments-section {
+      text-align: left;
+  
+      h4 {
+        font-size: medium;
+        margin-top: 10px;
+        color: #facbcb; // O el color que prefieras
+      }
+  
+      ul {
+        list-style-type: none;
+        padding: 0;
+  
+        li {
+          margin: 0px 0;
+        }
+      }
+    }
+  }}

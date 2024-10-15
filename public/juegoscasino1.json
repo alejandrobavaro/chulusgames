@@ -1,0 +1,1010 @@
+[
+  {
+    "id": 1,
+    "nombre": "Blackjack Royale",
+    "imagen portada": "/img/09-imagenes-casino/id01-blackjack-royale.png",
+    "tipo": "Cartas",
+    "categoria": "Casino",
+    "edad permitida": "18+",
+    "precio": "gratis",
+    "seguidores": 5200,
+    "comentarios": [
+      "El mejor juego de estrategia en el casino.",
+      "Perfecto para los amantes de las cartas.",
+      "Me encanta la adrenalina de cada mano."
+    ],
+    "imagenes del juego": [
+      "/img/09-imagenes-casino/id01-blackjack-royale-1.png",
+      "/img/09-imagenes-casino/id01-blackjack-royale-2.png",
+      "/img/09-imagenes-casino/id01-blackjack-royale-3.png"
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Ruleta Imperial",
+    "imagen portada": "/img/09-imagenes-casino/id02-ruleta-imperial.png",
+    "tipo": "Mesa",
+    "categoria": "Casino",
+    "edad permitida": "18+",
+    "precio": "gratis",
+    "seguidores": 4300,
+    "comentarios": [
+      "La emoción de cada giro es increíble.",
+      "Me encanta probar diferentes estrategias.",
+      "Nunca se sabe dónde caerá la bola, ¡emocionante!"
+    ],
+    "imagenes del juego": [
+      "/img/09-imagenes-casino/id02-ruleta-imperial-1.png",
+      "/img/09-imagenes-casino/id02-ruleta-imperial-2.png",
+      "/img/09-imagenes-casino/id02-ruleta-imperial-3.png"
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Tragamonedas del Tesoro",
+    "imagen portada": "/img/09-imagenes-casino/id03-tragamonedas-tesoro.png",
+    "tipo": "Tragamonedas",
+    "categoria": "Casino",
+    "edad permitida": "18+",
+    "precio": "gratis",
+    "seguidores": 7600,
+    "comentarios": [
+      "Los gráficos son impresionantes.",
+      "Cada giro es una aventura.",
+      "Me encanta ganar grandes premios."
+    ],
+    "imagenes del juego": [
+      "/img/09-imagenes-casino/id03-tragamonedas-tesoro-1.png",
+      "/img/09-imagenes-casino/id03-tragamonedas-tesoro-2.png",
+      "/img/09-imagenes-casino/id03-tragamonedas-tesoro-3.png"
+    ]
+  },
+  {
+    "id": 4,
+    "nombre": "Poker Pro",
+    "imagen portada": "/img/09-imagenes-casino/id04-poker-pro.png",
+    "tipo": "Cartas",
+    "categoria": "Casino",
+    "edad permitida": "18+",
+    "precio": "gratis",
+    "seguidores": 8400,
+    "comentarios": [
+      "El mejor juego para los fanáticos del póker.",
+      "Requiere habilidad y estrategia.",
+      "Cada mano es un desafío nuevo."
+    ],
+    "imagenes del juego": [
+      "/img/09-imagenes-casino/id04-poker-pro-1.png",
+      "/img/09-imagenes-casino/id04-poker-pro-2.png",
+      "/img/09-imagenes-casino/id04-poker-pro-3.png"
+    ]
+  },
+  {
+    "id": 5,
+    "nombre": "Baccarat de Oro",
+    "imagen portada": "/img/09-imagenes-casino/id05-baccarat-oro.png",
+    "tipo": "Mesa",
+    "categoria": "Casino",
+    "edad permitida": "18+",
+    "precio": "gratis",
+    "seguidores": 3200,
+    "comentarios": [
+      "Un juego elegante con grandes recompensas.",
+      "Muy fácil de aprender, pero difícil de dominar.",
+      "Sientes la tensión en cada partida."
+    ],
+    "imagenes del juego": [
+      "/img/09-imagenes-casino/id05-baccarat-oro-1.png",
+      "/img/09-imagenes-casino/id05-baccarat-oro-2.png",
+      "/img/09-imagenes-casino/id05-baccarat-oro-3.png"
+    ]
+  },
+  {
+    "id": 6,
+    "nombre": "Craps Clásico",
+    "imagen portada": "/img/09-imagenes-casino/id06-craps-clasico.png",
+    "tipo": "Dados",
+    "categoria": "Casino",
+    "edad permitida": "18+",
+    "precio": "gratis",
+    "seguidores": 2900,
+    "comentarios": [
+      "La emoción de los dados es inigualable.",
+      "Cada lanzamiento es pura adrenalina.",
+      "Fácil de jugar, difícil de dejar."
+    ],
+    "imagenes del juego": [
+      "/img/09-imagenes-casino/id06-craps-clasico-1.png",
+      "/img/09-imagenes-casino/id06-craps-clasico-2.png",
+      "/img/09-imagenes-casino/id06-craps-clasico-3.png"
+    ]
+  },
+  {
+    "id": 7,
+    "nombre": "Sic Bo",
+    "imagen portada": "/img/09-imagenes-casino/id07-sic-bo.png",
+    "tipo": "Dados",
+    "categoria": "Casino",
+    "edad permitida": "18+",
+    "precio": "gratis",
+    "seguidores": 2100,
+    "comentarios": [
+      "Un juego de azar emocionante.",
+      "La simplicidad lo hace adictivo.",
+      "Me encanta probar suerte con cada lanzamiento."
+    ],
+    "imagenes del juego": [
+      "/img/09-imagenes-casino/id07-sic-bo-1.png",
+      "/img/09-imagenes-casino/id07-sic-bo-2.png",
+      "/img/09-imagenes-casino/id07-sic-bo-3.png"
+    ]
+  },
+  {
+    "id": 8,
+    "nombre": "Ruleta Francesa",
+    "imagen portada": "/img/09-imagenes-casino/id08-ruleta-francesa.png",
+    "tipo": "Mesa",
+    "categoria": "Casino",
+    "edad permitida": "18+",
+    "precio": "gratis",
+    "seguidores": 4500,
+    "comentarios": [
+      "El clásico de los casinos europeos.",
+      "Las reglas son sencillas, pero el juego es emocionante.",
+      "El diseño es elegante y el juego es muy fluido."
+    ],
+    "imagenes del juego": [
+      "/img/09-imagenes-casino/id08-ruleta-francesa-1.png",
+      "/img/09-imagenes-casino/id08-ruleta-francesa-2.png",
+      "/img/09-imagenes-casino/id08-ruleta-francesa-3.png"
+    ]
+  },
+  {
+    "id": 9,
+    "nombre": "Slots de la Fortuna",
+    "imagen portada": "/img/09-imagenes-casino/id09-slots-fortuna.png",
+    "tipo": "Tragamonedas",
+    "categoria": "Casino",
+    "edad permitida": "18+",
+    "precio": "gratis",
+    "seguidores": 7800,
+    "comentarios": [
+      "Las mejores tragamonedas del casino.",
+      "Cada giro te tiene al borde del asiento.",
+      "Gráficos y premios impresionantes."
+    ],
+    "imagenes del juego": [
+      "/img/09-imagenes-casino/id09-slots-fortuna-1.png",
+      "/img/09-imagenes-casino/id09-slots-fortuna-2.png",
+      "/img/09-imagenes-casino/id09-slots-fortuna-3.png"
+    ]
+  },
+  {
+    "id": 10,
+    "nombre": "Pai Gow Poker",
+    "imagen portada": "/img/09-imagenes-casino/id10-pai-gow-poker.png",
+    "tipo": "Cartas",
+    "categoria": "Casino",
+    "edad permitida": "18+",
+    "precio": "gratis",
+    "seguidores": 3000,
+    "comentarios": [
+      "Un juego de póker diferente y divertido.",
+      "Me encanta cómo combina suerte y estrategia.",
+      "Un clásico con un toque moderno."
+    ],
+    "imagenes del juego": [
+      "/img/09-imagenes-casino/id10-pai-gow-poker-1.png",
+      "/img/09-imagenes-casino/id10-pai-gow-poker-2.png",
+      "/img/09-imagenes-casino/id10-pai-gow-poker-3.png"
+    ]
+  },
+  {
+    "id": 11,
+    "nombre": "Texas Hold'em",
+    "imagen portada": "/img/09-imagenes-casino/id11-texas-holdem.png",
+    "tipo": "Cartas",
+    "categoria": "Casino",
+    "edad permitida": "18+",
+    "precio": "gratis",
+    "seguidores": 8900,
+    "comentarios": [
+      "El rey de los juegos de póker.",
+      "Las rondas de apuestas son emocionantes.",
+      "Es un juego que siempre te mantiene alerta."
+    ],
+    "imagenes del juego": [
+      "/img/09-imagenes-casino/id11-texas-holdem-1.png",
+      "/img/09-imagenes-casino/id11-texas-holdem-2.png",
+      "/img/09-imagenes-casino/id11-texas-holdem-3.png"
+    ]
+  },
+  {
+    "id": 12,
+    "nombre": "Keno Deluxe",
+    "imagen portada": "/img/09-imagenes-casino/id12-keno-deluxe.png",
+    "tipo": "Números",
+    "categoria": "Casino",
+    "edad permitida": "18+",
+    "precio": "gratis",
+    "seguidores": 1500,
+    "comentarios": [
+      "Muy divertido y fácil de jugar.",
+      "Un juego rápido con buenos premios.",
+      "Me encanta la simplicidad y la emoción de cada ronda."
+    ],
+    "imagenes del juego": [
+      "/img/09-imagenes-casino/id12-keno-deluxe-1.png",
+      "/img/09-imagenes-casino/id12-keno-deluxe-2.png",
+      "/img/09-imagenes-casino/id12-keno-deluxe-3.png"
+    ]
+  },
+  {
+    "id": 13,
+    "nombre": "Bingo Fiesta",
+    "imagen portada": "/img/09-imagenes-casino/id13-bingo-fiesta.png",
+    "tipo": "Números",
+    "categoria": "Casino",
+    "edad permitida": "18+",
+    "precio": "gratis",
+    "seguidores": 2500,
+    "comentarios": [
+      "Es muy divertido jugar en comunidad.",
+      "Los premios son geniales.",
+      "¡Nunca me canso de jugar bingo!"
+    ],
+    "imagenes del juego": [
+      "/img/09-imagenes-casino/id13-bingo-fiesta-1.png",
+      "/img/09-imagenes-casino/id13-bingo-fiesta-2.png",
+      "/img/09-imagenes-casino/id13-bingo-fiesta-3.png"
+    ]
+  },
+
+
+
+  {
+    "id": 14,
+     "nombre": "Tragaperras de la Selva",
+    "imagen portada": "/img/09-imagenes-casino/id14-tragaperras-selva.png",
+    "tipo": "Tragamonedas",
+    "categoria": "Casino",
+    "edad permitida": "18+",
+    "precio": "gratis",
+    "seguidores": 7100,
+    "comentarios": [
+      "Los gráficos son muy divertidos.",
+      "Cada giro tiene sorpresas.",
+      "Me encanta la temática de la selva."
+    ],
+    "imagenes del juego": [
+     "/img/09-imagenes-casino/id14-tragaperrasdelaselva-1",
+     "/img/09-imagenes-casino/id14-tragaperrasdelaselva-2",
+     "/img/09-imagenes-casino/id14-tragaperrasdelaselva-3",
+     "/img/09-imagenes-casino/id14-tragaperrasdelaselva-4"
+    ]
+  },
+  {
+    "id": 15,
+    "nombre": "Mega Ruleta",
+    "imagen portada": "/img/09-imagenes-casino/id15-mega-ruleta.png",
+    "tipo": "Mesa",
+    "categoria": "Casino",
+    "edad permitida": "18+",
+    "precio": "gratis",
+    "seguidores": 4900,
+    "comentarios": [
+      "Las multiplicaciones de los premios son increíbles.",
+      "Nunca sabes cuándo vendrá la gran ganancia.",
+      "Un juego clásico con un toque moderno."
+    ],
+    "imagenes del juego": [
+      "/img/09-imagenes-casino/id15-mega-ruleta-1.png",
+      "/img/09-imagenes-casino/id15-mega-ruleta-2.png",
+      "/img/09-imagenes-casino/id15-mega-ruleta-3.png"
+    ]
+  },
+  {
+    "id": 16,
+    "nombre": "Póker Caribeño",
+    "imagen portada": "/img/09-imagenes-casino/id16-poker-caribeno.png",
+    "tipo": "Cartas",
+    "categoria": "Casino",
+    "edad permitida": "18+",
+    "precio": "gratis",
+    "seguidores": 3800,
+    "comentarios": [
+      "El ambiente del Caribe hace que el juego sea relajante.",
+      "La interacción con el crupier es emocionante.",
+      "Un póker con una vibra tropical, ¡me encanta!"
+    ],
+    "imagenes del juego": [
+      "/img/09-imagenes-casino/id16-poker-caribeno-1.png",
+      "/img/09-imagenes-casino/id16-poker-caribeno-2.png",
+      "/img/09-imagenes-casino/id16-poker-caribeno-3.png"
+    ]
+  },
+  {
+    "id": 17,
+    "nombre": "Slot del Dragón",
+    "imagen portada": "/img/09-imagenes-casino/id17-slot-dragon.png",
+    "tipo": "Tragamonedas",
+    "categoria": "Casino",
+    "edad permitida": "18+",
+    "precio": "gratis",
+    "seguidores": 8100,
+    "comentarios": [
+      "Los gráficos del dragón son asombrosos.",
+      "Cada giro está lleno de aventuras épicas.",
+      "Una tragamonedas que siempre te sorprende."
+    ],
+    "imagenes del juego": [
+      "/img/09-imagenes-casino/id17-slot-dragon-1.png",
+      "/img/09-imagenes-casino/id17-slot-dragon-2.png",
+      "/img/09-imagenes-casino/id17-slot-dragon-3.png"
+    ]
+  },
+  {
+    "id": 18,
+    "nombre": "Lotería Royale",
+    "imagen portada": "/img/09-imagenes-casino/id18-loteria-royale.png",
+    "tipo": "Números",
+    "categoria": "Casino",
+    "edad permitida": "18+",
+    "precio": "gratis",
+    "seguidores": 2200,
+    "comentarios": [
+      "Un juego muy fácil y divertido.",
+      "La posibilidad de ganar a lo grande es increíble.",
+      "La emoción de esperar cada número es única."
+    ],
+    "imagenes del juego": [
+      "/img/09-imagenes-casino/id18-loteria-royale-1.png",
+      "/img/09-imagenes-casino/id18-loteria-royale-2.png",
+      "/img/09-imagenes-casino/id18-loteria-royale-3.png"
+    ]
+  },
+  {
+    "id": 19,
+    "nombre": "Baccarat Prestige",
+    "imagen portada": "/img/09-imagenes-casino/id19-baccarat-prestige.png",
+    "tipo": "Mesa",
+    "categoria": "Casino",
+    "edad permitida": "18+",
+    "precio": "gratis",
+    "seguidores": 3700,
+    "comentarios": [
+      "La elegancia del baccarat en su máxima expresión.",
+      "Siente el lujo con cada apuesta.",
+      "Me encanta la sofisticación de este juego."
+    ],
+    "imagenes del juego": [
+      "/img/09-imagenes-casino/id19-baccarat-prestige-1.png",
+      "/img/09-imagenes-casino/id19-baccarat-prestige-2.png",
+      "/img/09-imagenes-casino/id19-baccarat-prestige-3.png"
+    ]
+  },
+  {
+    "id": 20,
+    "nombre": "Slot Espacial",
+    "imagen portada": "/img/09-imagenes-casino/id20-slot-espacial.png",
+    "tipo": "Tragamonedas",
+    "categoria": "Casino",
+    "edad permitida": "18+",
+    "precio": "gratis",
+    "seguidores": 6000,
+    "comentarios": [
+      "Un viaje al espacio con cada giro.",
+      "Los gráficos y la música te sumergen en otra galaxia.",
+      "Me encanta la posibilidad de descubrir nuevos planetas con premios."
+    ],
+    "imagenes del juego": [
+      "/img/09-imagenes-casino/id20-slot-espacial-1.png",
+      "/img/09-imagenes-casino/id20-slot-espacial-2.png",
+      "/img/09-imagenes-casino/id20-slot-espacial-3.png"
+    ]
+  },
+
+  {
+    "id": 21,
+    "nombre": "Blackjack Élite",
+    "imagen portada": "/img/09-imagenes-casino/id21-blackjack-elite.png",
+    "tipo": "Cartas",
+    "categoria": "Casino",
+    "edad permitida": "18+",
+    "precio": "gratis",
+    "seguidores": 7100,
+    "comentarios": [
+      "El mejor blackjack que he jugado.",
+      "Las reglas son claras y la interfaz es elegante.",
+      "Perfecto para quienes buscan emoción y estrategia."
+    ],
+    "imagenes del juego": [
+      "/img/09-imagenes-casino/id21-blackjack-elite-1.png",
+      "/img/09-imagenes-casino/id21-blackjack-elite-2.png",
+      "/img/09-imagenes-casino/id21-blackjack-elite-3.png"
+    ]
+  },
+  {
+    "id": 22,
+    "nombre": "Ruleta Galáctica",
+    "imagen portada": "/img/09-imagenes-casino/id22-ruleta-galactica.png",
+    "tipo": "Mesa",
+    "categoria": "Casino",
+    "edad permitida": "18+",
+    "precio": "gratis",
+    "seguidores": 6400,
+    "comentarios": [
+      "Una ruleta con una temática fuera de este mundo.",
+      "La animación espacial es impresionante.",
+      "Un juego rápido y visualmente espectacular."
+    ],
+    "imagenes del juego": [
+      "/img/09-imagenes-casino/id22-ruleta-galactica-1.png",
+      "/img/09-imagenes-casino/id22-ruleta-galactica-2.png",
+      "/img/09-imagenes-casino/id22-ruleta-galactica-3.png"
+    ]
+  },
+  {
+    "id": 23,
+    "nombre": "Póker del Oeste",
+    "imagen portada": "/img/09-imagenes-casino/id23-poker-oeste.png",
+    "tipo": "Cartas",
+    "categoria": "Casino",
+    "edad permitida": "18+",
+    "precio": "gratis",
+    "seguidores": 5000,
+    "comentarios": [
+      "El ambiente del viejo oeste lo hace más emocionante.",
+      "Siente que estás apostando en un salón del oeste.",
+      "Las animaciones de las cartas son increíbles."
+    ],
+    "imagenes del juego": [
+      "/img/09-imagenes-casino/id23-poker-oeste-1.png",
+      "/img/09-imagenes-casino/id23-poker-oeste-2.png",
+      "/img/09-imagenes-casino/id23-poker-oeste-3.png"
+    ]
+  },
+  {
+    "id": 24,
+    "nombre": "Slot de los Tesoros",
+    "imagen portada": "/img/09-imagenes-casino/id24-slot-tesoros.png",
+    "tipo": "Tragamonedas",
+    "categoria": "Casino",
+    "edad permitida": "18+",
+    "precio": "gratis",
+    "seguidores": 8300,
+    "comentarios": [
+      "Cada giro es como abrir un cofre del tesoro.",
+      "Los premios son constantes y muy emocionantes.",
+      "Me encanta la búsqueda de tesoros y los gráficos."
+    ],
+    "imagenes del juego": [
+      "/img/09-imagenes-casino/id24-slot-tesoros-1.png",
+      "/img/09-imagenes-casino/id24-slot-tesoros-2.png",
+      "/img/09-imagenes-casino/id24-slot-tesoros-3.png"
+    ]
+  },
+  {
+    "id": 25,
+    "nombre": "Bingo Tropical",
+    "imagen portada": "/img/09-imagenes-casino/id25-bingo-tropical.png",
+    "tipo": "Números",
+    "categoria": "Casino",
+    "edad permitida": "18+",
+    "precio": "gratis",
+    "seguidores": 2900,
+    "comentarios": [
+      "Un bingo con una ambientación relajante.",
+      "Perfecto para jugar en la playa o soñando con ella.",
+      "Los colores vibrantes y la música son muy atractivos."
+    ],
+    "imagenes del juego": [
+      "/img/09-imagenes-casino/id25-bingo-tropical-1.png",
+      "/img/09-imagenes-casino/id25-bingo-tropical-2.png",
+      "/img/09-imagenes-casino/id25-bingo-tropical-3.png"
+    ]
+  },
+  {
+    "id": 26,
+    "nombre": "Jackpot Faraón",
+    "imagen portada": "/img/09-imagenes-casino/id26-jackpot-faraon.png",
+    "tipo": "Tragamonedas",
+    "categoria": "Casino",
+    "edad permitida": "18+",
+    "precio": "gratis",
+    "seguidores": 9200,
+    "comentarios": [
+      "Un viaje al antiguo Egipto con grandes premios.",
+      "El modo jackpot es increíblemente emocionante.",
+      "Los gráficos y el sonido te sumergen en la historia."
+    ],
+    "imagenes del juego": [
+      "/img/09-imagenes-casino/id26-jackpot-faraon-1.png",
+      "/img/09-imagenes-casino/id26-jackpot-faraon-2.png",
+      "/img/09-imagenes-casino/id26-jackpot-faraon-3.png"
+    ]
+  },
+
+  
+    {
+      "id": 27,
+      "nombre": "Ruleta del Inframundo",
+      "imagen portada": "/img/09-imagenes-casino/id27-ruleta-inframundo.png",
+      "tipo": "Mesa",
+      "categoria": "Casino",
+      "edad permitida": "18+",
+      "precio": "gratis",
+      "seguidores": 4800,
+      "comentarios": [
+        "Una ruleta con una temática oscura y misteriosa.",
+        "La ambientación te atrapa desde el primer giro.",
+        "Es adictiva, con buenos premios."
+      ],
+      "imagenes del juego": [
+        "/img/09-imagenes-casino/id27-ruleta-inframundo-1.png",
+        "/img/09-imagenes-casino/id27-ruleta-inframundo-2.png",
+        "/img/09-imagenes-casino/id27-ruleta-inframundo-3.png"
+      ]
+    },
+    {
+      "id": 28,
+      "nombre": "Slot Fantasía Encantada",
+      "imagen portada": "/img/09-imagenes-casino/id28-slot-fantasia-encantada.png",
+      "tipo": "Tragamonedas",
+      "categoria": "Casino",
+      "edad permitida": "18+",
+      "precio": "gratis",
+      "seguidores": 7100,
+      "comentarios": [
+        "Los gráficos son mágicos y muy coloridos.",
+        "Cada giro te transporta a un mundo de fantasía.",
+        "Las recompensas son frecuentes y generosas."
+      ],
+      "imagenes del juego": [
+        "/img/09-imagenes-casino/id28-slot-fantasia-encantada-1.png",
+        "/img/09-imagenes-casino/id28-slot-fantasia-encantada-2.png",
+        "/img/09-imagenes-casino/id28-slot-fantasia-encantada-3.png"
+      ]
+    },
+    {
+      "id": 29,
+      "nombre": "Bingo Vikingos",
+      "imagen portada": "/img/09-imagenes-casino/id29-bingo-vikingos.png",
+      "tipo": "Números",
+      "categoria": "Casino",
+      "edad permitida": "18+",
+      "precio": "gratis",
+      "seguidores": 3400,
+      "comentarios": [
+        "¡Me encanta la temática de vikingos!",
+        "Muy entretenido, el diseño es único.",
+        "Gran juego para los fanáticos del bingo."
+      ],
+      "imagenes del juego": [
+        "/img/09-imagenes-casino/id29-bingo-vikingos-1.png",
+        "/img/09-imagenes-casino/id29-bingo-vikingos-2.png",
+        "/img/09-imagenes-casino/id29-bingo-vikingos-3.png"
+      ]
+    },
+    {
+      "id": 30,
+      "nombre": "Póker Samurai",
+      "imagen portada": "/img/09-imagenes-casino/id30-poker-samurai.png",
+      "tipo": "Cartas",
+      "categoria": "Casino",
+      "edad permitida": "18+",
+      "precio": "gratis",
+      "seguidores": 6000,
+      "comentarios": [
+        "Póker con una vibra asiática espectacular.",
+        "Los detalles visuales son impresionantes.",
+        "Es un juego desafiante y divertido."
+      ],
+      "imagenes del juego": [
+        "/img/09-imagenes-casino/id30-poker-samurai-1.png",
+        "/img/09-imagenes-casino/id30-poker-samurai-2.png",
+        "/img/09-imagenes-casino/id30-poker-samurai-3.png"
+      ]
+    },
+    {
+      "id": 31,
+      "nombre": "Blackjack Pirata",
+      "imagen portada": "/img/09-imagenes-casino/id31-blackjack-pirata.png",
+      "tipo": "Cartas",
+      "categoria": "Casino",
+      "edad permitida": "18+",
+      "precio": "gratis",
+      "seguidores": 7500,
+      "comentarios": [
+        "Una temática de piratas muy divertida.",
+        "El blackjack nunca fue tan emocionante.",
+        "Ideal para jugadores que buscan aventura."
+      ],
+      "imagenes del juego": [
+        "/img/09-imagenes-casino/id31-blackjack-pirata-1.png",
+        "/img/09-imagenes-casino/id31-blackjack-pirata-2.png",
+        "/img/09-imagenes-casino/id31-blackjack-pirata-3.png"
+      ]
+    },
+    {
+      "id": 32,
+      "nombre": "Slot del Fuego",
+      "imagen portada": "/img/09-imagenes-casino/id32-slot-fuego.png",
+      "tipo": "Tragamonedas",
+      "categoria": "Casino",
+      "edad permitida": "18+",
+      "precio": "gratis",
+      "seguidores": 8300,
+      "comentarios": [
+        "Las animaciones de fuego son geniales.",
+        "Un juego que te mantiene al borde de tu asiento.",
+        "Los premios son constantes y emocionantes."
+      ],
+      "imagenes del juego": [
+        "/img/09-imagenes-casino/id32-slot-fuego-1.png",
+        "/img/09-imagenes-casino/id32-slot-fuego-2.png",
+        "/img/09-imagenes-casino/id32-slot-fuego-3.png"
+      ]
+    },
+    {
+      "id": 33,
+      "nombre": "Ruleta Vikinga",
+      "imagen portada": "/img/09-imagenes-casino/id33-ruleta-vikinga.png",
+      "tipo": "Mesa",
+      "categoria": "Casino",
+      "edad permitida": "18+",
+      "precio": "gratis",
+      "seguidores": 5500,
+      "comentarios": [
+        "Una ruleta con temática nórdica impresionante.",
+        "Los detalles y efectos son fantásticos.",
+        "Cada giro te sumerge en la mitología vikinga."
+      ],
+      "imagenes del juego": [
+        "/img/09-imagenes-casino/id33-ruleta-vikinga-1.png",
+        "/img/09-imagenes-casino/id33-ruleta-vikinga-2.png",
+        "/img/09-imagenes-casino/id33-ruleta-vikinga-3.png"
+      ]
+    },
+    {
+      "id": 34,
+      "nombre": "Bingo de la Jungla",
+      "imagen portada": "/img/09-imagenes-casino/id34-bingo-jungla.png",
+      "tipo": "Números",
+      "categoria": "Casino",
+      "edad permitida": "18+",
+      "precio": "gratis",
+      "seguidores": 4100,
+      "comentarios": [
+        "La jungla te envuelve con cada partida.",
+        "Es un bingo relajante y lleno de vida.",
+        "Los sonidos y gráficos son impresionantes."
+      ],
+      "imagenes del juego": [
+        "/img/09-imagenes-casino/id34-bingo-jungla-1.png",
+        "/img/09-imagenes-casino/id34-bingo-jungla-2.png",
+        "/img/09-imagenes-casino/id34-bingo-jungla-3.png"
+      ]
+    },
+    {
+      "id": 35,
+      "nombre": "Slot del Norte",
+      "imagen portada": "/img/09-imagenes-casino/id35-slot-norte.png",
+      "tipo": "Tragamonedas",
+      "categoria": "Casino",
+      "edad permitida": "18+",
+      "precio": "gratis",
+      "seguidores": 7200,
+      "comentarios": [
+        "El frío del norte en cada giro.",
+        "Los premios se sienten más grandes en esta ambientación.",
+        "Las gráficas son magníficas, cada detalle cuenta."
+      ],
+      "imagenes del juego": [
+        "/img/09-imagenes-casino/id35-slot-norte-1.png",
+        "/img/09-imagenes-casino/id35-slot-norte-2.png",
+        "/img/09-imagenes-casino/id35-slot-norte-3.png"
+      ]
+    },
+    {
+      "id": 36,
+      "nombre": "Póker Egipcio",
+      "imagen portada": "/img/09-imagenes-casino/id36-poker-egipcio.png",
+      "tipo": "Cartas",
+      "categoria": "Casino",
+      "edad permitida": "18+",
+      "precio": "gratis",
+      "seguidores": 6300,
+      "comentarios": [
+        "Un póker con una mística egipcia intrigante.",
+        "Me encanta la estética y el diseño de cartas.",
+        "Cada partida se siente como una aventura en las pirámides."
+      ],
+      "imagenes del juego": [
+        "/img/09-imagenes-casino/id36-poker-egipcio-1.png",
+        "/img/09-imagenes-casino/id36-poker-egipcio-2.png",
+        "/img/09-imagenes-casino/id36-poker-egipcio-3.png"
+      ]
+    },
+    {
+      "id": 37,
+      "nombre": "Ruleta de los Dioses",
+      "imagen portada": "/img/09-imagenes-casino/id37-ruleta-dioses.png",
+      "tipo": "Mesa",
+      "categoria": "Casino",
+      "edad permitida": "18+",
+      "precio": "gratis",
+      "seguidores": 7700,
+      "comentarios": [
+        "Una ruleta épica, te sientes jugando con los dioses.",
+        "Cada giro es pura adrenalina.",
+        "Los efectos visuales son impresionantes."
+      ],
+      "imagenes del juego": [
+        "/img/09-imagenes-casino/id37-ruleta-dioses-1.png",
+        "/img/09-imagenes-casino/id37-ruleta-dioses-2.png",
+        "/img/09-imagenes-casino/id37-ruleta-dioses-3.png"
+      ]
+    },
+    {
+      "id": 38,
+      "nombre": "Slot Místico",
+      "imagen portada": "/img/09-imagenes-casino/id38-slot-mistico.png",
+      "tipo": "Tragamonedas",
+      "categoria": "Casino",
+      "edad permitida": "18+",
+      "precio": "gratis",
+      "seguidores": 6900,
+      "comentarios": [
+        "Una slot con una energía mágica.",
+        "Cada premio es una sorpresa mística.",
+        "Las animaciones y gráficos son de otro nivel."
+      ],
+      "imagenes del juego": [
+        "/img/09-imagenes-casino/id38-slot-mistico-1.png",
+        "/img/09-imagenes-casino/id38-slot-mistico-2.png",
+        "/img/09-imagenes-casino/id38-slot-mistico-3.png"
+      ]
+    },
+    {
+      "id": 39,
+      "nombre": "Póker Estrella",
+      "imagen portada": "/img/09-imagenes-casino/id39-poker-estrella.png",
+      "tipo": "Cartas",
+      "categoria": "Casino",
+      "edad permitida": "18+",
+      "precio": "gratis",
+      "seguidores": 8200,
+      "comentarios": [
+        "Un póker con temática espacial, único.",
+        "Las estrellas brillan en cada mano.",
+        "Un juego de cartas con una estética increíble."
+      ],
+      "imagenes del juego": [
+        "/img/09-imagenes-casino/id39-poker-estrella-1.png",
+        "/img/09-imagenes-casino/id39-poker-estrella-2.png",
+        "/img/09-imagenes-casino/id39-poker-estrella-3.png"
+      ]
+    },
+    {
+      "id": 40,
+      "nombre": "Bingo del Mar",
+      "imagen portada": "/img/09-imagenes-casino/id40-bingo-mar.png",
+      "tipo": "Números",
+      "categoria": "Casino",
+      "edad permitida": "18+",
+      "precio": "gratis",
+      "seguidores": 4500,
+      "comentarios": [
+        "Un bingo con la tranquilidad del océano.",
+        "Perfecto para relajarse y ganar.",
+        "Los gráficos y sonidos marinos son maravillosos."
+      ],
+      "imagenes del juego": [
+        "/img/09-imagenes-casino/id40-bingo-mar-1.png",
+        "/img/09-imagenes-casino/id40-bingo-mar-2.png",
+        "/img/09-imagenes-casino/id40-bingo-mar-3.png"
+      ]
+    },
+        {
+        "id": 41,
+        "nombre": "Slot del Tesoro Oculto",
+        "imagen portada": "/img/09-imagenes-casino/id41-slot-tesoro-oculto.png",
+        "tipo": "Tragamonedas",
+        "categoria": "Casino",
+        "edad permitida": "18+",
+        "precio": "gratis",
+        "seguidores": 8700,
+        "comentarios": [
+          "Un tema de piratas y tesoros que es simplemente genial.",
+          "Los premios son enormes y la diversión está garantizada.",
+          "El diseño del tesoro es visualmente espectacular."
+        ],
+        "imagenes del juego": [
+          "/img/09-imagenes-casino/id41-slot-tesoro-oculto-1.png",
+          "/img/09-imagenes-casino/id41-slot-tesoro-oculto-2.png",
+          "/img/09-imagenes-casino/id41-slot-tesoro-oculto-3.png"
+        ]
+      },
+      {
+        "id": 42,
+        "nombre": "Ruleta del Faraón",
+        "imagen portada": "/img/09-imagenes-casino/id42-ruleta-faraon.png",
+        "tipo": "Mesa",
+        "categoria": "Casino",
+        "edad permitida": "18+",
+        "precio": "gratis",
+        "seguidores": 5400,
+        "comentarios": [
+          "Ambientada en el antiguo Egipto, una ruleta muy inmersiva.",
+          "Cada giro es como explorar una pirámide.",
+          "El diseño faraónico es de otro nivel."
+        ],
+        "imagenes del juego": [
+          "/img/09-imagenes-casino/id42-ruleta-faraon-1.png",
+          "/img/09-imagenes-casino/id42-ruleta-faraon-2.png",
+          "/img/09-imagenes-casino/id42-ruleta-faraon-3.png"
+        ]
+      },
+      {
+        "id": 43,
+        "nombre": "Blackjack de las Estrellas",
+        "imagen portada": "/img/09-imagenes-casino/id43-blackjack-estrellas.png",
+        "tipo": "Cartas",
+        "categoria": "Casino",
+        "edad permitida": "18+",
+        "precio": "gratis",
+        "seguidores": 7900,
+        "comentarios": [
+          "El mejor blackjack con temática cósmica.",
+          "Me encanta la sensación de jugar entre estrellas.",
+          "Muy entretenido y con grandes premios."
+        ],
+        "imagenes del juego": [
+          "/img/09-imagenes-casino/id43-blackjack-estrellas-1.png",
+          "/img/09-imagenes-casino/id43-blackjack-estrellas-2.png",
+          "/img/09-imagenes-casino/id43-blackjack-estrellas-3.png"
+        ]
+      },
+      {
+        "id": 44,
+        "nombre": "Bingo del Desierto",
+        "imagen portada": "/img/09-imagenes-casino/id44-bingo-desierto.png",
+        "tipo": "Números",
+        "categoria": "Casino",
+        "edad permitida": "18+",
+        "precio": "gratis",
+        "seguidores": 4600,
+        "comentarios": [
+          "Un bingo con temática desértica único.",
+          "Perfecto para los amantes de los paisajes exóticos.",
+          "Los gráficos de camellos y dunas son fantásticos."
+        ],
+        "imagenes del juego": [
+          "/img/09-imagenes-casino/id44-bingo-desierto-1.png",
+          "/img/09-imagenes-casino/id44-bingo-desierto-2.png",
+          "/img/09-imagenes-casino/id44-bingo-desierto-3.png"
+        ]
+      },
+      {
+        "id": 45,
+        "nombre": "Slot del Dragón",
+        "imagen portada": "/img/09-imagenes-casino/id45-slot-dragon.png",
+        "tipo": "Tragamonedas",
+        "categoria": "Casino",
+        "edad permitida": "18+",
+        "precio": "gratis",
+        "seguidores": 8500,
+        "comentarios": [
+          "Dragones y premios en cada giro.",
+          "La emoción de cazar tesoros dragónicos es única.",
+          "Los gráficos y efectos son impresionantes."
+        ],
+        "imagenes del juego": [
+          "/img/09-imagenes-casino/id45-slot-dragon-1.png",
+          "/img/09-imagenes-casino/id45-slot-dragon-2.png",
+          "/img/09-imagenes-casino/id45-slot-dragon-3.png"
+        ]
+      },
+      {
+        "id": 46,
+        "nombre": "Ruleta de la Fortuna Antigua",
+        "imagen portada": "/img/09-imagenes-casino/id46-ruleta-fortuna-antigua.png",
+        "tipo": "Mesa",
+        "categoria": "Casino",
+        "edad permitida": "18+",
+        "precio": "gratis",
+        "seguidores": 6900,
+        "comentarios": [
+          "Cada giro es un viaje a civilizaciones antiguas.",
+          "La temática histórica es fantástica.",
+          "Un juego que combina diversión y cultura."
+        ],
+        "imagenes del juego": [
+          "/img/09-imagenes-casino/id46-ruleta-fortuna-antigua-1.png",
+          "/img/09-imagenes-casino/id46-ruleta-fortuna-antigua-2.png",
+          "/img/09-imagenes-casino/id46-ruleta-fortuna-antigua-3.png"
+        ]
+      },
+      {
+        "id": 47,
+        "nombre": "Póker de los Dioses",
+        "imagen portada": "/img/09-imagenes-casino/id47-poker-dioses.png",
+        "tipo": "Cartas",
+        "categoria": "Casino",
+        "edad permitida": "18+",
+        "precio": "gratis",
+        "seguidores": 7400,
+        "comentarios": [
+          "Un juego de póker épico con temática mitológica.",
+          "Me encanta la sensación de jugar con los dioses.",
+          "Un juego para los que buscan algo más allá del póker tradicional."
+        ],
+        "imagenes del juego": [
+          "/img/09-imagenes-casino/id47-poker-dioses-1.png",
+          "/img/09-imagenes-casino/id47-poker-dioses-2.png",
+          "/img/09-imagenes-casino/id47-poker-dioses-3.png"
+        ]
+      },
+      {
+        "id": 48,
+        "nombre": "Slot del Zodíaco",
+        "imagen portada": "/img/09-imagenes-casino/id48-slot-zodiaco.png",
+        "tipo": "Tragamonedas",
+        "categoria": "Casino",
+        "edad permitida": "18+",
+        "precio": "gratis",
+        "seguidores": 8200,
+        "comentarios": [
+          "Una tragaperras con una temática astrológica increíble.",
+          "Cada signo del zodíaco trae una sorpresa diferente.",
+          "Los gráficos son impresionantes y únicos."
+        ],
+        "imagenes del juego": [
+          "/img/09-imagenes-casino/id48-slot-zodiaco-1.png",
+          "/img/09-imagenes-casino/id48-slot-zodiaco-2.png",
+          "/img/09-imagenes-casino/id48-slot-zodiaco-3.png"
+        ]
+      },
+      {
+        "id": 49,
+        "nombre": "Bingo de los Vikingos",
+        "imagen portada": "/img/09-imagenes-casino/id49-bingo-vikingos.png",
+        "tipo": "Números",
+        "categoria": "Casino",
+        "edad permitida": "18+",
+        "precio": "gratis",
+        "seguidores": 5100,
+        "comentarios": [
+          "Un bingo con temática vikinga que te hace sentir como un guerrero.",
+          "Me encanta el diseño y la música del juego.",
+          "Cada partida es una aventura nórdica."
+        ],
+        "imagenes del juego": [
+          "/img/09-imagenes-casino/id49-bingo-vikingos-1.png",
+          "/img/09-imagenes-casino/id49-bingo-vikingos-2.png",
+          "/img/09-imagenes-casino/id49-bingo-vikingos-3.png"
+        ]
+      },
+      {
+        "id": 50,
+        "nombre": "Póker del Oeste",
+        "imagen portada": "/img/09-imagenes-casino/id50-poker-oeste.png",
+        "tipo": "Cartas",
+        "categoria": "Casino",
+        "edad permitida": "18+",
+        "precio": "gratis",
+        "seguidores": 6700,
+        "comentarios": [
+          "Un póker al estilo del lejano oeste, emocionante.",
+          "Los gráficos de vaqueros son geniales.",
+          "Un juego perfecto para los amantes del oeste."
+        ],
+        "imagenes del juego": [
+          "/img/09-imagenes-casino/id50-poker-oeste-1.png",
+          "/img/09-imagenes-casino/id50-poker-oeste-2.png",
+          "/img/09-imagenes-casino/id50-poker-oeste-3.png"
+        ]
+      }
+    ]
+    

@@ -1,0 +1,193 @@
+//src\assets\scss\_03-Componentes\_TiendaCarritoMini2.scss//
+.mini-carrito2 {
+  position: fixed;
+  top: 10px;
+  right: 5px;
+  background: rgba(95, 14, 14, 0.784);
+  border: #ff1201 1px solid;
+  box-shadow: 0 0 40px rgb(255, 0, 0);
+  border-radius: 10px;
+  padding: 20px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+
+  &.minimized {
+    width: 120px;
+    height: 60px;
+    padding: 10px;
+    top: 10px;
+    right: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 50px rgb(255, 0, 0);
+
+    .carrito-acciones {
+      flex-direction: row;
+
+      .botonComprar1 {
+        padding: 2px 10px;
+        font-size: 0.8rem;
+
+        h3 {
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+
+  .flota-carrito-conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box; // Incluye padding y border en el cálculo del ancho
+    margin: 0;
+    padding: 0;
+  }
+
+  .carrito-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+
+    .header-text, .header-total {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box;
+    }
+
+    .header-text {
+      .texto-carrito {
+        font-size: small;
+        color: #00e1ff;
+        font-weight: bold;
+      }
+
+      .icono-carrito {
+        color: #ffffff;
+        font-size: large;
+      }
+    }
+
+    .header-total {
+      .texto-total {
+        font-size: medium;
+        color: #ffffff;
+        font-weight: bold;
+        margin-right: 10px;
+      }
+
+      .tituloPrecioCarrito {
+        font-size: medium;
+        font-weight: bold;
+        color: #00ffff;
+      }
+    }
+  }
+
+  .carrito-acciones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    .botonComprar1 {
+      background-color: #ff0101;
+      border: none;
+      color: #fff;
+      padding: 5px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: #ff3300ce;
+      }
+
+      &:disabled {
+        background-color: #4c113557;
+        cursor: not-allowed; // Cambia el cursor cuando el botón está desactivado
+      }
+
+      .tituloImportante1 {
+        font-size: small;
+      }
+
+      .textoMovimiento {
+        font-weight: bold;
+      }
+
+      &.minimized {
+        padding: 2px 10px;
+        font-size: medium;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h3 {
+          font-size: xx-small;
+        }
+      }
+    }
+
+    .toggle-button {
+      background: transparent;
+      border: none;
+      color: #fff;
+      font-size: x-large;
+      cursor: pointer;
+      margin-left: 10px;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: #ff0101;
+      }
+    }
+  }
+
+  // Estilos responsivos
+  @media (max-width: 768px) { // Para tablet y móvil
+    .mini-carrito2 {
+      width: auto; // Permite que el ancho se ajuste automáticamente
+
+      .carrito-header, .carrito-acciones {
+        display: flex;
+        flex-direction: row;
+        width: 100%; // Asegura que el contenido tome el 100% del ancho disponible
+        justify-content: space-between; // Distribuye el espacio entre los elementos
+        align-items: center; // Alinea verticalmente
+      }
+
+      .flota-carrito-conteiner {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+      }
+
+      .carrito-acciones {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        .toggle-button {
+          display: none; 
+        }
+      }
+    }
+  }
+}

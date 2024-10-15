@@ -6,7 +6,7 @@
   border-radius: 20px;
   box-shadow: 0 6px 40px rgba(0, 247, 255, 0.3);
   margin-top: 40px;
-  color: #fff;
+  color: #ffffff;
   font-family: 'Poppins', sans-serif;
   
 }
@@ -30,15 +30,14 @@
 
 //---------Sección de Títulos--------------------//
 .h2Titulo {
-  font-size: 28px;
-  font-weight: bold;
+  font-size: x-large;
   margin-bottom: 20px;
-  color: #0ff;
+  color: #ffffff;
 }
 
 //---------Estilos de Noticias--------------------//
 .newsSection {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(0, 0, 0, 0.329);
   border-radius: 15px;
   padding: 20px;
 }
@@ -62,26 +61,33 @@
 }
 
 .newsTitle {
-  font-size: 22px;
-  color: #fff;
+  font-size: large;
+  color: #83b5ff !important;
   margin-bottom: 10px;
 }
 
 .newsDescription {
-  font-size: 16px;
-  color: #ddd;
+  font-size: small;
+  color: #fcdada !important;
 }
 
 .newsDetails {
   font-size: 14px;
-  color: #ccc;
+  color: #ffffff !important;
   margin-top: 10px;
 }
 
 .newsItem img {
   width: 100%;
   height: auto;
-  border-bottom: 3px solid #0ff;
+  border-bottom: 3px solid rgb(255, 0, 0);
+}
+
+.imagenSuscripcion{
+  width: 50%;
+  height: auto;
+  border-bottom: 3px solid rgb(255, 0, 0);
+  border-radius: 50%;
 }
 
 //---------Estilos de Publicidades--------------------//
@@ -108,7 +114,7 @@
 .adItem img {
   width: 100%;
   height: auto;
-  border-bottom: 3px solid #0ff;
+  border-bottom: 3px solid rgb(255, 0, 0);
 }
 
 .adDescription {
@@ -143,20 +149,20 @@
 }
 
 .tournamentTitle {
-  font-size: 22px;
-  color: #fff;
+  font-size: small;
+  text-transform: uppercase;
+  color: #fff !important;
 }
 
 .tournamentDescription {
-  font-size: 16px;
+  font-size: small;
   color: #ddd;
-  margin-top: 10px;
 }
 
 .tournamentItem img {
   width: 100%;
   height: auto;
-  border-bottom: 3px solid #0ff;
+  border-bottom: 3px solid rgb(255, 0, 0);
 }
 
 //---------Estilos de Casino--------------------//

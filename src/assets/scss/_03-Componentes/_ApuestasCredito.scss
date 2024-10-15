@@ -1,7 +1,7 @@
 .apuestas-container {
     display: flex;
     justify-content: center; /* Centra el contenido horizontalmente */
-    background-color: #030e4eab;
+   background-image: url(../../../../public/img/05-img-costados-larga/17.jpeg);
     margin: 20px;
     padding: 50px;
     border-radius: 50px; /* Esquinas redondeadas */
@@ -12,13 +12,13 @@
       max-width: 600px; /* Ancho máximo para el contenedor */
       width: 100%; /* Permite que el contenedor se ajuste en pantallas pequeñas */
       padding: 20px;
-           background-color: #ff0000; /* Fondo blanco para el contenedor */
-     
+           background-color: #000000c4; /* Fondo blanco para el contenedor */
+           border-radius: 50px; /* Esquinas redondeadas */
       
       h2 {
         font-size: 28px;
-        margin-bottom: 20px;
-        color: #2b2d42;
+  
+        color: #ffffff;
       }
   
       .publicidad {
@@ -27,7 +27,7 @@
         border-radius: 50px;
         margin-bottom: 20px;
         font-weight: bold;
-        color: #1d1d1d;
+        color: #b19e9e;
       }
   
       .creditos-section {

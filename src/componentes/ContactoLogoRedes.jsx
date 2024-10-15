@@ -36,7 +36,7 @@ const ContactoLogoRedes = () => {
             </div>
             <div className="contact-item">
               <a
-                href="https://www.instagram.com/alegondramusic/?hl=es"
+                href="https://www.instagram.com/chulusgames/?hl=es"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -52,15 +52,7 @@ const ContactoLogoRedes = () => {
                 <i className="bi bi-youtube" /> YouTube
               </a>
             </div>
-            <div className="contact-item">
-              <a
-                href="https://open.spotify.com/artist/7qo7PxAcvyyyZb6XztH7zE"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="bi bi-spotify" /> Spotify
-              </a>
-            </div>
+         
             <div className="contact-item">
               <a
                 href="mailto:bavaroalejandro@gmail.com"
@@ -70,24 +62,8 @@ const ContactoLogoRedes = () => {
                 <i className="bi bi-person-arms-up" /> Escríbenos un mail <i className="bi bi-envelope" />
               </a>
             </div>
-            <div className="contact-item">
-              <a
-                href="https://www.paypal.com/paypalme/alegondramusic?country.x=AR&locale.x=es_XC"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="bi bi-paypal" /> COLABORÁ CON NOSOTROS
-              </a>
-            </div>
-            <div className="contact-item">
-              <a
-                href="https://www.youtube.com/watch?v=c6fE_Y4ol98"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="bi bi-yt" /> Ver Videos
-              </a>
-            </div>
+   
+    
             <a href="#">
               <img
                 alt="icono"

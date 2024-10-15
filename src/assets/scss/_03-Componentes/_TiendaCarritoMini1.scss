@@ -1,0 +1,82 @@
+.mini-carrito1 {
+  background-color: #fff; // Fondo blanco para mayor contraste
+  border-radius: 15px; // Radio de borde reducido para un look más moderno
+  box-shadow: 0 0 8px rgba(255, 0, 0, 0.5); // Sombra con opacidad para un efecto más sutil
+  padding: 8px; // Espaciado reducido
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 180px; // Ancho ajustado para mejor encaje en el header
+  margin-left: 10px; // Separación del borde izquierdo
+  position: relative; // Necesario si deseas añadir algún elemento absoluto en el futuro
+}
+
+.mini-carrito1 h2 {
+  font-size: 1rem; // Tamaño de fuente reducido
+
+  margin-bottom: 8px; // Espacio reducido debajo del título
+  color: #333; // Color del texto más oscuro para mejor visibilidad
+}
+
+.mini-carrito1 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%; // Ancho completo para la lista
+  max-height: 120px; // Altura máxima para limitar el espacio usado
+  overflow-y: auto; // Añadir scroll si hay muchos items
+}
+
+.mini-carrito1 li {
+  display: flex;
+  align-items: center; // Alinear los elementos verticalmente
+  padding: 4px 0; // Espaciado reducido
+  border-bottom: 1px solid #eee; // Línea divisoria sutil
+  width: 100%; // Ancho completo
+  font-size: 0.9rem; // Tamaño de fuente ajustado
+}
+
+.mini-carrito1 li:last-child {
+  border-bottom: none; // Sin borde en el último elemento
+}
+
+.mini-carrito1 img.producto-imagen {
+  width: 30px; // Tamaño reducido de la imagen
+  height: 30px; // Altura de la imagen
+  object-fit: cover; // Ajuste para que la imagen no se distorsione
+  margin-right: 8px; // Espacio entre la imagen y el texto
+  border-radius: 50%; // Imagen circular para un diseño más estilizado
+}
+
+.mini-carrito1 span.producto-nombre {
+  flex: 1; // Ocupa el espacio disponible
+  overflow: hidden; // Oculta el desbordamiento del texto
+  text-overflow: ellipsis; // Añadir "..." si el texto es demasiado largo
+  white-space: nowrap; // Evitar que el texto se rompa en múltiples líneas
+}
+
+.mini-carrito1 span.producto-precio {
+  font-weight: bold; // Texto en negrita para el precio
+}
+
+.mini-carrito1 p.total-carrito {
+  font-size: 0.9rem; // Tamaño de fuente reducido
+  margin-top: 10px; // Espacio superior
+  color: #333; // Color del texto
+}
+
+.mini-carrito1 button.btn-ver-mas {
+  margin-top: 8px; // Espacio superior
+  background-color: #ff0000; // Color de fondo rosa
+  color: #fff; // Color del texto blanco
+  border: none; // Sin borde
+  border-radius: 5px; // Bordes redondeados
+  padding: 5px 10px; // Espaciado interno
+  cursor: pointer; // Cursor de puntero al pasar sobre el botón
+  font-size: 0.9rem; // Tamaño de fuente reducido
+  transition: background-color 0.3s ease; // Transición suave para el hover
+}
+
+.mini-carrito1 button.btn-ver-mas:hover {
+  background-color: #e67b00; // Color de fondo en hover
+}

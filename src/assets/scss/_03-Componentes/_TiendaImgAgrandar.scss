@@ -1,0 +1,124 @@
+// src/assets/scss/_03-Componentes/_TiendaImgAgrandar.scss
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.793); // Fondo lila claro con opacidad para un look más alegre
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  animation: fadeIn 0.3s ease; // Animación de 
+  
+}
+
+.modal-content {
+  position: relative;
+  // background: #ff0000; // Fondo blanco para el modal
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(255, 0, 0, 0.693); // Sombra suave y difusa
+  max-width: 90%;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  transition: transform 0.3s ease, opacity 0.3s ease; // Transiciones suaves
+  animation: scaleUp 0.3s ease; // Animación de escala
+}
+
+.modal-image {
+  max-width: 100%;
+  max-height: 100%; // Ajuste del área visible de la imagen
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgb(255, 0, 0);
+  object-fit: cover;
+  transition: transform 0.3s ease; // Transición suave
+}
+
+.modal-image:hover {
+  transform: scale(1.05); // Zoom suave en la imagen al pasar el cursor
+}
+
+.close-button {
+  position: absolute;
+  top: 15px;
+  right: 205px;
+  font-size: xx-large;
+  color: #ff0000; 
+  border: #f50057 2px solid;
+  border-radius: 10px;
+  padding: 5px;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease; // Transiciones suaves
+}
+
+.close-button:hover {
+  color: #ff3300; // Rosa más intenso al pasar el cursor
+  transform: rotate(90deg) scale(1.1); // Rotación y escala al pasar el cursor
+}
+
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  box-shadow: 0 10px 20px rgb(255, 17, 0);
+  background: #ffffffb8; // Fondo rosa brillante
+  color: #ff3300; // Texto blanco
+  border: none;
+  border-radius: 20px;
+  padding: 25px;
+  cursor: pointer;
+  font-size: xx-large;
+  z-index: 10;
+  }
+
+.prev-button {
+  left: 20px;
+}
+
+.next-button {
+  right: 20px;
+}
+
+.prev-button:hover,
+.next-button:hover {
+  background: #fceef8; // Fondo rosa más intenso al pasar el cursor
+  color: #ff0000; // Texto blanco al pasar el cursor
+}
+
+// Animaciones
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scaleUp {
+  from {
+    transform: scale(0.9);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
