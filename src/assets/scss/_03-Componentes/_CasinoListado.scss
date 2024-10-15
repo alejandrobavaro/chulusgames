@@ -1,83 +1,84 @@
 .casino-grid-container {
-  padding: 10px;
-  background-color: transparent;
+  padding: 5px;
+  background-color: rgba(219, 2, 2, 0.192);
+  box-shadow: 0 2px 80px rgba(98, 0, 255, 0.37);
   text-align: center;
-  box-shadow: 0 4px 80px rgba(175, 18, 18, 0.849);
-  border-radius: 20px;
-
+  border-radius: 10px;
+  
   .casino-title {
     font-size: xx-large;
     color: #ffc400;
-    margin-bottom: 20px;
+    padding: 20px;
+    margin-bottom: 15px;
     text-transform: uppercase;
     font-weight: bold;
-    padding: 10px;
   }
 
   .casino-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); // Forzar 3 columnas
-    gap: 0px; // Aumentar el espacio entre tarjetas
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
     justify-items: center;
-    padding: 0 10px;
+    padding: 0;
   }
-  
+
   .casino-card {
-    background-color: #cf000044;
-    border-radius: 10px;
-    box-shadow: 0 4px 80px rgba(255, 60, 0, 0.459);
+    background-color: rgba(0, 31, 134, 0.103);
+    border-radius: 8px;
     padding: 10px;
-    transition: transform 0.3s ease;
+    box-shadow: 0 2px 80px rgba(111, 0, 255, 0.3);
+    width: 100%;
+    max-width: 280px;
+    transition: transform 0.2s ease;
     text-align: center;
-    width: 100%; // Asegura que todas las tarjetas tengan el mismo tamaño
-    max-width: 350px; // Limitar el ancho máximo de las tarjetas
+    color: #fff;
 
     &:hover {
-      transform: translateY(-5px);
+      transform: translateY(-3px);
     }
 
     .casino-game-img {
-      width: 100%; // Hacer que la imagen principal ocupe el 100% de la tarjeta
+      width: 100%;
       height: auto;
-      border-radius: 8px;
-      max-height: 100px; // Ajustar la altura máxima para que no se desborde
-      object-fit: cover; // Asegura que la imagen mantenga su proporción y no se deforme
+      border-radius: 5px;
+      object-fit: cover;
+      max-height: 100px;
     }
 
-    .carousel-container {
-      margin: 0px 0;
-      max-width: 100%; 
-      
-      .carousel-image {
-        width: 100%; // Ajusta el tamaño de las imágenes del carrusel
-        height: auto;
-        border-radius: 15px;
-              object-fit: cover; // Asegura que la imagen mantenga su proporción y no se deforme
-      }
+    .casino-game-title {
+      font-size: medium;
+      margin: 10px 0;
+      color: #ffc400;
     }
 
     .game-info {
       font-size: small;
-      margin: 0px 0;
-      color: #facbcb; // O el color que prefieras
-    }
-  
-    .comments-section {
-      text-align: left;
-  
-      h4 {
-        font-size: medium;
-        margin-top: 10px;
-        color: #facbcb; // O el color que prefieras
+      color: #ccc;
+      margin-bottom: 10px;
+
+      p {
+        margin: 0;
       }
-  
+    }
+
+    .carousel-image {
+      width: 100%;
+      border-radius: 5px;
+      max-height: 80px;
+      object-fit: cover;
+    }
+
+    .comments-section {
       ul {
         list-style-type: none;
         padding: 0;
-  
+        font-size: x-small;
+
         li {
-          margin: 0px 0;
+          color: #999;
+          margin-bottom: 5px;
         }
       }
     }
-  }}
+  }
+}

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Slider from "react-slick"; // Importa el carrusel
+import Slider from "react-slick";
 import "../assets/scss/_03-Componentes/_CasinoListado.scss";
 
 const CasinoListado = () => {
@@ -12,7 +12,6 @@ const CasinoListado = () => {
       .catch((error) => console.error("Error loading games:", error));
   }, []);
 
-  // Configuración del carrusel
   const settings = {
     dots: true,
     infinite: true,
@@ -29,28 +28,22 @@ const CasinoListado = () => {
       <div className="casino-grid">
         {games.map((game) => (
           <div key={game.id} className="casino-card">
+          
             <h3 className="casino-game-title">{game.nombre}</h3>
             <img src={game["imagen portada"]} alt={game.nombre} className="casino-game-img" />
             <div className="game-info">
-              <p>Tipo: {game.tipo}</p>
-              <p>Categoría: {game.categoria}</p>
-              <p>Edad Permitida: {game["edad permitida"]}</p>
-              <p>Precio: {game.precio}</p>
-              <p>Seguidores: {game.seguidores}</p>
+              <p>{game.tipo} | {game.categoria}</p>
             </div>
-            <div className="carousel-container">
-              <Slider {...settings}>
-                {game["imagenes del juego"].map((img, index) => (
-                  <div key={index}>
-                    <img src={img} alt={`${game.nombre} - ${index + 1}`} className="carousel-image" />
-                  </div>
-                ))}
-              </Slider>
-            </div>
+            <Slider {...settings}>
+              {game["imagenes del juego"].map((img, index) => (
+                <div key={index}>
+                  <img src={img} alt={`${game.nombre} - ${index + 1}`} className="carousel-image" />
+                </div>
+              ))}
+            </Slider>
             <div className="comments-section">
-              <h4>Comentarios:</h4>
               <ul>
-                {game.comentarios.map((comment, index) => (
+                {game.comentarios.slice(0, 2).map((comment, index) => (
                   <li key={index}>{comment}</li>
                 ))}
               </ul>
