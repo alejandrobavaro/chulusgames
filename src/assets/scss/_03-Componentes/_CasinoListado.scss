@@ -6,7 +6,7 @@
   border-radius: 20px;
 
   .casino-title {
-    font-size: x-large;
+    font-size: xx-large;
     color: #ffc400;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -19,17 +19,17 @@
     grid-template-columns: repeat(3, 1fr); // Forzar 3 columnas
     gap: 0px; // Aumentar el espacio entre tarjetas
     justify-items: center;
-    padding: 0 10px; // Añadir un poco de padding lateral para evitar que las tarjetas se salgan
+    padding: 0 10px;
   }
   
   .casino-card {
-    background-color: #cf000041;
+    background-color: #cf000044;
     border-radius: 10px;
     box-shadow: 0 4px 80px rgba(255, 60, 0, 0.459);
     padding: 10px;
     transition: transform 0.3s ease;
     text-align: center;
-    width: 80%; // Asegura que todas las tarjetas tengan el mismo tamaño
+    width: 100%; // Asegura que todas las tarjetas tengan el mismo tamaño
     max-width: 350px; // Limitar el ancho máximo de las tarjetas
 
     &:hover {

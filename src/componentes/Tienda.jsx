@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from "react";
 import Toastify from "toastify-js"; 
-import Swal from "sweetalert2";
+
 import ProductosTienda from "./TiendaProductos";
 import TiendaCarritoMini2 from "./TiendaCarritoMini2";
 import TiendaProductoDetalle from "./TiendaProductoDetalle";
-import Header from "./Header";
+
 import TiendaModalInicio from "./TiendaModalInicio";
 import { useOfertas } from "./TiendaOfertasContext";
+
+// Corrección de la ruta de SASS con verificación de mayúsculas
 import '../assets/scss/_03-Componentes/_Tienda.scss'; 
 import '../assets/scss/_01-General/_Toastify.scss'; 
 
@@ -59,7 +61,7 @@ function Tienda({ cart, setCart, addToCart, removeFromCart, searchQuery, setSear
       gravity: "top",
       position: "left",
       style: {
-        background: "#000000", // Usa style.background en lugar de backgroundColor
+        background: "#000000", 
       },
       className: "toastify-tienda",
     }).showToast();

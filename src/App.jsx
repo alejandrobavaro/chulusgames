@@ -46,7 +46,6 @@ import CasinoListado from "./componentes/CasinoListado";
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(true);
   const [productCart, setProductCart] = useState([]);
-  const [musicCart, setMusicCart] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
 
   const addProductToCart = (product) => {
@@ -55,10 +54,6 @@ function App() {
 
   const removeProductFromCart = (id) => {
     setProductCart(productCart.filter((product) => product.id !== id));
-  };
-
-  const addMusicToCart = (song) => {
-    setMusicCart([...musicCart, song]);
   };
 
   const handlePagar = () => {

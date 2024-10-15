@@ -1,10 +1,11 @@
 .carrito-container {
   padding: 1.5rem;
-  background-color: #f0f0f0; // Fondo suave para contraste
+  background-color: rgba(0, 0, 0, 0.342); // Fondo suave para contraste
+  box-shadow: 0 4px 80px rgba(255, 255, 255, 0.2);
   display: flex;
   flex-direction: column;
-  align-items: center;
-  border-radius: 10px;
+    align-items: center;
+  border-radius: 20px;
 }
 
 .titulo-container {
@@ -27,17 +28,16 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  max-width: 700px;
+  max-width: auto;
 }
 
 .resumen-compra {
-  background-color: #0056b3; // Azul moderno
-  border-radius: 8px;
+  background-color: #500000b7; // Azul moderno
+  border-radius: 20px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   padding: 1rem;
-  margin-bottom: 2rem;
-  text-align: center;
-  width: 100%;
+    text-align: center;
+  width: auto;
   animation: fadeIn 0.5s ease-in-out;
 }
 
@@ -62,7 +62,7 @@
 }
 
 .carrito-detalle {
-  background-color: #003366; // Azul más oscuro
+  background-color: #aa000077; // Azul más oscuro
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   padding: 1rem;
@@ -85,7 +85,7 @@
 }
 
 .producto-item:hover {
-  background-color: #0056b3; // Azul suave al pasar el mouse
+  background-color: #b30000; // Azul suave al pasar el mouse
 }
 
 .producto-imagen {
@@ -133,7 +133,7 @@
     padding: 0.25rem 0.5rem;
     border: 1px solid rgba(255, 0, 0, 0.5);
     border-radius: 4px;
-    font-size: 1.2rem;
+    font-size:small;
     cursor: pointer;
     transition: background-color 0.3s ease;
 
@@ -149,7 +149,7 @@
 }
 
 .btn-eliminar {
-  background-color: #ff4d4d; // Rojo para eliminar
+  background-color: #000000; // Rojo para eliminar
   border: none;
   color: white;
   padding: 0px;
@@ -165,20 +165,27 @@
   display: flex;
   justify-content: center;
 }
-
 .botonComprar {
-  background-color: #ff0000; // Rojo para el botón
-  border: none;
+  background-color: #000000a6; // Fondo oscuro para contraste
   color: white;
-  padding: 0.75rem 1.5rem;
-  font-size: 1.2rem;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
+  padding: 0.75rem 1.5rem; // Ajuste de tamaño para mayor visibilidad
+  font-size: 1.25rem; // Tamaño de fuente más grande para destacar
+  font-weight: bold; // Fuente en negrita para enfatizar
+  border-radius: 12px; // Bordes más redondeados
+  text-transform: uppercase; // Texto en mayúsculas
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
 
   &:hover {
-    background-color: #cc0000; // Rojo oscuro al pasar el mouse
+    background-color: #ff0000b0; // Cambio a rojo vibrante al pasar el mouse
+    transform: translateY(-3px); // Efecto de elevación al pasar el mouse
+  }
+
+  &:active {
+    transform: translateY(1px); // Ligera compresión al hacer clic
   }
 }
+
 
 .transparent-hr {
   border: none;
